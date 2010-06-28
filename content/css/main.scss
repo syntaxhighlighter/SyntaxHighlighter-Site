@@ -1,0 +1,381 @@
+---
+extension: css
+layout: nil
+filter: sass
+sass_options:
+  syntax: :scss
+---
+$layout_width: 60em !default;
+
+@mixin round_corners_custom($top, $right, $bottom, $left) {
+	-moz-border-radius: $top $right $bottom $left;
+	-webkit-border-radius: $top $right $bottom $left;
+}
+
+@mixin round_corners($radius) {
+	@include round_corners_custom($radius, $radius, $radius, $radius);
+}
+
+@mixin center_layout($margin_top: 0) {
+	width: $layout_width;
+	margin: {
+		top: $margin_top;
+		right: auto;
+		left: auto;
+	}; 
+}
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	background-color: white; 
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal; 
+}
+
+a, a:visited, a:link,
+div.pre a, div.pre a:visited, div.pre a:link {
+	color: #1b8dc1; 
+}
+
+.new {
+	a, a:visited, a:link {
+		color: red; 
+	}
+}
+
+a.external {
+	background: url(../images/external.png) no-repeat right center;
+	padding-right: 13px; 
+}
+
+code, pre {
+	font-family: Consolas, Monaco, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+	background-color: #fcfaec; 
+
+	a, a:visited, a:link {
+		color: black; 
+	}
+}
+
+ul {
+	margin: 0.5em;
+	padding: 0 0 0 1em;
+	list-style: circle; 
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid #e5bba4; 
+}
+
+dt {
+	font-weight: bold; 
+}
+
+.yellow {
+	background-color: yellow;
+	font-weight: bold; 
+}
+
+div.yellow {
+	@include round_corners(3px);
+	padding: 0.5em 1em;
+	margin: 1em 0;
+	font: {
+		family: Georgia, "Times New Roman", Times, serif;
+		weight: normal;
+		size: 120%;
+	}
+	p {
+		margin: 0 !important;
+	} 
+}
+
+.layout {
+	left: 0em;
+	top: 0em;
+	right: 0em;
+	position: absolute;
+	
+	.header {
+		@include center_layout(2.8em);
+		@include round_corners_custom(0, 0, 3px, 3px);
+		position: relative;
+		height: 2em;
+		background-color: #feec1f;
+		border-bottom: 0.3em solid #ffd122;
+		
+		.content {
+			width: $layout_width;
+			position: absolute;
+			top: 0.2em;
+			left: 50%;
+			margin-left: -30em; 
+		}
+		.menu {
+			position: absolute;
+			right: 1.1em;
+			top: 0.2em; 
+		}
+		.li-links a, a {
+			color: black; 
+		}
+		.name {
+			position: absolute;
+			top: 0;
+			font-weight: normal;
+			font-size: 1.3em;
+			left: 1.1em;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			a {
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline; 
+				} 
+			} 
+		} 
+	}
+	.language-links {
+		height: 1.3em;
+		border: 1px solid #e5bba4;
+		background-color: #fff5f0;
+		font-size: 0.8em;
+		padding: 0.5em 1em 0.5em 0.5em;
+		p {
+			margin: 0;
+			display: inline; 
+		}
+		div {
+			float: left;
+			margin-right: 0.5em; 
+		} 
+	}
+	.main {
+		position: absolute;
+		left: 0;
+		right: 0;
+		.content {
+			@include center_layout(8em); 
+		}
+		.body {
+			h1, h2, h3, h4 {
+				border-bottom: thin solid #a5a5b3;
+				background: #484766;
+				padding: 0.2em 0.5em;
+				margin-top: 1em;
+				color: white;
+				@include round_corners(3px); 
+			}
+			h3, h4 {
+				border-bottom-color: #a5a5b3 + #555555;
+				background-color: #484766 + #555555; 
+			}
+			p {
+				margin-bottom: 1em; 
+			}
+			h5 {
+				font-size: 1em;
+				color: #999999;
+				margin: 1em 0 0 0;
+			} 
+		}
+		.content {
+			.title {
+				h1 {
+					border: 0;
+					margin: 0;
+					padding: 0;
+					font-family: Georgia, "Times New Roman", Times, serif;
+					.divider {
+						color: #cccccc; 
+					}
+					a {
+						text-decoration: none;
+						color: black;
+						&:hover {
+							text-decoration: underline; 
+						} 
+					} 
+				} 
+			} 
+		} 
+	}
+	.li-links {
+		ul, li {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			display: inline; 
+		}
+		li {
+			font-size: 0.85em;
+			margin-right: 0.5em;
+			a {
+				color: #dc3a48;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline; 
+				} 
+			} 
+		} 
+	}
+	.footer {
+		margin: 3em 0 5em 0;
+		color: #bbbbbb;
+		width: 100%;
+		text-align: center;
+		a {
+			color: #bbbbbb; 
+		} 
+	}
+	.matrix table {
+		margin-bottom: 1em;
+		td {
+			border-bottom: 1px solid #e5bba4;
+			padding: 0.3em;
+			vertical-align: top; 
+		}
+		th {
+			padding: 0.3em;
+			background-color: #e8f1ff;
+			border-bottom: 0.3em solid #d4dce9; 
+		}
+		caption {
+			padding: 0.3em;
+			font-size: 1.2em;
+			font-family: Georgia, "Times New Roman", Times, serif; 
+		}
+		tr:hover {
+			background-color: #e8f1ff; 
+		} 
+	}
+	table {
+		border-collapse: collapse;
+		margin-bottom: 1em;
+		border-bottom: 2px solid #d4dce9;
+		width: 100%;
+		th {
+			background-color: #e8f1ff;
+			border-bottom: 2px solid #d4dce9;
+			font-weight: bold;
+			text-align: left;
+			padding: 0.3em;
+			margin: 1em 0 1em 0; 
+		}
+		td {
+			border-top: thin solid #d4dce9;
+			padding: 0.3em;
+			vertical-align: top;
+			pre, code {
+				margin: 0;
+				padding: 0;
+				background: none; 
+			} 
+		} 
+	}
+	div.pre pre {
+		background-color: transparent; 
+	}
+	/*Form styles. */
+	form {
+		display: block;
+		width: 30em;
+		margin: 1em 0 1em 2em;
+		.field {
+			margin-bottom: 1em;
+			.note {
+				margin-left: 37em;
+				position: absolute;
+				font-size: 0.9em;
+				color: gray; 
+			} 
+		}
+		.input input {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 2em;
+			padding: 0.4em;
+			width: 100%; 
+		}
+		.buttons input,
+		.editButtons input {
+			font-family: Georgia, "Times New Roman", Times, serif;
+			font-size: 1em;
+			padding: 0.4em;
+			width: auto; 
+		} 
+	} 
+}
+
+.layout .main .content .body .warn {
+	padding: 0.5em;
+	margin: 1em 0em 1em 0em;
+	text-align: center;
+	background-color: #ff3366;
+	color: white; 
+}
+
+.promo {
+	padding: 0.5em;
+	margin-bottom: 1em;
+	background-color: black;
+	color: white;
+	text-align: center; 
+
+	a {
+		color: yellow;
+		padding: 0 !important;
+		background: none !important; 
+	}
+	p {
+		padding: 0 !important;
+		margin: 0 !important; 
+	}
+}
+
+#donationware {
+	@include center_layout;
+	@include round_corners_custom(3px, 3px, 0, 0);
+	background-color: #073f44;
+	z-index: 10000;
+	position: relative;
+	padding: {
+		left: 0;
+		right: 0; 
+	}
+}
+
+#sponsor {
+	background-color: #d13f32; }
+
+.date {
+	font: {
+		size: 10px;
+		weight: normal; 
+	}
+	background: #cccccc;
+	padding: 2px 3px;
+	@include round_corners(3px); 
+}
+
+// home page layout
+
+#introduction, #news {
+	width: 48%;
+	float: left; 
+}
+
+#example, #manual {
+	width: 48%;
+	float: right; 
+}
+
+#news, #donate_bottom {
+	clear: left; 
+}

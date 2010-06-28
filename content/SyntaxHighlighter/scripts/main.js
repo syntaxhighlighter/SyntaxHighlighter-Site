@@ -22,6 +22,26 @@ function email()
 	document.write(OT);
 };
 
+function download()
+{
+	$.ajax({
+		url: 'info.json',
+		type: 'GET',
+		dataType: 'text',
+		success: function(data)
+		{
+			data = $.parseJSON(data);
+			
+			var container = $('#download_details'),
+				info = data.pop()
+				;
+			
+			container.find('.version').html(info.version);
+			container.find('.download').attr('href', info.url);
+		}
+	});
+};
+
 SyntaxHighlighter.autoloader.apply(null, path(
 	'applescript			@shBrushAppleScript.js',
 	'actionscript3 as3		@shBrushAS3.js',

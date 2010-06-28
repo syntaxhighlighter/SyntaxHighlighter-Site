@@ -9,7 +9,7 @@ filter:
 ## Hosting
 
 If you are using a hosted service (like Blogger), and don't have a place to upload SyntaxHighlighter code, 
-there's a **hosted version** available. This wiki is using hosted files as a "proof of concept." 
+there's a **hosted version** available. This site is using hosted files as a "proof of concept." 
 
 ### Details
 

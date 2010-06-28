@@ -1,6 +1,8 @@
 ---
 extension: html
-filter: haml
+filter:
+  - erb
+  - haml
 ---
 !!! XML
 !!! Strict
@@ -11,7 +13,7 @@ filter: haml
 
 %html{ :xmlns => 'http://www.w3.org/1999/xhtml' }
   %head
-    %title= "SyntaxHighlighter - #{@page.title}"
+    %title= "SyntaxHighlighter#{title(@page, ' - ')}"
     %script{ :type => 'text/javascript', :src => "/scripts/jquery-1.4.2.js" }
   
   %body
@@ -20,23 +22,20 @@ filter: haml
         SyntaxHighlighter is __open source__ and needs your 
         [donations][1]. Please [download][2] and follow @[syntaxhighlight][3] on Twitter.
         
-        [1]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2930402
-        [2]: download.html
+        [1]: /SyntaxHighlighter/donate.html
+        [2]: /SyntaxHighlighter/download
         [3]: http://twitter.com/syntaxhighlight
         
     .layout
       .main
         .content
           .title
-            %h1
-              %a{ :href => @home } SyntaxHighlighter
-              \/
-              = @page.title
+            %h1 <a href="<%= @home %>">SyntaxHighlighter</a><%= title(@page, ' / ') %>
           .body
             = @content
           
           %div{ :style => 'clear: both' }
-          = render(:partial => "/SyntaxHighlighter/partials/donate")
+          = render(:partial => '/SyntaxHighlighter/partials/donate')
         
       .header
         .content
@@ -44,8 +43,9 @@ filter: haml
           .menu.li-links
             %ul
               %li <a href="/forums">forums</a>
-              %li <a href="http://bitbucket.org/alexg/syntaxhighlighter/issues/">issues</a>
+              %li <a href="http://bitbucket.org/alexg/syntaxhighlighter/issues/">bugs</a>
               %li <a href="http://bitbucket.org/alexg/syntaxhighlighter/">source code</a>
+              %li <a href="/SyntaxHighlighter/download">download</a>
               %li <a href="/SyntaxHighlighter/contact.html">contact</a>
                 
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "/css/main.css" }

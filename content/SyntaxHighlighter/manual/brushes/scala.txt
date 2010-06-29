@@ -1,12 +1,10 @@
 ---
-title: Brushes / Scala
+title: Scala Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Scala Example
 
 <pre class="brush: scala">
 package examples

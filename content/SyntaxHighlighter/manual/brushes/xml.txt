@@ -1,12 +1,10 @@
 ---
-title: Brushes / XML
+title: XML Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## XML Example
 
 <pre class="brush: xml">
 &lt;?xml version="1.0" encoding="utf-8" ?> 

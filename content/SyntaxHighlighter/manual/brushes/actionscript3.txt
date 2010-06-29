@@ -1,12 +1,10 @@
 ---
-title: Brushes / ActionScript3
+title: ActionScript3 Example 
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## ActionScript3 Example
 
 <pre class="brush: as3">
 /*

@@ -1,12 +1,10 @@
 ---
-title: Brushes / Groovy
+title: Groovy Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Groovy Example
 
 <pre class="brush: groovy">
 import groovy.swing.SwingBuilder

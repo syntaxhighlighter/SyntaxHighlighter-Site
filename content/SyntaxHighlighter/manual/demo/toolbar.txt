@@ -1,11 +1,12 @@
 ---
-title: Demo / toolbar
+title: "'toolbar' demo"
+versions: 1.5 2.0
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-## 'toolbar' demo
+Note: The toolbar in 3.0 has been downsized to the top right corner with minimal functionality.
 
 ### Source
 
@@ -35,5 +36,3 @@ filter:
 
 <%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
 
- 
-<math></math>

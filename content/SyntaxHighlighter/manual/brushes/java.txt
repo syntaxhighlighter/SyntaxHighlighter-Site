@@ -1,12 +1,10 @@
 ---
-title: Brushes / Java
+title: Java Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Java Example
 
 <pre class="brush: java">
 package tutorial;

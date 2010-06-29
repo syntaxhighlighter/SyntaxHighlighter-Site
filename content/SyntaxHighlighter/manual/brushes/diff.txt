@@ -1,12 +1,10 @@
 ---
-title: Brushes / Diff
+title: Diff Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Diff Example
 
 <pre class="brush: diff">
 --- ...\index.php-rev104.svn000.tmp.php	2008-10-13 20:34:44.000000000 -0300

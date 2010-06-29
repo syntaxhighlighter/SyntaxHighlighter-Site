@@ -10,8 +10,7 @@ please refer to the [installation](../installation.html) page.</span>
 
 SyntaxHighlighter can be configured in 3 different ways.
 
-
-## SyntaxHighlighter.config
+### SyntaxHighlighter.config
 
 `SyntaxHighlighter.config` has configuration values that are common to all highlighted elements on the page and 
 don't make much sense within context of a single highlighted element. Below are these values: 
@@ -23,14 +22,14 @@ Name			| Value		| Description
 `stripBrs`		| `false`	| If your software adds `<br />` tags at the end of each line, this option allows you to ignore those. 
 `tagName`		| `"pre"`	| Facilitates using a different tag. 
 
-### Example
+#### Example
 
 <pre class="brush: js">
 	SyntaxHighlighter.config.bloggerMode = true;
 	SyntaxHighlighter.all();
 </pre>
 
-## SyntaxHighlighter.defaults
+### SyntaxHighlighter.defaults
 
 `SyntaxHighlighter.defaults` holds all default values for each highlighted element on the page. These options 
 are local to each highlighter element and could be changed individually via parameters described in the next 
@@ -49,7 +48,7 @@ Name			| Value		| Description
 `tab-size`		| `4`		| Allows you to adjust tab size. [Click here](../demo/tab-size.html) for a demo. 
 `toolbar`		| `true`	| Toggles toolbar on/off. [Click here](../demo/toolbar.html) for a demo. 
 
-### Example
+#### Example
 
 <pre class="brush: js">
 	SyntaxHighlighter.defaults['gutter'] = false;
@@ -58,7 +57,7 @@ Name			| Value		| Description
 	SyntaxHighlighter.all();
 </pre>
 
-## Parameters
+### Parameters
 
 Parameters allow you to customize a single highlighted element to your liking. Key/value pairs are specified 
 in the format similar to CSS, but instead of the style node attribute, they go together with the brush 
@@ -66,7 +65,7 @@ declaration into the class attribute.
 
 In such fashion, you can change any default value from the `SyntaxHighlighter.defaults`.
 
-### Example
+#### Example
 
 <pre class="brush: js">
 	<pre class="brush: js; ruler: true; first-line: 10; highlight: [2, 4, 6]">...</pre>

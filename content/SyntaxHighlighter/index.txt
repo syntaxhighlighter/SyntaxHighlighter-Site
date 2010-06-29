@@ -46,6 +46,7 @@ filter:
   %h2 News
   
   :markdown
+    * New 2.1.382 release ([changes](changes/2.1.382.html)). <span class="date">June 24, 2010</span>
     * Follow @[syntaxhighlight](http://twitter.com/syntaxhighlight) on Twitter. <span class="date">March 1, 2010</span>
     * New 2.1.364 release ([changes](changes/2.1.364.html)). <span class="date">October 15, 2009</span>
     * [Freshbooks](http://developers.freshbooks.com/) is using SyntaxHighlighter! <span class="date">October 8, 2009</span>
@@ -57,19 +58,3 @@ filter:
     * Maintenance release 2.0.287 ([changes](changes/2.0.287.html)). <span class="date">February 6, 2009</span>
     * SyntaxHighlighter 2.0 goes public. Yay! <span class="date">February 3, 2009</span>
 
-#manual
-  %h2 Manual
-  
-  :markdown
-    * [About](about.html) 
-    * [Features](manual/features.html)
-    * [__Installation__](manual/installation.html) 
-    * [__Configuration__](manual/configuration) 
-    * [Bundled syntaxes](brushes) 
-    * [Bundled themes](manual/themes) 
-    * [Extensions &amp; Integration](integration.html) 
-    * [Hosting](hosting.html) 
-    * [Older versions](manual/older_versions.html) 
-    * [Upgrading from 1.5](manual/upgrading.html)
-    * [API](manual/api) 
-    * [Brush Development Guide](/SyntaxHighlighter/brushes/custom.html) 

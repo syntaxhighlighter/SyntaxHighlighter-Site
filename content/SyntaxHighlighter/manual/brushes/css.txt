@@ -1,12 +1,10 @@
 ---
-title: Brushes / CSS
+title: CSS Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## CSS Example
 
 <pre class="brush: css">
 .syntaxhighlighter,

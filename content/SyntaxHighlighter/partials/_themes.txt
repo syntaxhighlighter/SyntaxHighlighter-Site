@@ -4,7 +4,7 @@ filter:
   - erb
   - maruku
 ---
-## CSS Themes
+### CSS Themes
 
 SyntaxHighlighter 2.0 introduced custom CSS themes. This means that by switching out just one CSS file you 
 can completely change the look and feel of the highlighted syntax. A small number of popular color themes 

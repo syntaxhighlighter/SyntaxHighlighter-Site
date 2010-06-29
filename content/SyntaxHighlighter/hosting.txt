@@ -6,17 +6,62 @@ filter:
   - maruku
 ---
 
-## Hosting
+I'm offering free SyntaxHighlighter hosting to everyone willing. If you don't have a place to upload
+the files or just want to always have the latest version without the hassle of manual upgrade, this is for you!
+This site itself is using the hosted files as a "proof of concept".
 
-If you are using a hosted service (like Blogger), and don't have a place to upload SyntaxHighlighter code, 
-there's a **hosted version** available. This site is using hosted files as a "proof of concept." 
+While the hosting is offered as a free service, I'm currently receiving approximately 22m requests a
+and 83GB in bandwidth every month which is costing me an additional $40 on Amazon S3. Where am I going 
+with this? You guessed it -- please [donate](donate.html) to help me pay for this :)
 
 ### Details
 
-The location of hosted files is `http://alexgorbatchev.com/pub/sh/\[VERSION]`. You can see all available hosted 
-versions [here](http://alexgorbatchev.com/pub/sh/). Whenever a new version is published, the older version will 
-remain untouched.
+While the files themselves are now hosted on Amazon S3 due to the fact that DreamHost's "unlimited"
+hosting isn't so "unlimited", there's still a good URL to them. Each time there's a new release, a new
+folder is created under `http://alexgorbatchev.com/pub/sh/\[VERSION]` and then
+`http://alexgorbatchev.com/pub/sh/current/` is switched to point to the latest stable version.
 
-### Legacy 1.5.1 hosting
+This allows you to link to a specific that you need or to the most current, latest release. Currently,
+there are a number of available versions hosted:
 
-Old 1.5.1 version is available as well at this location: [http://alexgorbatchev.com/pub/sh/1.5.1](/pub/sh/1.5.1).
+<div class="file-list" markdown="1">
+* http://alexgorbatchev.com/pub/sh/1.5.1/
+* http://alexgorbatchev.com/pub/sh/2.0.278/
+* http://alexgorbatchev.com/pub/sh/2.0.287/
+* http://alexgorbatchev.com/pub/sh/2.0.296/
+* http://alexgorbatchev.com/pub/sh/2.0.320/
+* http://alexgorbatchev.com/pub/sh/2.1.364/
+* http://alexgorbatchev.com/pub/sh/2.1.364/
+* http://alexgorbatchev.com/pub/sh/2.1.382/
+* http://alexgorbatchev.com/pub/sh/current/
+</div>
+
+The folder structure inside each 2.x and 3.x is equivalent to the download package. For example, in
+`current` there are the following files:
+
+<pre markdown="1">
+	<%
+	require 'find'
+
+	path = File.join(Webby.site.content_dir, 'pub', 'sh', 'current')
+
+	Find.find(path) do |name|
+		name.gsub!(path, '')
+		next if name == ''
+		depth = name.split('/').length - 1
+		indent = "  " * depth
+		%><%= "`#{indent}#{name}`<br/>" %><%
+	end
+	%>
+</pre>
+
+### So what do you need to do?
+
+Simple! Just create `<script />` and `<link />` tags on your pages and point them to the proper files,
+like so:
+
+<pre class="brush: xml">
+	&lt;link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+	&lt;script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript">&lt;/script>
+	&lt;script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript">&lt;/script>
+</pre>

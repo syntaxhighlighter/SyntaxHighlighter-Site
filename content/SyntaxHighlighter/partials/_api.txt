@@ -4,7 +4,7 @@ filter:
   - erb
   - maruku
 ---
-## SyntaxHighlighter API
+### SyntaxHighlighter API
 
 SyntaxHighlighter is the top level object and contains a number of functionality and predefined variables. 
 

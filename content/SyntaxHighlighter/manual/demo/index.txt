@@ -1,14 +1,12 @@
 ---
-title: Demo
+title: Feature Demo
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## SyntaxHighlighter demo
-
-If you want to see a specific syntax in action, check out the [bundled syntaxes page](brushes.html). 
+The two blocks below, 'source' and 'result' are generated dynamically by SyntaxHighlighter from regular
+`<pre />` HTML tags. If you want to see a specific syntax in action, check out the [bundled syntaxes page](brushes.html). 
 
 ### Source
 
@@ -55,7 +53,7 @@ If you want to see a specific syntax in action, check out the [bundled syntaxes 
 	&lt;/pre>
 </pre>
 
-## Result
+### Result
 
 <pre class="brush: php; highlight: [5, 15]; html-script: true">
 	&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

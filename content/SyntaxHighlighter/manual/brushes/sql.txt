@@ -1,12 +1,10 @@
 ---
-title: Brushes / SQL
+title: SQL Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## SQL Example
 
 <pre class="brush: sql">
 -- Data model to support XML exchange with thecontent repository of

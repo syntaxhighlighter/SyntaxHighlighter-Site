@@ -1,12 +1,11 @@
 ---
-title: Demo / smart-tabs
+title: "'smart-tabs' demo"
+versions: 1.5 2.0 3.0
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-## 'smart-tabs' demo
-
 ### Source
 
 <pre class="brush: xml">

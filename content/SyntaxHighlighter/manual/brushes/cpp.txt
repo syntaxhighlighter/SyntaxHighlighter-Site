@@ -1,12 +1,10 @@
 ---
-title: Brushes / Cpp
+title: C++ Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## C++ Example
 
 <pre class="brush: cpp">
 /* $Id: main.cpp,v 1.1 2004/01/25 22:57:25 zongo Exp $

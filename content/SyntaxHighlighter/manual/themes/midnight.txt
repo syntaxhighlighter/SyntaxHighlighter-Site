@@ -1,5 +1,5 @@
 ---
-title: Themes / Midnight
+title: Midnight theme
 encoding: utf-8
 filter:
   - erb
@@ -7,14 +7,11 @@ filter:
 theme: shThemeMidnight
 ---
 
-<%= render(:partial => "/SyntaxHighlighter/partials/themes") %> 
-
-## Midnight theme
 <pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeMidnight.css"/></pre> 
 
-## Example
+### Example
 
-<div style="padding:2em;background-color:black;">
+<div id="theme-example">
 <pre class="brush: php; highlight: [2, 5]">
 	/***********************************
 	 ** Multiline block comments
@@ -40,3 +37,4 @@ theme: shThemeMidnight
 </pre> 
 </div> 
  
+<%= render(:partial => "/SyntaxHighlighter/partials/themes") %> 

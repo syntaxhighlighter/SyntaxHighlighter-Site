@@ -1,12 +1,10 @@
 ---
-title: Brushes / JavaScript
+title: JavaScript Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## JavaScript Example
 
 <pre class="brush: js">
 /*

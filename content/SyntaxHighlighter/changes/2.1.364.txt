@@ -1,13 +1,11 @@
 ---
-title: Changes / 2.1.364
+title: Changes in 2.1.364
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
 <%= render(:partial => "/SyntaxHighlighter/partials/effort") %>
-
-## Changes in 2.1.364
 
 ### Bug Fixes
 

@@ -1,12 +1,10 @@
 ---
-title: Brushes / ColdFusion
+title: ColdFusion Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## ColdFusion Example
 
 <pre class="brush: cf">
 &lt;cfcache action="cache" timespan="#CreateTimeSpan(0,1,0,0)#">

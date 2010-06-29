@@ -1,12 +1,10 @@
 ---
-title: Brushes / PHP
+title: PHP Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## PHP Example
 
 <pre class="brush: php">
 &lt;?php

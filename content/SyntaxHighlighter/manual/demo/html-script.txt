@@ -1,12 +1,11 @@
 ---
-title: Demo / html-script
+title: "'html-script' demo"
+versions: 2.0 3.0
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-## 'html-script' demo
-
 ### Source
 
 <pre class="brush: plain">

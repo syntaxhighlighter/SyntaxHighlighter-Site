@@ -1,12 +1,10 @@
 ---
-title: Brushes / Bash
+title: Bash Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Bash Example
 
 <pre class="brush: bash">
 #!/bin/bash

@@ -6,8 +6,6 @@ filter:
   - maruku
 ---
 
-## Installation
-
 ### Basic Steps
 
 To get SyntaxHighlighter to work on you page, you need to do the following:
@@ -29,7 +27,7 @@ eg all `<` must be replaced with `&lt;` This will ensure correct rendering.
 
 SyntaxHighlighter looks for `<pre />` tags which have a specially formatted `class` attribute. The 
 format of the attribute is the same as the CSS `style` attribute. The only required parameter is `brush`
-(see [configuration](./configuration/)), which should be set as one of the [brush aliases](../brushes/). 
+(see [configuration](configuration/)), which should be set as one of the [brush aliases](brushes/). 
 
 Here's an example: 
 

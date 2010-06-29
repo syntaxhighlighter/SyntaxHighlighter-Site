@@ -1,12 +1,11 @@
 ---
-title: Demo / tab-size
+title: "'tab-size' demo"
+versions: 1.5 2.0 3.0
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-## 'tab-size' demo
-
 ### Source
 
 <pre class="brush: xml">

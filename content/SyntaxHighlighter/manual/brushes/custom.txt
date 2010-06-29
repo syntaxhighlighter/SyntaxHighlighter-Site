@@ -1,12 +1,10 @@
 ---
-title: Brushes / Custom
+title: Developing a custom brush
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Developing a custom brush
 
 Developing a custom brush allows you to easily extend SyntaxHighlighter to support the syntax that isn't bundled by default. This process is rather simple and consists of 4 parts: 
 

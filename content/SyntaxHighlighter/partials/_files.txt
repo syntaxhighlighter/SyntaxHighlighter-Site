@@ -2,12 +2,20 @@
 encoding: utf-8
 filter:
   - erb
-  - maruku
+  - haml
 ---
 
-## SyntaxHighlighter Files
+%h3 SyntaxHighlighter Files
 
-List of files in the 2.x version of SyntaxHighlighter. 
+%p List of key files that make up SyntaxHighlighter. 
 
-<div class="pre">
-</div>
+%ul.file-list
+  %li
+    %span /scripts
+    %ul
+      %li <a href="./shcore.js.html">shCore.js</a>
+      %li <a href="./shlegacy.js.html">shLegacy.js</a>
+  %li
+    %span /styles
+    %ul
+      %li <a href="./shcore.css.html">shCore.css</a>

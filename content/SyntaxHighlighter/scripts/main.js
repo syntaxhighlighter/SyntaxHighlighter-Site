@@ -1,15 +1,3 @@
-function path()
-{
-	var args = arguments,
-		result = []
-		;
-		
-	for(var i = 0; i < args.length; i++)
-		result.push(args[i].replace('@', '/pub/sh/current/scripts/'));
-		
-	return result
-};
-
 function email()
 {
 	// http://rumkin.com/tools/mailto_encoder/simple.php
@@ -19,7 +7,7 @@ function email()
 	for(j=0;j<MI.length;j++){
 		OT+=ML.charAt(MI.charCodeAt(j)-48);
 	}
-	document.write(OT);
+	return OT;
 };
 
 function download()
@@ -40,6 +28,18 @@ function download()
 			container.find('.download').attr('href', info.url);
 		}
 	});
+};
+
+function path()
+{
+	var args = arguments,
+		result = []
+		;
+		
+	for(var i = 0; i < args.length; i++)
+		result.push(args[i].replace('@', '/pub/sh/current/scripts/'));
+		
+	return result
 };
 
 SyntaxHighlighter.autoloader.apply(null, path(
@@ -68,3 +68,42 @@ SyntaxHighlighter.autoloader.apply(null, path(
 	'xml xhtml xslt html	@shBrushXml.js'
 ));
 SyntaxHighlighter.all();
+
+$(document).ready(function()
+{
+	$('.email').html(email());
+	$('table')
+		.attr('cellSpacing', 0)
+		.find('tr')
+		 	.find('td:first').addClass('first').end()
+			.find('td:last').addClass('last').end()
+			
+		.filter(':first').addClass('first').end()
+		.filter(':last').addClass('last').end()
+		;
+		
+	$('.autoinclude').each(function()
+	{
+		var $this = $(this),
+			path = $this.find('a:first').attr('href'),
+			brushes = { js: 'JScript', css: 'CSS' }
+			;
+		
+		$.ajax({
+			url: path,
+			type: 'GET',
+			dataType: 'text',
+			success: function(code)
+			{
+				var ext = path.match(/\w+$/)[0],
+					name = brushes[ext],
+					brush = new SyntaxHighlighter.brushes[name]()
+					;
+				brush.init({ toolbar: false });
+				$this.append(brush.getHtml(code));
+			}
+		});
+	});
+	
+	$('a[href^="http://"]').addClass('external');
+});

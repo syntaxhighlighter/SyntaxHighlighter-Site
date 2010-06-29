@@ -1,12 +1,10 @@
 ---
-title: Brushes / Erlang
+title: Erlang Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Erlang Example
 
 <pre class="brush: erlang">
 update(File, In, Out) ->

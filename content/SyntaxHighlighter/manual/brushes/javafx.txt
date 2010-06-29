@@ -1,12 +1,10 @@
 ---
-title: Brushes / JavaFX
+title: JavaFX Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## JavaFX Example
 
 <pre class="brush: jfx">
 import javafx.scene.input.MouseEvent;

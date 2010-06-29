@@ -1,5 +1,5 @@
 ---
-title: Themes / Emacs
+title: Emacs theme
 encoding: utf-8
 filter:
   - erb
@@ -7,13 +7,10 @@ filter:
 theme: shThemeEmacs
 ---
 
-<%= render(:partial => "/SyntaxHighlighter/partials/themes") %> 
-
-## Emacs theme
 <pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeEmacs.css"/></pre> 
 
-## Example
-<div style="padding:2em;background-color:black;">
+### Example
+<div id="theme-example">
 <pre class="brush: php; highlight: [2, 5]">
 	/***********************************
 	 ** Multiline block comments
@@ -39,3 +36,4 @@ theme: shThemeEmacs
 </pre> 
 </div> 
  
+<%= render(:partial => "/SyntaxHighlighter/partials/themes") %> 

@@ -1,12 +1,11 @@
 ---
-title: Demo / auto-links
+title: "'auto-links' demo"
+versions: 2.0 3.0
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-## 'auto-links' demo <span class="version">2.0</span> <span class="version">3.0</span>
-
 ### Source
 
 <pre class="brush:plain">

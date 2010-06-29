@@ -1,11 +1,10 @@
 ---
-title: Features
+title: SyntaxHighlighter Features
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-## SyntaxHighlighter Features
 
 * [Blogger integration](demo/blogger.html)
 * [Collapsing](demo/collapse.html)

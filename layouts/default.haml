@@ -13,41 +13,48 @@ filter:
 
 %html{ :xmlns => 'http://www.w3.org/1999/xhtml' }
   %head
-    %title= "SyntaxHighlighter#{title(@page, ' - ')}"
+    %title= "SyntaxHighlighter#{sh_title(@page, ' - ')}"
     %script{ :type => 'text/javascript', :src => "/scripts/jquery-1.4.2.js" }
   
   %body
-    #donationware.promo
-      :markdown
-        SyntaxHighlighter is __open source__ and needs your 
-        [donations][1]. Please [download][2] and follow @[syntaxhighlight][3] on Twitter.
+    #title
+      %h1
+        %a{ :href => "#{@home}" } SyntaxHighlighter
+        %span#version= sh_version
+
+      #blurb
+        SyntaxHighlighter is an open source Java Script client side code syntax highlighter.
+
+      #meta
+        %a{ :href => "#{@home}/donate.html" } donate
+        %a{ :href => "#{@home}/download" } download
+        %a{ :href => "#{@home}/manual/installation.html" } installation
+        %a{ :href => "#{@home}/manual/configuration" } configuration
+        %a{ :href => "http://twitter.com/syntaxhighlight" } @syntaxhighlight
         
-        [1]: /SyntaxHighlighter/donate.html
-        [2]: /SyntaxHighlighter/download
-        [3]: http://twitter.com/syntaxhighlight
-        
-    .layout
-      .main
-        .content
-          .title
-            %h1 <a href="<%= @home %>">SyntaxHighlighter</a><%= title(@page, ' / ') %>
-          .body
-            = @content
-          
-          %div{ :style => 'clear: both' }
-          = render(:partial => '/SyntaxHighlighter/partials/donate')
-        
-      .header
-        .content
-          .name <a href="/">alexgorbatchev.com</a>
-          .menu.li-links
-            %ul
-              %li <a href="/forums">forums</a>
-              %li <a href="http://bitbucket.org/alexg/syntaxhighlighter/issues/">bugs</a>
-              %li <a href="http://bitbucket.org/alexg/syntaxhighlighter/">source code</a>
-              %li <a href="/SyntaxHighlighter/download">download</a>
-              %li <a href="/SyntaxHighlighter/contact.html">contact</a>
-                
+      %h2= @page.title
+    
+    #content
+      = @content
+    
+    #clear
+
+    #copyright
+      SyntaxHighlighter was originally created in 2004 and is still maintained by Alex Gorbatchev.
+    
+    #footer
+      %a{ :href => "#{@home}/about.html" } about
+      %a{ :href => "#{@home}/manual/brushes/" } syntaxes
+      %a{ :href => "#{@home}/manual/themes/" } themes
+      %a{ :href => "#{@home}/integration.html" } integration 
+      %a{ :href => "#{@home}/hosting.html" } hosting 
+      %a{ :href => "#{@home}/manual/older_versions.html" } legacy 
+      %a{ :href => "#{@home}/manual/api" } apis 
+      %a{ :href => "/forums" } forums
+      %a{ :href => "http://bitbucket.org/alexg/syntaxhighlighter/issues/"} bugs
+      %a{ :href => "http://bitbucket.org/alexg/syntaxhighlighter/"} source code
+      %a{ :href => "#{@home}/contact.html"} contact
+      
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "/css/main.css" }
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{@sh}/styles/shCore.css" }
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{@sh}/styles/#{@page._meta_data['theme'] || 'shThemeDefault'}.css" }
@@ -55,4 +62,8 @@ filter:
   %script{ :type => 'text/javascript', :src => "#{@sh}/scripts/shCore.js" }
   %script{ :type => 'text/javascript', :src => "#{@sh}/scripts/shAutoloader.js" }
   %script{ :type => 'text/javascript', :src => "#{@sh}/scripts/shBrushXml.js" }
+  %script{ :type => 'text/javascript', :src => "#{@sh}/scripts/shBrushJScript.js" }
+  %script{ :type => 'text/javascript', :src => "#{@sh}/scripts/shBrushCSS.js" }
   %script{ :type => 'text/javascript', :src => "#{@home}/scripts/main.js" }
+
+  = render(:partial => "/SyntaxHighlighter/partials/services")

@@ -1,12 +1,10 @@
 ---
-title: Brushes / Python
+title: Python Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Python Example
 
 <pre class="brush: python">
 #!/usr/bin/python

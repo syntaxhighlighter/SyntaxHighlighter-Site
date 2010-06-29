@@ -1,12 +1,10 @@
 ---
-title: Brushes / CSharp
+title: C# Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## C# Example
 
 <pre class="brush: csharp">
 using System;

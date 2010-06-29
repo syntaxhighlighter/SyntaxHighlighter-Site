@@ -1,0 +1,12 @@
+---
+title: Changes in 2.1.382
+encoding: utf-8
+filter:
+  - erb
+  - maruku
+---
+<%= render(:partial => "/SyntaxHighlighter/partials/effort") %>
+
+### Bug Fixes
+
+This is an emergency release to patch IE8 missing line [issue #114](http://bitbucket.org/alexg/syntaxhighlighter/issue/114/blank-lines-are-omitted-on-ie).

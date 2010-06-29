@@ -1,12 +1,10 @@
 ---
-title: Brushes / Perl
+title: Perl Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Perl Example
 
 <pre class="brush: pl">
 #!/usr/bin/perl

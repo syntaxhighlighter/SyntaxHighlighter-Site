@@ -1,12 +1,10 @@
 ---
-title: Brushes / VB
+title: Visual Basic .NET Example
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-
-## Visual Basic .NET Example
 
 <pre class="brush: vb">
 '

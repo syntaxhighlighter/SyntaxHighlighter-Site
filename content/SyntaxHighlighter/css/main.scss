@@ -76,6 +76,15 @@ table {
 		color: $gray;
 		margin: 0;
 		line-height: 100%;
+		
+		#whatsnew {
+			display: inline;
+			
+			a {
+				font-size: .5em;
+				color: red;
+			}
+		}
 	}
 	
 	h2 {

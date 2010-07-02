@@ -18,4 +18,4 @@ $downloads['sh_2.0.320'] = array('file' => 'syntaxhighlighter_2.0.320.zip');
 $downloads['sh_2.1.364'] = array('file' => 'syntaxhighlighter_2.1.364.zip');
 $downloads['sh_2.1.382'] = array('file' => 'syntaxhighlighter_2.1.382.zip');
 
-$downloads['sh_current'] = array('file' => 'syntaxhighlighter_3.0.111.zip');
+$downloads['sh_current'] = array('file' => 'syntaxhighlighter_3.0.83.zip');

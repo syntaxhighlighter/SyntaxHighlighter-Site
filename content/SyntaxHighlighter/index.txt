@@ -19,7 +19,7 @@ filter:
 
     [3]: http://pivot.apache.org/tutorials/stock-tracker.data-binding.html 
     [4]: http://jaxer.org/quick_start 
-    [5]: https://developer.mozilla.org/en/New_in_JavaScript_1.7 
+    [5]: https://developer.mozilla.org/en/DOM/element.addEventListener
     [6]: http://developer.yahoo.com/yui/examples/animation/attributes.html
     [7]: http://en.support.wordpress.com/code/posting-source-code/ 
     [8]: http://buglabs.net/codesearch?query=motion 

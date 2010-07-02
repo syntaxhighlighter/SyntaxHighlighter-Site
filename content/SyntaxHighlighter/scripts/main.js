@@ -62,6 +62,7 @@ SyntaxHighlighter.autoloader.apply(null, path(
 	'text plain				@shBrushPlain.js',
 	'py python				@shBrushPython.js',
 	'ruby rails ror rb		@shBrushRuby.js',
+	'sass scss				@shBrushSass.js',
 	'scala					@shBrushScala.js',
 	'sql					@shBrushSql.js',
 	'vb vbnet				@shBrushVb.js',
@@ -106,4 +107,6 @@ $(document).ready(function()
 	});
 	
 	$('a[href^="http://"]').addClass('external');
+	
+	$('#whatsnew').appendTo('#title h1');
 });

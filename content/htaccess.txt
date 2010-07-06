@@ -1,0 +1,17 @@
+---
+layout: nil
+extension: ~
+filename: .htaccess
+filter:
+  - erb
+---
+RewriteEngine on
+
+RewriteRule ^pub/sh/current/(.*)$ http://alexgorbatchev.com.s3.amazonaws.com/pub/sh/<%= sh_version %>/$1 [L,QSA]
+RewriteRule ^pub/sh/(.*)$ http://alexgorbatchev.com.s3.amazonaws.com/pub/sh/$1 [L,QSA]
+
+RewriteRule ^$ /SyntaxHighlighter [L,NC]
+RewriteRule ^wiki/ /SyntaxHighlighter [L,R=301,NC]
+RewriteRule ^wiki/SyntaxHighlighter /SyntaxHighlighter [L,R=301,NC]
+
+SetOutputFilter DEFLATE

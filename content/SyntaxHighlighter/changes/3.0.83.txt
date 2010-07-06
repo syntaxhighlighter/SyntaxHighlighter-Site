@@ -1,0 +1,10 @@
+---
+title: Changes in 3.0.83
+encoding: utf-8
+filter:
+  - erb
+  - maruku
+---
+<%= render(:partial => "/SyntaxHighlighter/partials/effort") %>
+
+**This is a major release, please see [this page](../whatsnew.html) for more info.**

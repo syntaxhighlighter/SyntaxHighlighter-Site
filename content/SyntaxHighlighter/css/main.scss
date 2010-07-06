@@ -105,7 +105,8 @@ table {
 	
 	.date {
 		@extend .badge;
-		background: $light_blue;
+		background: $blue;
+		color: #fff;
 		margin: 3px 5px 0 0;
 		float: left;
 	}
@@ -125,6 +126,10 @@ table {
 		@include round_corners(5px);
 		padding: .1em 1em;
 		background: $light_yellow;
+	}
+	
+	li > p:only-child {
+		margin: 0;
 	}
 }
 
@@ -176,4 +181,12 @@ table {
 	@include round_corners(5px);
 	padding: 1em 2em;
 	background-color: $gray;
+}
+
+#news {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
 }

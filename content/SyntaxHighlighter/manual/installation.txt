@@ -12,7 +12,7 @@ To get SyntaxHighlighter to work on you page, you need to do the following:
 
 1. Add base files to your page: `shCore.js` and `shCore.css`
 1. Add brushes that you want (for example, shBrushJScript.js for JavaScript, see the list of all 
-   [available brushes](../brushes/))
+   [available brushes](brushes/))
 1. Include `shCore.css` and `shThemeDefault.css`
 1. Create a code snippet with either `<pre />` or `<script />` method (see below)
 1. Call `SyntaxHighlighter.all()` JavaScript method

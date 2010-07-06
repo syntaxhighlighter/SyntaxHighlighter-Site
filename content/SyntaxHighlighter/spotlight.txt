@@ -49,6 +49,7 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 * [Clientcide](http://www.clientcide.com/3rd-party-libraries/for-your-consideration-type-methods/) 
 * [Code Dump](http://codedump.appspot.com/) 
 * [CodeThinked by Justin Etheredge](http://www.codethinked.com/post/2008/12/29/Making-the-Entity-Framework-Fit-Your-Domain-Part-1.aspx)
+* [Codefight](http://codefight.org/blog/47/56/Adding-new-field-in-category-section-of-magento-ecommerce)
 
 #### D
 

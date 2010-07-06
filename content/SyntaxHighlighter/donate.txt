@@ -12,7 +12,7 @@ charge, but I hope if you are using and enjoying my work maybe you could buy me 
 drink -- a coffee and bagel will do just fine (but a good kind of bagel, you know... with wonderful stuff 
 inside to make it glorious, like smoked salmon... not just butter)).
 
-[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2930402
+[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2930402
 
 ### Contributors (since June 28th, 2010)
 
@@ -32,6 +32,15 @@ __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 t
 * [HieblMedia](http://www.hieblmedia.de/), Germany 
 * [Rostislav Siryk](http://flash-ripper.com/), Ukraine
 * Sriram Gopalan, United States
+* Joseph Paris, United States
+
+#### Fan Club
+
+Special shout out to people who have donated more than once! Thank you!
+
+* Glenn Slayden, United States
+* Henrik Goldsack, Norway
+* Jennifer Kang, United States
 
 #### Beer Fund Contributors
 
@@ -77,13 +86,11 @@ __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 t
 * fearlessflyer design, United States
 * FireBox Studios, United States
 * Frederick Giles, Canada
-* Glenn Slayden, United States
-* Glenn Slayden, United States
 * Golo Roden, Germany
 * Gregory Bray, United States
+* Hamish Graham, New Zealand
 * Harold Chu, Australia
 * Hayden Karel Chambers, Spain
-* Henrik Goldsack, Norway
 * Ian Brennan, United Kingdom
 * Ian Ozsvald, United Kingdom
 * ic engineering & research GmbH, Switzerland
@@ -91,11 +98,10 @@ __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 t
 * Inorm, Netherlands
 * Institute for Dynamic Educational Advancement, United States
 * IT Integration, United States
+* IttyUrl.net, United States
 * Jack Fruh, United States
 * Jaime Fernandez Del Rio, Spain
 * jamison morrow, United States
-* Jennifer Kang, United States
-* Jennifer Kang, United States
 * Jérémy Lagrue, France
 * Johan Ronsse, Belgium
 * Joonas Javanainen, Finland
@@ -128,6 +134,8 @@ __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 t
 * Ophir Prusak, United States
 * Osaka Red Software, United States
 * Phil McAuley, Canada
+* Philip Proplesch, Germany
+* Pierluigi Vernetto, United Kingdom
 * PsychoCoder.Net, United States
 * Puran Singh, United States
 * Randy Knapp, United States

@@ -2,7 +2,7 @@ module SyntaxHighlighterHelper
   DEBUG = false
   
   def sh_version
-    "3.0.0"
+    "3.0.83"
   end
   
   def sh_pub

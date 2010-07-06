@@ -15,15 +15,17 @@ If you wrote or know about 3rd party integration hooks or SyntaxHighlighter exte
 * __Blogger__ integration: [http://techqi.blogspot.com/2009/02/how-to-display-code-nicely-in-blogger.html](http://techqi.blogspot.com/2009/02/how-to-display-code-nicely-in-blogger.html)
 * __Blogger__ Syntax Highlighting: [Installing Made Easy on Blogger](http://blog.cartercole.com/2009/10/awesome-syntax-highlighting-made-easy.html)
 * __Blogger__ Syntax Highlighting: [http://mlawire.blogspot.com/2009/07/blogger-syntax-highlighting.html](http://mlawire.blogspot.com/2009/07/blogger-syntax-highlighting.html)
-* __Blogger__ IntegraciÃ³n (en espaÃ±ol): [http://blog.jpwebdevelop.com/2009/09/prueba-con-el-live-writer.html](http://blog.jpwebdevelop.com/2009/09/prueba-con-el-live-writer.html)
+* __Blogger__ Integración (en español): [http://blog.jpwebdevelop.com/2009/09/prueba-con-el-live-writer.html](http://blog.jpwebdevelop.com/2009/09/prueba-con-el-live-writer.html)
 * __Blogger__ Integration (at russian): [http://rootger.blogspot.com/2010/05/bloggercom.html](http://rootger.blogspot.com/2010/05/bloggercom.html) 
 * __BlogEngine.NET__ integration: [http://www.davidpokluda.com/Blog/post/Windows-Live-Writer-Source-Code-plug-in.aspx](http://www.davidpokluda.com/Blog/post/Windows-Live-Writer-Source-Code-plug-in.aspx)
 * __BlogEngine.NET__ Syntax Highlighter: [Syntax Highlighter Extension for BlogEngine](http://rtur.net/blog/post/2009/11/15/Syntax-Highlighter-extension-for-BlogEngine.aspx)
 
 ### D
 
-* __DokuWiki__ Plugin: [http://www.dokuwiki.org/plugin:syntaxhighlighter](http://www.dokuwiki.org/plugin:syntaxhighlighter) 
-* __Drupal 6__ Module: [http://drupal.org/project/syntaxhighlighter](http://drupal.org/project/syntaxhighlighter)
+* [__DokuWiki__ Plugin for 1.5.1](http://www.dokuwiki.org/plugin:syntaxhighlighter) 
+* [__DokuWiki__ Plugin for 2.x](http://www.dokuwiki.org/plugin:syntaxhighlighter2) 
+* [__DokuWiki__ Plugin for 3.x](http://www.dokuwiki.org/plugin:syntaxhighlighter3) 
+* [__Drupal 6__ Module](http://drupal.org/project/syntaxhighlighter)
 
 ### F
 

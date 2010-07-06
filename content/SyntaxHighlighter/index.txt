@@ -46,6 +46,7 @@ filter:
   %h2 News
   
   :markdown
+    * Major new 3.0.83 release ([changes](changes/3.0.83.html)). <span class="date">July 2, 2010</span>
     * New 2.1.382 release ([changes](changes/2.1.382.html)). <span class="date">June 24, 2010</span>
     * Follow @[syntaxhighlight](http://twitter.com/syntaxhighlight) on Twitter. <span class="date">March 1, 2010</span>
     * New 2.1.364 release ([changes](changes/2.1.364.html)). <span class="date">October 15, 2009</span>

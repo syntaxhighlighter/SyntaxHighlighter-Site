@@ -76,7 +76,9 @@ Will render as:
 
 ### &lt;script /> method
 
-The benefit of this method is ability to place virtually anything inside the CDATA __without having to escape anything\*__, so this allows for a straight 'cut and paste' experience from your favorite text editor. 
+The benefit of this method is ability to place virtually anything inside the CDATA __without having to 
+escape anything\*__, so this allows for a straight 'cut and paste' experience from your favorite text 
+editor. 
 
 __ADVANTAGES:__ Doesn't require escaping of the right angle bracket\*. 
 
@@ -85,7 +87,10 @@ __PROBLEMS:__
 1. No fallback, <code>&lt;script/></code> tag is stripped out by most RSS readers, so if you are using SyntaxHighlighter on a blog, you are better off with the <code>&lt;pre /></code> method. 
 1. If you include a closing script tag, eg <code>&lt;/script></code>, even inside CDATA block, most browsers will incorrectly close <code>&lt;script type="syntaxhighlighter"></code> tag prematurely.
 
-__This feature is new in 2.1__ SyntaxHighlighter looks for <code>&lt;script type="syntaxhighlighter" /></code> which have a specially formatted <code>class</code> attribute. The format of the attribute is the same as the CSS <code>style</code> attribute. The only required parameter is <code>brush</code> (see [configuration](configuration.html)), which should be set to as one of the [brush aliases](brushes.html). 
+__This feature is new in 2.1__ SyntaxHighlighter looks for <code>&lt;script type="syntaxhighlighter" /></code> 
+which have a specially formatted <code>class</code> attribute. The format of the attribute is the same 
+as the CSS <code>style</code> attribute. The only required parameter is <code>brush</code> (see 
+[configuration](configuration/)), which should be set to as one of the [brush aliases](brushes.html). 
 
 Here's an example (**Please note necessary CDATA tag**): 
 

@@ -12,7 +12,7 @@ filter:
 * Added `wrap-lines` parameter option to disable line wrapping. [See demo](demo/wrap-lines.html). 
 * Removed `font-size` parameter option. SyntaxHighlighter font size is 1em, so any outer font size will be inherited by default. 
 * Toolbar is now activated on mouse over. 
-* Added [ActionScript3](/SyntaxHighlighter/brushes/actionscript3.html) brush (thanks to [Peter Atoria](http://iAtoria.com)). 
-* Added [JavaFX](/SyntaxHighlighter/brushes/javafx.html) brush (thank to [Patrick Webster](http://patrickwebster.blogspot.com/2009/04/javafx-brush-for-syntaxhighlighter.html)). 
-* Added [PowerShell](/SyntaxHighlighter/brushes/powershell.html) brush (thanks to B.v.Zanten, Getronics) 
+* Added [ActionScript3](/SyntaxHighlighter/manual/brushes/actionscript3.html) brush (thanks to [Peter Atoria](http://iAtoria.com)). 
+* Added [JavaFX](/SyntaxHighlighter/manual/brushes/javafx.html) brush (thank to [Patrick Webster](http://patrickwebster.blogspot.com/2009/04/javafx-brush-for-syntaxhighlighter.html)). 
+* Added [PowerShell](/SyntaxHighlighter/manual/brushes/powershell.html) brush (thanks to B.v.Zanten, Getronics) 
 * Fixed inconsistent license headers. LGPL 3.0 is the correct license.

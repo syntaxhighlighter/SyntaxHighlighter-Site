@@ -1,0 +1,94 @@
+---
+title: Dynamic Brush Loading
+encoding: utf-8
+filter:
+  - erb
+  - maruku
+---
+
+SyntaxHighlighter comes with almost 30 brushes out of the box. One of the most requested 
+feature has been the ability to dynamically load them without having to load them all on
+the same page.
+
+Version 3 addresses this problem with with the new autoloader script. Setting autoloader
+up is as simple as adding <code>shAutoloader.js</code> file to your page and telling
+autoloader where your brushes are. In fact, this site is using the autoloader. Have
+a look at the example below:
+
+<script type="syntaxhighlighter" class="brush: js; html-script: true">
+&lt;script src="shCore.js" type="text/javascript">&lt;/script>
+&lt;script src="shAutoloader.js" type="text/javascript">&lt;/script>
+
+&lt;script type="text/javascript">
+SyntaxHighlighter.autoloader(
+	'js jscript javascript	/js/shBrushJScript.js',
+	'applescript			/js/shBrushAppleScript.js'
+);
+
+SyntaxHighlighter.all();
+&lt;/script>
+</script>
+
+Now any code blocks which use <code>js</code>, <code>jscript</code>, 
+<code>javascript</code> and <code>applescript</code> brushes will
+trigger dynamic loading of the appropriate JavaScript file.
+
+### API
+
+`SyntaxHighlighter.autoloader(brushes)`
+
+`brushes` 
+:	`Array: [ 'alias1 alias2 /full/path/to/brush.js', ... ]`
+	Array of space separated strings where all values but the last one are brush aliases
+	and the last value is a full path the JavaScript file.
+
+`brushes` 
+:	`Array: [ [ 'alias1', 'alias2', '/full/path/to/brush.js' ], ... ]`
+	Array of strings where all values but the last one are brush aliases
+	and the last value is a full path the JavaScript file.
+
+This site is using the autoloader which is set up like this:
+
+### Example
+
+<script type="syntaxhighlighter" class="brush: js;">
+function path()
+{
+	var args = arguments,
+		result = []
+		;
+		
+	for(var i = 0; i &lt; args.length; i++)
+		result.push(args[i].replace('@', '/pub/sh/current/scripts/'));
+		
+	return result
+};
+
+SyntaxHighlighter.autoloader.apply(null, path(
+	'applescript			@shBrushAppleScript.js',
+	'actionscript3 as3		@shBrushAS3.js',
+	'bash shell				@shBrushBash.js',
+	'coldfusion cf			@shBrushColdFusion.js',
+	'cpp c					@shBrushCpp.js',
+	'c# c-sharp csharp		@shBrushCSharp.js',
+	'css					@shBrushCss.js',
+	'delphi pascal			@shBrushDelphi.js',
+	'diff patch pas			@shBrushDiff.js',
+	'erl erlang				@shBrushErlang.js',
+	'groovy					@shBrushGroovy.js',
+	'java					@shBrushJava.js',
+	'jfx javafx				@shBrushJavaFX.js',
+	'js jscript javascript	@shBrushJScript.js',
+	'perl pl				@shBrushPerl.js',
+	'php					@shBrushPhp.js',
+	'text plain				@shBrushPlain.js',
+	'py python				@shBrushPython.js',
+	'ruby rails ror rb		@shBrushRuby.js',
+	'sass scss				@shBrushSass.js',
+	'scala					@shBrushScala.js',
+	'sql					@shBrushSql.js',
+	'vb vbnet				@shBrushVb.js',
+	'xml xhtml xslt html	@shBrushXml.js'
+));
+SyntaxHighlighter.all();
+</script>

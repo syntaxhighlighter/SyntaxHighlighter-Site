@@ -1,16 +1,13 @@
 ---
-title: API / Highlighter.forHtmlScript
+title: API
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
-<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %> 
+### SyntaxHighlighter.Highlighter.prototype.forHtmlScript(args)
 
 SyntaxHighlighter 2.0 introduced ability to mix any brush with HTML. For example, this allows to display JavaScript or PHP in the context of HTML page. To allow a brush to use html-script functionality, it needs to be prepared by calling `this.forHtmlScript(...)` from the constructor. 
-
-`SyntaxHighlighter.Highlighter.prototype.forHtmlScript(args)`
 
 `args` 
 :	`Object: { left: /RegExp/, right: /RegExp/ }`
@@ -25,3 +22,6 @@ SyntaxHighlighter.brushes.JScript = function()
 	this.forHtmlScript(SyntaxHighlighter.regexLib.scriptScriptTags);
 };
 </pre>
+
+<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %> 

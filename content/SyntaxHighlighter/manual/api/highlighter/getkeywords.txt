@@ -1,14 +1,11 @@
 ---
-title: API / Highlighter.getKeywords
+title: API
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
-<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %> 
-
-`SyntaxHighlighter.Highlighter.prototype.getKeywords(keywords)`
+### SyntaxHighlighter.Highlighter.prototype.getKeywords(keywords)
 
 `keywords`
 :	`String`
@@ -34,3 +31,6 @@ SyntaxHighlighter.brushes.JScript = function()
 	...
 };
 </pre>
+
+<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %> 

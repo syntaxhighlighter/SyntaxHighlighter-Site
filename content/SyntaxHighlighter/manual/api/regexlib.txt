@@ -1,12 +1,10 @@
 ---
-title: API / regexLib
+title: API
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
-
 ### SyntaxHighlighter.regexLib
 
 This object has a number of preconfigured commonly used regular expressions. 
@@ -43,3 +41,5 @@ This object has a number of preconfigured commonly used regular expressions.
 
 `scriptScriptTags`
 :	Matches: `<script ...>... </script>`
+
+<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 

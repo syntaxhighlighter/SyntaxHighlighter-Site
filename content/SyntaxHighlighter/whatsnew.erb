@@ -10,7 +10,48 @@ filter:
 	features that are worth mentioning here.
 </p>
 
-<h2>Copy To Clipboard</h2>
+<ul>
+	<li><a href="#dynamicloading">Dynamic Brush Loading</a></li>
+	<li><a href="#copytoclipboard">No Flash Copy To Clipboard</a></li>
+	<li><a href="#codeselection">Code Selection</a></li>
+	<li><a href="#blocktitle">Block Title</a></li>
+	<li><a href="#commonjs">CommonJS</a></li>
+	<li><a href="#improvedcss">Improved CSS support</a></li>
+</ul>
+
+<h2><a name="dynamicloading">Dynamic Brush Loading</a></h2>
+<p>
+	SyntaxHighlighter comes with almost 30 brushes out of the box. One of the most requested 
+	feature has been the ability to dynamically load them without having to load them all on
+	the same page.
+</p>
+<p>
+	Version 3 addresses this problem with with the new autoloader script. Setting autoloader
+	up is as simple as adding <code>shAutoloader.js</code> file to your page and telling
+	autoloader where your brushes are. In fact, this site is using the autoloader. Have
+	a look at the example below:
+</p>
+<script type="syntaxhighlighter" class="brush: js; html-script: true">
+&lt;script src="shCore.js" type="text/javascript">&lt;/script>
+&lt;script src="shAutoloader.js" type="text/javascript">&lt;/script>
+
+&lt;script type="text/javascript">
+SyntaxHighlighter.autoloader(
+	'js jscript javascript	/js/shBrushJScript.js',
+	'applescript			/js/shBrushAppleScript.js'
+);
+
+SyntaxHighlighter.all();
+&lt;/script>
+</script>
+<p>
+	Now any code blocks which use <code>js</code>, <code>jscript</code>, 
+	<code>javascript</code> and <code>applescript</code> brushes will
+	trigger dynamic loading of the appropriate JavaScript file. Please have a look at
+	the <a href="manual/api/autoloader.html">manual</a> for more details.
+</p>
+
+<h2><a name="copytoclipboard">No Flash Copy To Clipboard</a></h2>
 <p>
 	Since the first version back in 2004, SyntaxHighlighter has always used Flash to provide
 	copy to clipboard functionality. At first it was Flash 8, then it was Flash 9 and now 10.
@@ -61,7 +102,7 @@ filter:
 	Wasn't that easy? Keep going!
 </p>
 
-<h2>Code Selection</h2>
+<h2><a name="codeselection">Code Selection</a></h2>
 <p>
 	Another popular request has been ability to select the code without line numbers. This
 	is also now part of the SyntaxHighlighter as it allows you to select the code with your
@@ -69,7 +110,7 @@ filter:
 	effort.
 </p>
 
-<h2>Block Title</h2>
+<h2><a name="blocktitle">Block Title</a></h2>
 <p>
 	You can now add titles to your code blocks by simply adding a <code>title</code> attribute
 	to your <code>&lt;pre /></code> or <code>&lt;script /></code> SyntaxHighlighter tags.
@@ -134,7 +175,7 @@ filter:
 	});
 </script>
 
-<h2>CommonJS</h2>
+<h2><a name="commonjs">CommonJS</a></h2>
 <p>
 	<strong>Version 3.0 is fully <a href="http://commonjs.org/">CommonJS</a> compatible.</strong>
 </p>
@@ -182,7 +223,7 @@ filter:
 	brush.
 </p> 
 
-<h2>Improved CSS support</h2>
+<h2><a name="improvedcss">Improved CSS support</a></h2>
 <p>
 	All CSS source files have been ported to the new <a href="http://sass-lang.com/">SASS 3.0</a>,
 	which allows one to create new themes with ease (providing they have Ruby installed). Of course,

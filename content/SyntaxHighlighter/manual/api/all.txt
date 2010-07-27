@@ -1,11 +1,11 @@
 ---
-title: SyntaxHighlighter.all()
+title: API
 encoding: utf-8
 filter:
   - erb
   - maruku
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
+### SyntaxHighlighter.all()
 
 The main highlight function that needs to be called after all scripts are loaded. The place on the page where it's called from isn't important because the actual execution is delayed until window is loaded. 
 
@@ -27,3 +27,5 @@ Here's a typical example of configuring the very minimal amount required for ful
 	&lt;/body>
 &lt;/html>
 </pre>
+
+<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 

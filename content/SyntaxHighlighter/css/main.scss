@@ -59,9 +59,13 @@ table {
 		text-align: left;
 	}
 	
-	tbody tr:hover {
+	tbody > tr:hover {
 		background: $light_blue;
 		@include round_corners(3px);
+	}
+	
+	tbody > tr > td:first-child {
+		white-space: nowrap;
 	}
 }
 
@@ -120,6 +124,11 @@ table {
 	h3 {
 		margin: 1.5em 0 .5em 0;
 		font-size: 1.45em;
+	}
+	
+	h2 > a[name] {
+		color: black;
+		text-decoration: none;
 	}
 	
 	.sponsor {

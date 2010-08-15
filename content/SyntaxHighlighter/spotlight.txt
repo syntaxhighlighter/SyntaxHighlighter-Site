@@ -114,6 +114,7 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 * [Scala Blog](http://scala-blogs.org/2008/09/y-combinator-in-scala.html) 
 * [Simpltry](http://www.simpltry.com/category/prototype-js/) 
 * [Steve Reynolds](http://www.reynoldsftw.com/2009/02/using-jquery-php-ajax-with-the-twitter-api/) 
+* [Steven Benner's Blog](http://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/)
 * [The Software Grove](http://blog.grovehillsoftware.com/2009/05/visualvm-and-cutting-method-calls-by.html) 
 * [Sufficiently Small](http://www.smallshire.org.uk/sufficientlysmall/2009/05/22/ironpython-2-0-and-jython-2-5-performance-compared-to-python-2-5/)
 

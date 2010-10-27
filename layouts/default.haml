@@ -15,8 +15,9 @@ filter:
   %head
     %title= "SyntaxHighlighter#{sh_title(@page, ' - ')}"
     %script{ :type => 'text/javascript', :src => "#{@home}/scripts/jquery-1.4.2.js" }
-  
-  %body
+    = render(:partial => "/SyntaxHighlighter/partials/tracking")
+    
+  %body.with_sponsor
     #title
       %h1
         %a{ :href => "#{@home}" } SyntaxHighlighter
@@ -62,7 +63,10 @@ filter:
       
       <script type="text/javascript">var flattr_url = 'http://alexgorbatchev.com/SyntaxHighlighter';</script>
       <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
-      
+
+    #sponsor
+      %a{ :href => "http://www.dbnetsuite.com/shared/track.aspx?code=SH", :onclick => "_gaq.push(['_trackEvent', 'sponsor', 'click', 'dbnetsuite']);"}
+        %img{ :src => "http://alexgorbatchev.com.s3.amazonaws.com/sponsors/dbnet/dbnetsuite.gif", :onload => "_gaq.push(['_trackEvent', 'sponsor', 'load', 'dbnetsuite']);" }
       
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{@home}/css/main.css" }
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{sh_pub}/styles/shCore.css" }
@@ -75,4 +79,5 @@ filter:
 
   %script{ :type => 'text/javascript', :src => "#{@home}/scripts/main.js" }
 
-  = render(:partial => "/SyntaxHighlighter/partials/services")
+= render(:partial => "/SyntaxHighlighter/partials/services")
+

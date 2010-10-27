@@ -28,6 +28,10 @@ body {
 	background-color: white; 
 	margin: 4em 15em 4em 4em;
 	line-height: 1.35em;
+	
+	&.with_sponsor {
+		margin-right: 410px;
+	}
 }
 
 a {
@@ -111,8 +115,10 @@ table {
 		@extend .badge;
 		background: $blue;
 		color: #fff;
-		margin: 3px 5px 0 0;
+		margin: 3px 1em 0 0;
 		float: left;
+		text-align: right;
+		width: 10em;
 	}
 	
 	.version {
@@ -144,8 +150,8 @@ table {
 
 .float {
 	position: fixed;
-	top: .5em;
-	right: .5em;
+	top: 10px;
+	right: 10px;
 	width: 10em;
 	padding: 1em;
 	text-align: right;
@@ -153,6 +159,26 @@ table {
 	
 	a {
 		display: block;
+	}
+}
+
+.with_sponsor {
+	.float {
+		right: 190px;
+	}
+}
+
+#sponsor {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	background: #6380EA; /* color specific to dbnet */
+	@include round_corners(3px);
+	
+	a {
+		padding: 0;
+		background: none;
 	}
 }
 
@@ -168,7 +194,7 @@ table {
 	@include round_corners(3px);
 
 	background: $light_blue;
-	bottom: 1em;
+	bottom: 10px;
 	padding-top: 14em;
 	z-index: 1;
 	

@@ -5,16 +5,18 @@ filter:
   - erb
   - maruku
 ---
-__Please click [here to donate via PayPal][paypal] and just like they say on TV -- give generously!__ 
+__Please [click here to donate via PayPal][paypal] and just like they say on TV -- give generously!__ 
 
 As it always goes with open source, you are welcome to use SyntaxHighlighter free of
 charge, but I hope if you are using and enjoying my work maybe you could buy me a beer (or if you don't 
 drink -- a coffee and bagel will do just fine (but a good kind of bagel, you know... with wonderful stuff 
-inside to make it glorious, like smoked salmon... not just butter)).
+inside to make it glorious, like smoked salmon... not just butter).
 
 [paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2930402
 
-### Contributors (since June 28th, 2010)
+### Contributors
+
+Last updated on October 30th, 2010.
 
 <div class="sponsor" markdown="1">
 __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 to the SyntaxHighlighter.__
@@ -23,16 +25,39 @@ __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 t
 > an average web server. Be up and running in a matter of minutes using the automatic installer.
 </div>
 
+<div class="sponsor" markdown="1">
+__Special thanks to [Kaazing](http://www.kaazing.com/) for contributing $250 to the SyntaxHighlighter.__
+
+> Kaazing, a pioneer in HTML5 WebSocket technology, develops and provides web infrastructure 
+> software that enables companies to quickly deliver massively scalable, real-time enterprise 
+> web applications. In addition, Kaazing offers world-wide [HTML5 training](http://tech.kaazing.com/training/index.html).
+</div>
+
+<div class="sponsor" markdown="1">
+__Special thanks to [ActiveCampaign](http://activecampaign.com/) for contributing $100 to the SyntaxHighlighter.__
+
+> ActiveCampaign develops web based software that has helped 50,000+ companies grow with their marketing, 
+> customer service, and market research solutions. Install on your own server or use their SAAS solutions.
+</div>
+
 #### SyntaxHighlighter Heroes ($50+)
 
-* [Antix Software Limited](http://www.antix.co.uk), United Kingdom 
-* [Ben Vinson](http://www.kongregate.com), United States 
-* [Buglabs](http://www.buglabs.net/), United States 
+* ActiveCampaign Software Solutions, United States
+* [Scot Hacker](http://berkeley.edu), United States
+* [Antix Software Limited](http://www.antix.co.uk), United Kingdom
+* [Ben Vinson](http://www.kongregate.com), United States
+* [Buglabs](http://www.buglabs.net/), United States
 * [G3D Development](http://www.g3d-development.com), United Kingdom
-* [HieblMedia](http://www.hieblmedia.de/), Germany 
+* [GreenSock, Inc.](http://greensock.com), United States
+* [HieblMedia](http://www.hieblmedia.de/), Germany
+* Jeff Wilcox, United States
+* Joseph Paris, United States
+* Maxime Corbeau, United Kingdom
+* [MediaGroup1 LLC](http://www.mediagroup1.com), United States
 * [Rostislav Siryk](http://flash-ripper.com/), Ukraine
 * Sriram Gopalan, United States
-* Joseph Paris, United States
+* Tobias Günther, Germany
+* W Duncan Mackenzie, United States
 
 #### Fan Club
 
@@ -52,12 +77,15 @@ Special shout out to people who have donated more than once! Thank you!
 * Alfonso Martínez de Lizarrondo, Spain
 * Ali Sinan Unur, United States
 * Allan Jardine, United Kingdom
+* Ambar Seksena, India
 * Anders Nawroth, Sweden
+* Andrew Johnston, United Kingdom
 * Antti Hakala, Finland
 * Artem Kolesnikov, Russia
 * Ben Hyrman, United States
 * Bettina Ramm, Germany
 * Big Fat Red Dog Consulting, United States
+* Blake Miller, United States
 * Bob Cravens, United States
 * Brad Wilson, United States
 * Breck Carter, Canada
@@ -67,8 +95,10 @@ Special shout out to people who have donated more than once! Thank you!
 * Christian Rodemeyer, Germany
 * Christopher Burrows, United States
 * chunxia wang, Canada
+* Colin Thomas-Arnold, United States
 * Curtis Lassam, Canada
 * Daan Wanrooy, Netherlands
+* Daniel Moore, United States
 * Daniel O. McKinley, United States
 * Danny Gagne, United States
 * David Cherry, United Kingdom
@@ -77,9 +107,11 @@ Special shout out to people who have donated more than once! Thank you!
 * David Sampayo, United States
 * Dean Iverson, United States
 * Dean Logan, United States
+* Doseido Software, Italy
 * Dushyanth Maguluru, United States
 * Enda Farrell, United Kingdom
 * Ernest Leitch, United States
+* ESOB LLC, United States
 * Evelyn Barney, United States
 * Fabio Tudone, Italy
 * Fabio Tudone, Italy
@@ -89,6 +121,7 @@ Special shout out to people who have donated more than once! Thank you!
 * Golo Roden, Germany
 * Gregory Bray, United States
 * Hamish Graham, New Zealand
+* Hans-Eric Grönlund, Sweden
 * Harold Chu, Australia
 * Hayden Karel Chambers, Spain
 * Ian Brennan, United Kingdom
@@ -103,18 +136,23 @@ Special shout out to people who have donated more than once! Thank you!
 * Jaime Fernandez Del Rio, Spain
 * jamison morrow, United States
 * Jérémy Lagrue, France
+* Jochen Rühl, Germany
 * Johan Ronsse, Belgium
 * Joonas Javanainen, Finland
 * Joseph Hoetzl, United States
 * Kaosweaver, United States
 * Kazuhiko Oono, Japan
+* Kenshi Kamiya, Japan
+* Kevin Herrmann, United States
 * Kevin Mess, United States
+* Keywan Ghadami, Germany
 * lars gersmann, Germany
 * Leonid Dubinsky, United States
 * Luis Rocha, Canada
 * MadeForNet, Ukraine
 * Magnus Lassi, United States
 * Marcel Müller, Germany
+* Marco Bonifazi, Switzerland
 * Mark Farina, United States
 * Martin Kubicek, Czech Republic
 * Mas, Cyprus
@@ -140,18 +178,24 @@ Special shout out to people who have donated more than once! Thank you!
 * Puran Singh, United States
 * Randy Knapp, United States
 * Richard Quinn, Germany
+* Ro et al, Canada
 * Robert Cram, Netherlands
 * Robert Love, United States
 * Sara Maamouri, United States
 * Sidney de Koning, Netherlands
 * SRISOL NZ Limited, New Zealand
 * Stefan Walter, Germany
+* Steven Ourada, United States
 * Tranzporter Sound, United States
+* Wei Zheng, China
 * Wes Biggs, United States
+* William Hollings, Canada
 * wu chenghan, Taiwan
 * Wu Hugh, Taiwan
 * XEON3, United States
+* Xu Hui Hui, China
 * yatil.de Webentwicklung, Germany
+* 三好 正敏, Japan
 * 川崎 誠, Japan
 * 徐 善德, China
 * 杵渕 朋彦, Japan

@@ -6,7 +6,7 @@ filter:
   - maruku
 ---
 The two blocks below, 'source' and 'result' are generated dynamically by SyntaxHighlighter from regular
-`<pre />` HTML tags. If you want to see a specific syntax in action, check out the [bundled syntaxes page](brushes.html). 
+`<pre />` HTML tags. If you want to see a specific syntax in action, check out the [bundled syntaxes page](../brushes/). 
 
 ### Source
 

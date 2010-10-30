@@ -141,6 +141,7 @@ table {
 		@include round_corners(5px);
 		padding: .1em 1em;
 		background: $light_yellow;
+		margin-bottom: 1em;
 	}
 	
 	li > p:only-child {

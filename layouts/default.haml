@@ -17,7 +17,7 @@ filter:
     %script{ :type => 'text/javascript', :src => "#{@home}/scripts/jquery-1.4.2.js" }
     = render(:partial => "/SyntaxHighlighter/partials/tracking")
     
-  %body.with_sponsor
+  %body.no_sponsor
     #title
       %h1
         %a{ :href => "#{@home}" } SyntaxHighlighter
@@ -61,12 +61,13 @@ filter:
       %a{ :href => "http://bitbucket.org/alexg/syntaxhighlighter/"} source code
       %a{ :href => "#{@home}/contact.html"} contact
       
-      <script type="text/javascript">var flattr_url = 'http://alexgorbatchev.com/SyntaxHighlighter';</script>
-      <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
+      / <script type="text/javascript">var flattr_url = 'http://alexgorbatchev.com/SyntaxHighlighter';</script>
+      / <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
 
-    #sponsor
-      %a{ :href => "http://www.dbnetsuite.com/shared/track.aspx?code=SH", :onclick => "_gaq.push(['_trackEvent', 'sponsor', 'click', 'dbnetsuite']);"}
-        %img{ :src => "http://alexgorbatchev.com.s3.amazonaws.com/sponsors/dbnet/dbnetsuite.gif", :onload => "_gaq.push(['_trackEvent', 'sponsor', 'load', 'dbnetsuite']);" }
+    /
+      #sponsor
+        %a{ :href => "http://www.dbnetsuite.com/shared/track.aspx?code=SH", :onclick => "_gaq.push(['_trackEvent', 'sponsor', 'click', 'dbnetsuite']);"}
+          %img{ :src => "http://alexgorbatchev.com.s3.amazonaws.com/sponsors/dbnet/dbnetsuite.png", :onload => "_gaq.push(['_trackEvent', 'sponsor', 'load', 'dbnetsuite']);" }
       
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{@home}/css/main.css" }
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{sh_pub}/styles/shCore.css" }

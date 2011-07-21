@@ -3,3 +3,5 @@ output
 content/pub
 build/syntaxhighlighter
 .bundle
+
+/.sass-cache/

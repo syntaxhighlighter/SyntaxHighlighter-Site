@@ -98,27 +98,62 @@ table {
 	h2 {
 		font-size: 1.45em;
 	}
+
+	#forkme {
+		display: block;
+		position: fixed;
+		z-index: 5; 
+		top: 0; 
+		left: 0; 
+		border: 0;
+		background: url(/SyntaxHighlighter/images/forkme.png) no-repeat;
+		width: 149px;
+		height: 149px;
+		text-indent: -1000px;
+		overflow: hidden;
+	}
 }
 
 .badge {
 	@include round_corners(3px); 
 	font-size: 10px;
 	font-weight: normal;
-	padding: 4px 3px 2px;
+	padding: 3px 5px 4px 5px;
 	line-height: 100%;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	box-sizing : border-box;
 }
 
 #content {
 	margin-top: 5em;
-	
+
+	#news {
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				position: relative;
+				display: block;
+				padding-left: 7em;
+				min-height: 22px;
+			}
+		}
+	}
+		
 	.date {
 		@extend .badge;
-		background: $blue;
-		color: #fff;
-		margin: 3px 1em 0 0;
-		float: left;
+		background: $light_blue;
+		color: $blue;
 		text-align: right;
 		width: 10em;
+		position: absolute;
+		height: 20px;
+		left: 0;
+		top: 0;
+		padding: 6px 5px 0;
 	}
 	
 	.version {
@@ -223,10 +258,3 @@ table {
 	background-color: $gray;
 }
 
-#news {
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-}

@@ -31,9 +31,7 @@ filter:
 
   :preserve
     <pre class="brush: javascript">
-        // SyntaxHighlighter makes your code
-        // snippets beautiful without tiring
-        // your servers.
+        // SyntaxHighlighter makes your code snippets beautiful without tiring your servers.
         // http://alexgorbatchev.com
         var setArray = function(elems) {
             this.length = 0;
@@ -46,6 +44,7 @@ filter:
   %h2 News
   
   :markdown
+    * We aren't dead! Moved source to [GitHub](https://github.com/alexgorbatchev/SyntaxHighlighter) to increase participation. <span class="date">July 26, 2011</span>
     * Major new 3.0.83 release ([changes](changes/3.0.83.html)). <span class="date">July 2, 2010</span>
     * New 2.1.382 release ([changes](changes/2.1.382.html)). <span class="date">June 24, 2010</span>
     * Follow @[syntaxhighlight](http://twitter.com/syntaxhighlight) on Twitter. <span class="date">March 1, 2010</span>

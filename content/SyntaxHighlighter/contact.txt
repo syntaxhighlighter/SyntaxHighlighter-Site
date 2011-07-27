@@ -7,11 +7,9 @@ filter:
 ---
 ### Before emailing
 
-If you have a question about SyntaxHighlighter, please take a second to register and post 
-in the [forums](http://alexgorbatchev.com/forums) instead of emailing me.
-
-**All tech support questions regarding SyntaxHighlighter will be ignored 
-and unanswered unless you post them in the forums.**
+Please consider googling and looking through the manual first. Due to the volume of emails I
+recieve I may not be able to answer all of them however if you have donated, you are guaranteed
+my attention :)
 
 ### Send an email
 

@@ -1,3 +1,3 @@
 #!/bin/bash
-gem install webby maruku haml
+gem install webby maruku haml --no-rdoc --no-ri
 

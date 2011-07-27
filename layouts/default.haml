@@ -14,7 +14,7 @@ filter:
 %html{ :xmlns => 'http://www.w3.org/1999/xhtml' }
   %head
     %title= "SyntaxHighlighter#{sh_title(@page, ' - ')}"
-    %script{ :type => 'text/javascript', :src => "#{@home}/scripts/jquery-1.4.2.js" }
+    %script{ :type => 'text/javascript', :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" }
     = render(:partial => "/SyntaxHighlighter/partials/tracking")
     
   %body.no_sponsor
@@ -22,6 +22,7 @@ filter:
       %h1
         %a{ :href => "#{@home}" } SyntaxHighlighter
         %span#version= sh_version
+      %a#forkme{ :href => "https://github.com/alexgorbatchev/SyntaxHighlighter" } Fork Me On GitHub
 
       #whatsnew
         %a{ :href => "#{@home}/whatsnew.html"} whats new?
@@ -56,9 +57,8 @@ filter:
       %a{ :href => "#{@home}/hosting.html" } hosting 
       %a{ :href => "#{@home}/manual/older_versions.html" } legacy 
       %a{ :href => "#{@home}/manual/api" } apis 
-      %a{ :href => "/forums" } forums
-      %a{ :href => "http://bitbucket.org/alexg/syntaxhighlighter/issues/"} bugs
-      %a{ :href => "http://bitbucket.org/alexg/syntaxhighlighter/"} source code
+      %a{ :href => "https://github.com/alexgorbatchev/SyntaxHighlighter/issues"} bugs
+      %a{ :href => "https://github.com/alexgorbatchev/SyntaxHighlighter" } github
       %a{ :href => "#{@home}/contact.html"} contact
       
       / <script type="text/javascript">var flattr_url = 'http://alexgorbatchev.com/SyntaxHighlighter';</script>
@@ -72,6 +72,7 @@ filter:
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{@home}/css/main.css" }
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{sh_pub}/styles/shCore.css" }
   %link{ :type => 'text/css', :rel => 'stylesheet', :href => "#{sh_pub}/styles/#{@page._meta_data['theme'] || 'shThemeDefault'}.css" }
+  %script{ :type => 'text/javascript', :src => "#{sh_pub}/scripts/XRegExp.js" }
   %script{ :type => 'text/javascript', :src => "#{sh_pub}/scripts/shCore.js" }
   %script{ :type => 'text/javascript', :src => "#{sh_pub}/scripts/shAutoloader.js" }
   %script{ :type => 'text/javascript', :src => "#{sh_pub}/scripts/shBrushXml.js" }

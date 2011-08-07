@@ -16,7 +16,20 @@ inside to make it glorious, like smoked salmon... not just butter).
 
 ### Contributors
 
-Last updated on October 30th, 2010.
+Last updated on August 7th, 2011.
+
+<div class="sponsor" markdown="1">
+__Special thanks to [Gladstone Matos Gomes](http://www.devmedia.com.br) for contributing $600 to the SyntaxHighlighter.__
+
+> With more than 500 thousand registered users, DevMedia is the largest community in portuguese for 
+> software developers; They have  tons of articles, videos and online courses (most of them totally
+> free).
+</div>
+
+<div class="sponsor" markdown="1">
+__Special thanks to [Attlassian](http://www.atlassian.com/), the makers of JIRA and Confluence for contributing 
+$500 to the SyntaxHighlighter.__
+</div>
 
 <div class="sponsor" markdown="1">
 __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 to the SyntaxHighlighter.__
@@ -43,18 +56,27 @@ __Special thanks to [ActiveCampaign](http://activecampaign.com/) for contributin
 #### SyntaxHighlighter Heroes ($50+)
 
 * ActiveCampaign Software Solutions, United States
-* [Scot Hacker](http://berkeley.edu), United States
 * [Antix Software Limited](http://www.antix.co.uk), United Kingdom
 * [Ben Vinson](http://www.kongregate.com), United States
+* Bruce Moio, United States
 * [Buglabs](http://www.buglabs.net/), United States
+* Daniel Simmons, United States
+* Fauzan Hamdi, Indonesia
 * [G3D Development](http://www.g3d-development.com), United Kingdom
+* [Geza Mihala](http://infinitary.org/), Switzerland
+* [Gordon Dickens](http://gordondickens.com), United States
 * [GreenSock, Inc.](http://greensock.com), United States
 * [HieblMedia](http://www.hieblmedia.de/), Germany
+* Ilia Draznin, Canada
 * Jeff Wilcox, United States
 * Joseph Paris, United States
+* Matthew Scragg, United States
 * Maxime Corbeau, United Kingdom
 * [MediaGroup1 LLC](http://www.mediagroup1.com), United States
+* My Site My Way, United States
+* Ross Duggan, Ireland
 * [Rostislav Siryk](http://flash-ripper.com/), Ukraine
+* [Scot Hacker](http://berkeley.edu), United States
 * Sriram Gopalan, United States
 * Tobias Günther, Germany
 * W Duncan Mackenzie, United States
@@ -71,36 +93,50 @@ Special shout out to people who have donated more than once! Thank you!
 
 * Adam Christensen, United States
 * Ajay Jadhav, United States
+* Alberto Ballabio, Italy
 * Alexander Gross, Germany
 * Alexander Hanke, Germany
 * Alexandre Mutel, France
+* Alexis Reigel, Switzerland
 * Alfonso Martínez de Lizarrondo, Spain
 * Ali Sinan Unur, United States
 * Allan Jardine, United Kingdom
+* Alvaro Mateos, Spain
 * Ambar Seksena, India
+* Amirali Rajan, United States
 * Anders Nawroth, Sweden
 * Andrew Johnston, United Kingdom
+* Andrew Nurse, United States
 * Antti Hakala, Finland
 * Artem Kolesnikov, Russia
+* Arthur Dumas, United States
+* Ashish Kumar, United States
 * Ben Hyrman, United States
 * Bettina Ramm, Germany
 * Big Fat Red Dog Consulting, United States
+* Bill Cornell, United States
+* Björn Brandt, United States
 * Blake Miller, United States
 * Bob Cravens, United States
 * Brad Wilson, United States
 * Breck Carter, Canada
 * Brent Thomas, United States
 * Brian Dunagan, United States
+* Brian Schuth, United States
 * Chang Kai-Yu, Taiwan
+* Cheng Wei Chien, Taiwan
+* Chris Nilsson, Australia
 * Christian Rodemeyer, Germany
 * Christopher Burrows, United States
 * chunxia wang, Canada
 * Colin Thomas-Arnold, United States
+* Cornelius Chopin, United States
 * Curtis Lassam, Canada
 * Daan Wanrooy, Netherlands
 * Daniel Moore, United States
 * Daniel O. McKinley, United States
 * Danny Gagne, United States
+* Dave Thompson, United States
 * David Cherry, United Kingdom
 * David Harvey, United Kingdom
 * David Milford, Canada
@@ -110,6 +146,7 @@ Special shout out to people who have donated more than once! Thank you!
 * Doseido Software, Italy
 * Dushyanth Maguluru, United States
 * Enda Farrell, United Kingdom
+* Eoin Woods, United Kingdom
 * Ernest Leitch, United States
 * ESOB LLC, United States
 * Evelyn Barney, United States
@@ -134,18 +171,25 @@ Special shout out to people who have donated more than once! Thank you!
 * IttyUrl.net, United States
 * Jack Fruh, United States
 * Jaime Fernandez Del Rio, Spain
+* Jakub Suder, Poland
 * jamison morrow, United States
+* Jason Swartz, United States
 * Jérémy Lagrue, France
+* Jesse Palmer, United States
 * Jochen Rühl, Germany
 * Johan Ronsse, Belgium
+* Jon Kern, United States
 * Joonas Javanainen, Finland
 * Joseph Hoetzl, United States
 * Kaosweaver, United States
+* Kawai Yasuhiro, Japan
 * Kazuhiko Oono, Japan
+* Ken Anderson, United States
 * Kenshi Kamiya, Japan
 * Kevin Herrmann, United States
 * Kevin Mess, United States
 * Keywan Ghadami, Germany
+* Klaus Körner, Germany
 * lars gersmann, Germany
 * Leonid Dubinsky, United States
 * Luis Rocha, Canada
@@ -162,6 +206,10 @@ Special shout out to people who have donated more than once! Thank you!
 * Michael Bostler, United States
 * Michael Chen, New Zealand
 * Michael Schnell, Germany
+* Mikiya Okuno, Japan
+* Min-Young Wu, South Africa
+* Miro Nikoletic, Croatia
+* Mr. Midwest Promotions, United States
 * MSE-iT, Germany
 * Nathan Fox, United States
 * Neil Blackburn, United Kingdom
@@ -177,16 +225,23 @@ Special shout out to people who have donated more than once! Thank you!
 * PsychoCoder.Net, United States
 * Puran Singh, United States
 * Randy Knapp, United States
+* Renana Yacobi, Israel
 * Richard Quinn, Germany
 * Ro et al, Canada
 * Robert Cram, Netherlands
 * Robert Love, United States
+* Ryan Brase, United States
 * Sara Maamouri, United States
+* Sean McMahon, United States
 * Sidney de Koning, Netherlands
 * SRISOL NZ Limited, New Zealand
 * Stefan Walter, Germany
+* Stephen Schaefer, United States
 * Steven Ourada, United States
+* Todd Stumpf, United States
+* Tomokazu Tsuruoka, Japan
 * Tranzporter Sound, United States
+* Vijay Dharap, United States
 * Wei Zheng, China
 * Wes Biggs, United States
 * William Hollings, Canada
@@ -195,7 +250,9 @@ Special shout out to people who have donated more than once! Thank you!
 * XEON3, United States
 * Xu Hui Hui, China
 * yatil.de Webentwicklung, Germany
+* Yongyuth Pinatha, Thailand
 * 三好 正敏, Japan
 * 川崎 誠, Japan
 * 徐 善德, China
 * 杵渕 朋彦, Japan
+

@@ -28,7 +28,7 @@ filter:
         %a{ :href => "#{@home}/whatsnew.html"} whats new?
         
       #blurb
-        SyntaxHighlighter is an open source Java Script client side code syntax highlighter.
+        %em SyntaxHighlighter is an open source Java Script client side code syntax highlighter.
 
       #meta
         %a{ :href => "#{@home}/donate.html" } donate
@@ -50,6 +50,18 @@ filter:
       Copyright 2004-2011 Alex Gorbatchev.
     
     #footer
+      #ad
+        :javascript
+          var ve_publisher = "syntaxhighlighter";
+          var ve_site = "SYNTAXHIGHLIGHTER";
+          var ve_area = "SYNTAXHIGHLIGHTER";
+          var ve_location = "SYNTAXHIGHLIGHTER_ROS_160X600";
+          var ve_placement = "ROS";
+          var ve_width = 160;
+          var ve_height = 600;
+          var ve_alternate = "";
+          document.write("<script src='http://core.videoegg.com/eap/html/js/init.js?"+Math.random()+"'></sc"+"ript>");
+
       %a{ :href => "#{@home}/about.html" } about
       %a{ :href => "#{@home}/manual/brushes/" } syntaxes
       %a{ :href => "#{@home}/manual/themes/" } themes
@@ -61,9 +73,6 @@ filter:
       %a{ :href => "https://github.com/alexgorbatchev/SyntaxHighlighter" } source
       %a{ :href => "https://github.com/alexgorbatchev/SyntaxHighlighter-Site" } site
       %a{ :href => "#{@home}/contact.html"} contact
-      
-      / <script type="text/javascript">var flattr_url = 'http://alexgorbatchev.com/SyntaxHighlighter';</script>
-      / <script src="http://api.flattr.com/button/load.js" type="text/javascript"></script>
 
     /
       #sponsor

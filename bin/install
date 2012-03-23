@@ -1,0 +1,6 @@
+#!/bin/bash
+rvm use 1.9.2
+rvm gemset create 'syntaxhighlighter'
+rvm gemset use 'syntaxhighlighter'
+gem install jekyll --no-ri --no-rdoc
+

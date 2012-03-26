@@ -1,43 +1,50 @@
-<div id="example">
+{% capture output %}
+{% if settings %}<script type="text/javascript">{{ settings | raw }}</script>{% endif %}
 
+{% if example %}{{ example | raw }}{% else %}<script type="text/code" data-brush="js">
+/**
+ * Looks for a child or parent node which has specified classname.
+ * Equivalent to jQuery's $(container).find(".className")
+ * @param {Element} target Target element.
+ * @param {String} search Class name or node name to look for.
+ * @param {Boolean} reverse If set to true, will go up the node tree instead of down.
+ * @return {Element} Returns found child or parent element on null.
+ */
+function findElement(target, search, reverse /* optional */)
+{
+	if (target == null)
+		return null;
+		
+	var nodes			= reverse != true ? target.childNodes : [ target.parentNode ],
+		propertyToFind	= { '#' : 'id', '.' : 'className' }[search.substr(0, 1)] || 'nodeName',
+		expectedValue,
+		found
+		;
+
+	expectedValue = propertyToFind != 'nodeName'
+		? search.substr(1)
+		: search.toUpperCase()
+		;
+		
+	// main return of the found node
+	if ((target[propertyToFind] || '').indexOf(expectedValue) != -1)
+		return target;
+	
+	for (var i = 0; nodes && i < nodes.length && found == null; i++)
+		found = findElement(nodes[i], search, reverse);
+	
+	return found;
+};
+</script>{% endif %}
+{% endcapture %}
+
+<div id="example">
 	{{ intro | markdownify }}
 
-	<h4>Live Demo</h4>
+	<h3>Example</h3>
+	{{ output }}
 
-	{{ example_textarea }}
-	{{ example_script }}
-
-	<h4>Form Content</h4>
-
-	<p class="hint">This is the data that will be submitted with HTML form.</p>
-	<pre id="output" class="output"></pre>
-
-	<script>
-	(function()
-	{
-		var textarea = $('textarea.example:last'),
-			output   = $('pre.output:last')
-			;
-
-		textarea.bind('setFormData', function(e, data, isEmpty)
-		{
-			var textext = $(e.target).textext()[0];
-			output.text(textext.hiddenInput().val());
-		});
-
-		// force this for the sake of the example so that we get one extra
-		// `setFormData` event fire and we would set the #output value
-		textarea.textext()[0].getFormData();
-	})();
-	</script>
-
-	<h4>Source</h4>
-
-	<p class="hint">This is the original input HTML.</p>
-	<pre class="brush: html">{{ example_textarea | escape}}</pre>
-
-	<p class="hint">This is the JavaScript source that was used to initialize this demo instance of TextExt.</p>
-	<pre class="brush: js; html-script: true">{{ example_script | replace:"	","    " | escape }}</pre>
-
+	<h3>Source</h3>
+	<script type="text/code" data-sh="brush: js; html-script: true">{{ output | replace:"	","    " | escape }}</script>
 </div>
 

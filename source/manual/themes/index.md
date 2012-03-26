@@ -1,0 +1,11 @@
+---
+title  : Themes
+layout : manual
+---
+### How to use?
+
+Picking and using a theme is as easy as linking to an external CSS file. All you have to do is provide the correct path and the file name of theme that you want to use. 
+
+<pre class="brush: xml; light: true;">
+&lt;link type="text/css" rel="Stylesheet" href="PATH/Styles/shThemeDjango.css"/>
+</pre>

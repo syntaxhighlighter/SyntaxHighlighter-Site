@@ -44,6 +44,10 @@
 			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushXml.js"></script>
 			<link type="text/css" rel="stylesheet" href="/syntaxhighlighter/styles/shCoreDefault.css"/>
 		{% endif %}
+
+		<script>
+			SyntaxHighlighter.all();
+		</script>
 	</head>
 
 	<body data-section="{% if page.section %}{{ page.section }}{% else %}{{ section }}{% endif %}">

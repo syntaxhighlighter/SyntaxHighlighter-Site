@@ -1,5 +1,5 @@
 ---
-layout : brush
+layout : manual
 title  : Custom Brushes
 ---
 

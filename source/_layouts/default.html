@@ -1,0 +1,17 @@
+{% include header.html %}
+
+<div class="container">
+	<div class="row">
+		<div id="content" class="span12">
+			{% if page.title %}
+				<div class="page-header">
+					<h2>{{ page.title }}</h2>
+				</div>
+			{% endif %}
+			{{ content }}
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}
+

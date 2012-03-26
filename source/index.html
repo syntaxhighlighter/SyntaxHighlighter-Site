@@ -1,0 +1,38 @@
+---
+title: ''
+---
+{% include header.html %}
+{% include common.html %}
+
+<div id="masthead">
+	<div class="container">
+		<div class="row">
+			<div class="content" class="span10">
+				<h1>TextExt Plugin for jQuery</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="content" class="container homepage">
+	<div id="first-row" class="row">
+		<div id="left" class="span6"></div>
+		<div id="right" class="span6">
+			<h2>Demo</h2>
+			<p>This demo shows off Tags, Prompt, Focus, Autocomplete and Ajax plugins.</p>
+			<div id="demo">
+				<input id="textarea" type="text"/>
+			</div>
+			<p>You can see the code for this demo below in the example section.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div id="about-section" class="span12">
+			{% include about.html %}
+		</div>
+	</div>
+</div>
+
+<script src="/js/home.js"></script>
+
+{% include footer.html %}

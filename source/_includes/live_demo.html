@@ -1,0 +1,43 @@
+<div id="example">
+
+	{{ intro | markdownify }}
+
+	<h4>Live Demo</h4>
+
+	{{ example_textarea }}
+	{{ example_script }}
+
+	<h4>Form Content</h4>
+
+	<p class="hint">This is the data that will be submitted with HTML form.</p>
+	<pre id="output" class="output"></pre>
+
+	<script>
+	(function()
+	{
+		var textarea = $('textarea.example:last'),
+			output   = $('pre.output:last')
+			;
+
+		textarea.bind('setFormData', function(e, data, isEmpty)
+		{
+			var textext = $(e.target).textext()[0];
+			output.text(textext.hiddenInput().val());
+		});
+
+		// force this for the sake of the example so that we get one extra
+		// `setFormData` event fire and we would set the #output value
+		textarea.textext()[0].getFormData();
+	})();
+	</script>
+
+	<h4>Source</h4>
+
+	<p class="hint">This is the original input HTML.</p>
+	<pre class="brush: html">{{ example_textarea | escape}}</pre>
+
+	<p class="hint">This is the JavaScript source that was used to initialize this demo instance of TextExt.</p>
+	<pre class="brush: js; html-script: true">{{ example_script | replace:"	","    " | escape }}</pre>
+
+</div>
+

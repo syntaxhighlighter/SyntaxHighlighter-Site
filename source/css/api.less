@@ -1,0 +1,92 @@
+#api {
+	h1, h2, h3, h4, h5 {
+		a {
+			/* Fixes page anchor links being coverd by navigation */
+			margin-top  : -50px;
+			padding-top : 50px;
+			color       : inherit;
+
+			&:hover {
+				text-decoration : none;
+			}
+		}
+
+		.version {
+			margin-left : 5px;
+			font-size   : 12px;
+		}
+
+		.default {
+			color       : @gray;
+			font-weight : normal;
+			font-size   : 70%;
+			font-family : Monaco, Andale Mono, Courier New, monospace,
+		}
+	}
+
+	section {
+		margin-bottom : 30px;
+
+		> h3 {
+			font-size     : 30px;
+			line-height   : initial;
+			margin-bottom : 10px;
+		}
+
+		> div {
+			margin-top : 30px;
+		}
+	}
+
+	.method {
+		h4 .param {
+			cursor : pointer;
+
+			&:hover {
+				text-decoration : underline;
+			}
+		}
+
+		.params li {
+			.desc {
+				padding : 1px 3px;
+			}
+
+			&.highlight .desc {
+				background : yellow;
+				color      : black;
+			}
+
+			p {
+				-webkit-margin-after : 0;
+				-moz-margin-after : 0;
+				margin-after : 0;
+			}
+		}
+	}
+}
+
+#toc {
+	margin-bottom : 10px;
+
+	> div {
+		margin-bottom : 10px;
+	}
+
+	ul {
+		padding         : 0;
+		margin          : 0;
+		list-style-type : none;
+		
+		li {
+			font-family   : Monaco, Andale Mono, Courier New, monospace;
+			font-size     : 10px;
+			font-weight   : normal;
+			text-overflow : ellipsis;
+			white-space   : nowrap;
+			overflow      : hidden;
+
+			a { font-weight : normal; }
+		}
+	}
+}

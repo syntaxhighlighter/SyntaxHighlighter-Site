@@ -1,0 +1,22 @@
+{% capture section %}manual{% endcapture %}
+{% include header.html %}
+
+<div class="container">
+	<div class="page-header">
+		<h2>{{ page.title }}</h2>
+	</div>
+	<div class="row">
+		<div class="span2">
+			{% include nav_manual.html %}
+		</div>
+		<div id="content" class="span8">
+			{{ content }}
+		</div>
+		<div class="span2">
+			<section id="toc"></section>
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}
+

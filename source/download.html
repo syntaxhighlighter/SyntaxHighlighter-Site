@@ -1,0 +1,116 @@
+---
+title: Download
+layout: default
+section: download
+---
+{% include common.html %}
+<div class="form-table">
+	<form id="download" method="post" action="http://{% if debug == "false" %}strong-snow-9531.herokuapp.com{% else %}localhost:3000{% endif %}/build">
+		<div class="row">
+			<input type="hidden" name="product" value="textext" />
+			<input type="hidden" name="version" value="{{version}}" />
+			<div class="span4">
+				<table class="table table-striped">
+				<tr>
+					<td>
+						<label class="checkbox" id="compress">
+							<input type="checkbox" name="compress" value="true" id="check_compress" checked="true" />
+							<span>Compress Source</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox" id="core">
+							<input type="checkbox" name="files" value="textext.core.js" id="check_core" checked="true" />
+							<span>TextExt core v{{version}}</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.ajax.js" id="check_ajax" checked="true" />
+							<span>AJAX plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.arrow.js" id="check_arrow" checked="true" />
+							<span>Arrow plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.autocomplete.js" id="check_autocomplete" checked="true" />
+							<span>Autocomplete plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.filter.js" id="check_filter" checked="true" />
+							<span>Filter plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.focus.js" id="check_focus" checked="true" />
+							<span>Focus plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.prompt.js" id="check_prompt" checked="true" />
+							<span>Prompt plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.suggestions.js" id="check_suggestions" checked="true" />
+							<span>Suggestions plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label class="checkbox">
+							<input type="checkbox" name="files" value="textext.plugin.tags.js" id="check_tags" checked="true" />
+							<span>Tags plugin</span>
+						</label class="checkbox">
+					</td>
+				</tr>
+				</table>
+			</div>
+
+			<div class="span8">
+				<p>I've created this awesome download page for you! It lets you pick just what you need and gives back the goodies! What's super awesome about it, is that you get everything, and I mean <strong>everything</strong>, in a single JavaScript file! That even includes images and CSS!</p>
+				<p>So when you add this component to the page, you only add ONE extra roundtrip to the server!</p>
+				<p>What are you waiting for? Take it for a spin!</p>
+
+				<h3>Source</h3>
+				<p>You can get full source on <a href="https://github.com/alexgorbatchev/jquery-textext">GitHub</a>.
+
+				<h3>Issues</h3>
+				<p>If you are sure you have found a bug, please take a second to <a href="https://github.com/alexgorbatchev/jquery-textext/issues">report it</a></p>
+			</div>
+		</div>
+		<div class="form-actions">
+			<button class="btn btn-primary btn-large">Get Codez!</button>
+		</div>
+	</form>
+</div>
+
+<script src="/js/download.js" type="text/javascript"></script>
+

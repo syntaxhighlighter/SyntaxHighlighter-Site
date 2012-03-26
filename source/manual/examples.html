@@ -1,0 +1,13 @@
+---
+layout: manual
+title: Examples
+section: examples
+---
+afds
+<ul>
+	{% for item in site.pages %}
+		{% if item.layout == 'example' %}
+			<li><a id="example-{{ item.id }}" href="{{ item.url }}">{{ item.title }}</a></li>
+		{% endif %}
+	{% endfor %}
+</ul>

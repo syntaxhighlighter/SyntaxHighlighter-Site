@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+{% include common.html %}
+<html>
+	<head>		
+		<title>SyntaxHighlighter{% if page.title != '' %} - {{ page.title }}{% endif %}</title>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Kaushan+Script" type="text/css" />
+		<link rel="stylesheet" href="/css/main.css" type="text/css" />
+
+		<script src="/js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/js/doc.js" type="text/javascript" charset="utf-8"></script>
+
+		{% if debug == "false" %}
+			<script src="http://bundlejs.com/alexgorbatchev/products/textext/{{ version }}?compress=true&bundles=core,ajax,arrow,autocomplete,filter,focus,prompt,suggestions,tags" type="text/javascript" charset="utf-8"></script>
+		{% else %}
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/XRegExp.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shCore.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shLegacy.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushAppleScript.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushAS3.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushBash.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushColdFusion.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushCpp.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushCSharp.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushCss.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushDelphi.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushDiff.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushErlang.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushGroovy.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushJava.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushJavaFx.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushPerl.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushPlain.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushPowerShell.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushPython.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushRuby.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushSass.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushScala.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushSql.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushVb.js"></script>
+			<script type="text/javascript" src="/syntaxhighlighter/scripts/shBrushXml.js"></script>
+			<link type="text/css" rel="stylesheet" href="/syntaxhighlighter/styles/shCoreDefault.css"/>
+		{% endif %}
+	</head>
+
+	<body data-section="{% if page.section %}{{ page.section }}{% else %}{{ section }}{% endif %}">
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a href="/" class="brand">SyntaxHighlighter v{{ version }}</a>
+					<ul class="nav" id="nav">
+						<li class="manual"><a href="/manual/index.html">Manual</a></li>
+						<li class="examples"><a href="/manual/examples.html">Examples</a></li>
+						<li class="download"><a href="http://bundlejs.com/alexgorbatchev/products/textext/{{ version }}">Download</a></li>
+						<li class="issues"><a href="https://github.com/alexgorbatchev/jquery-textext/issues">Issues</a></li>
+						<li class="contact"><a href="/contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav pull-right">
+						<li id="twitter-follow" class="plain">
+							<a href="https://twitter.com/TextExtJs" class="twitter-follow-button" data-show-count="false">Follow @TextExtJs</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</li>
+						<li id="github-watch" class="plain">
+							<iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=alexgorbatchev&repo=jquery-textext&type=watch&count=true"
+								allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="donate-alert" class="container">
+			<div class="alert alert-info">
+				<h4 class="alert-heading">Hey there stanger! My name is Alex Gorbatchev and I wrote TextExt.</h4>
+				<p>
+					Did you know that it took months of hard work and two full weeks of vacation time to bring this 
+					awesome plugin to you completly free? Did you also know that I love coffee and beer and it makes
+					me feel that my hard work is really appreciated when you buy me one or say thanks?
+				</p>
+				<p>
+					Please take a second to show your appreciation and donate to keep development going! Click the button
+					thingy below, it won't bite!
+				</p>
+				{% include donate.html %}
+			</div>
+		</div>

@@ -1,0 +1,28 @@
+<nav id="side-nav">
+	<section class="api">
+		<h3>Core</h3>
+		<ul>
+			<li><a href="/manual/settings.html">Settings</a></li>
+		</ul>
+
+		<h3>Themes</h3>
+		<ul>
+			{% for item in site.pages %}
+				{% if item.layout == 'theme' %}
+					<li id="nav-{{ item.id }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+
+		<h3>Brushes</h3>
+		<ul>
+			{% for item in site.pages %}
+				{% if item.layout == 'brush' %}
+					<li id="nav-{{ item.id }}"><a href="{{ item.url }}">{{ item.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</section>
+</nav>
+
+&nbsp;

@@ -1,0 +1,109 @@
+@import "../../vendor/bootstrap/less/bootstrap.less";
+@import "masthead.less";
+@import "form.less";
+@import "api.less";
+
+h1, h2, h3 {
+	font-family : Helvetica, Arial, sans;
+}
+
+.page-header > h2 {
+	font-size : 30px;
+}
+
+body { margin-top : 50px; }
+
+a { font-weight: bold; }
+
+pre {
+	code {
+		background : none;
+	}
+}
+
+a.external {
+	background    : url(/images/external.png) 100% 50% no-repeat;
+	padding-right : 13px;
+}
+
+.navbar {
+	a.brand {
+		font-family : 'Kaushan Script', Georgia;
+	}
+
+	ul.nav {
+		a {
+			font-weight : normal;
+			&.external { background-image : none; }
+		}
+
+		li.plain {
+			display     : block;
+			padding     : 10px 10px 0;
+			line-height : 19px;
+			color       : #fff;
+
+			&#twitter-follow {
+				width : 120px;
+				a { display : none; }
+			}
+		}
+	}
+}
+
+#demo {
+	input, textarea { width: 450px; }
+	margin-bottom: 10px;
+}
+
+#textarea {
+	width : 400px;
+}
+
+.text-core {
+	margin-bottom : 10px;
+}
+
+#github {
+	position   : fixed;
+	top        : 0;
+	left       : 0;
+	border     : 0;
+	z-index    : 100000;
+	background : none !important;
+}
+
+.homepage {
+	pre {
+		text-overflow : ellipsis;
+		overflow      : hidden;
+		white-space   : pre;
+	}
+
+	#about-section {
+		h3 {
+			margin    : 10px 0;
+			font-size : 25px;
+		}
+	}
+}
+
+footer {
+	margin-top  : 50px;
+	border-top  : 1px solid #ccc;
+	padding-top : 20px;
+	color       : @grayLight;
+}
+
+#donate-alert {
+	.alert {
+		padding-bottom  : 11px;
+		padding-left    : 230px;
+		background      : url(/images/alexgorbatchev.jpg) 10px 10px no-repeat;
+		background-size : 21.7%;
+	}
+}
+
+#donate-form {
+	margin : 0;
+}

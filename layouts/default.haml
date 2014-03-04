@@ -15,8 +15,9 @@ filter:
   %head
     %title= "SyntaxHighlighter#{sh_title(@page, ' - ')}"
     %script{ :type => 'text/javascript', :src => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" }
+    %meta{ :charset => 'UTF-8' }
     = render(:partial => "/SyntaxHighlighter/partials/tracking")
-    
+
   %body.no_sponsor
     #title
       %h1

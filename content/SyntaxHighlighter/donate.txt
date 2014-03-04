@@ -47,7 +47,7 @@ __Special thanks to [Kaazing](http://www.kaazing.com/) for contributing $250 to 
 </div>
 
 <div class="sponsor" markdown="1">
-Special thanks to [MTprogramming](http://www.mtprogramming.com/) for contributing $150 to the SyntaxHighlighter.
+__Special thanks to [MTprogramming](http://www.mtprogramming.com/) for contributing $150 to the SyntaxHighlighter.__
 
 > Since 2009 the mtprogramming team had successfully coded for thousands of metatrader 4 traders automated
 > trading strategies.the team offers their own [mt4 expert advisors](http://www.mtprogramming.com/expertadvisors.html)

@@ -21,9 +21,9 @@ Last updated on August 7th, 2011.
 <div class="sponsor" markdown="1">
 __Special thanks to [Gladstone Matos Gomes](http://www.devmedia.com.br) for contributing $600 to the SyntaxHighlighter.__
 
-> With more than 500 thousand registered users, DevMedia is the largest community in portuguese for
-> software developers; They have  tons of articles, videos and online courses (most of them totally
-> free).
+With more than 500 thousand registered users, DevMedia is the largest community in portuguese for
+software developers; They have  tons of articles, videos and online courses (most of them totally
+free).
 </div>
 
 <div class="sponsor" markdown="1">
@@ -34,31 +34,31 @@ $500 to the SyntaxHighlighter.__
 <div class="sponsor" markdown="1">
 __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 to the SyntaxHighlighter.__
 
-> Kayako helpdesk software is turn-key and very easy to set up, requiring nothing more than
-> an average web server. Be up and running in a matter of minutes using the automatic installer.
+Kayako helpdesk software is turn-key and very easy to set up, requiring nothing more than
+an average web server. Be up and running in a matter of minutes using the automatic installer.
 </div>
 
 <div class="sponsor" markdown="1">
 __Special thanks to [Kaazing](http://www.kaazing.com/) for contributing $250 to the SyntaxHighlighter.__
 
-> Kaazing, a pioneer in HTML5 WebSocket technology, develops and provides web infrastructure
-> software that enables companies to quickly deliver massively scalable, real-time enterprise
-> web applications. In addition, Kaazing offers world-wide [HTML5 training](http://tech.kaazing.com/training/index.html).
+Kaazing, a pioneer in HTML5 WebSocket technology, develops and provides web infrastructure
+software that enables companies to quickly deliver massively scalable, real-time enterprise
+web applications. In addition, Kaazing offers world-wide [HTML5 training](http://tech.kaazing.com/training/index.html).
 </div>
 
 <div class="sponsor" markdown="1">
 __Special thanks to [MTprogramming](http://www.mtprogramming.com/) for contributing $150 to the SyntaxHighlighter.__
 
-> Since 2009 the mtprogramming team had successfully coded for thousands of metatrader 4 traders automated
-> trading strategies.the team offers their own [mt4 expert advisors](http://www.mtprogramming.com/expertadvisors.html)
-> as well.
+Since 2009 the mtprogramming team had successfully coded for thousands of metatrader 4 traders automated
+trading strategies.the team offers their own [mt4 expert advisors](http://www.mtprogramming.com/expertadvisors.html)
+as well.
 </div>
 
 <div class="sponsor" markdown="1">
 __Special thanks to [ActiveCampaign](http://activecampaign.com/) for contributing $100 to the SyntaxHighlighter.__
 
-> ActiveCampaign develops web based software that has helped 50,000+ companies grow with their marketing,
-> customer service, and market research solutions. Install on your own server or use their SAAS solutions.
+ActiveCampaign develops web based software that has helped 50,000+ companies grow with their marketing,
+customer service, and market research solutions. Install on your own server or use their SAAS solutions.
 </div>
 
 #### SyntaxHighlighter Heroes ($50+)

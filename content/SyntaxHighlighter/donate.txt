@@ -64,6 +64,8 @@ customer service, and market research solutions. Install on your own server or u
 #### SyntaxHighlighter Heroes ($50+)
 
 * ActiveCampaign Software Solutions, United States
+* Alasdair Cameron, Australia
+* Amie Kweon, United States
 * [Antix Software Limited](http://www.antix.co.uk), United Kingdom
 * [Ben Vinson](http://www.kongregate.com), United States
 * Bruce Moio, United States
@@ -78,53 +80,24 @@ customer service, and market research solutions. Install on your own server or u
 * Ilia Draznin, Canada
 * Jeff Wilcox, United States
 * Joseph Paris, United States
+* Kevin Minnick, United States
 * Matthew Scragg, United States
 * Maxime Corbeau, United Kingdom
 * [MediaGroup1 LLC](http://www.mediagroup1.com), United States
 * My Site My Way, United States
+* Patrick Chapman, United States
 * Ross Duggan, Ireland
 * [Rostislav Siryk](http://flash-ripper.com/), Ukraine
+* [Sam Shefrin](http://www.handandwristinstitute.com/), United States
 * [Scot Hacker](http://berkeley.edu), United States
+* [Splunk, Inc.](http://www.splunk.com), United States
 * Sriram Gopalan, United States
+* Thomas Burns, United States
 * Tobias Günther, Germany
+* Unified Development, Inc., United States
 * W Duncan Mackenzie, United States
-
-
-ActiveCampaign Software Solutions, United States
-Alasdair Cameron, Australia
-Amie Kweon, United States
-[Antix Software Limited](http://www.antix.co.uk), United Kingdom
-[Ben Vinson](http://www.kongregate.com), United States
-Bruce Moio, United States
-[Buglabs](http://www.buglabs.net/), United States
-Daniel Simmons, United States
-Fauzan Hamdi, Indonesia
-[G3D Development](http://www.g3d-development.com), United Kingdom
-[Geza Mihala](http://infinitary.org/), Switzerland
-[Gordon Dickens](http://gordondickens.com), United States
-[GreenSock, Inc.](http://greensock.com), United States
-[HieblMedia](http://www.hieblmedia.de/), Germany
-Ilia Draznin, Canada
-Jeff Wilcox, United States
-Joseph Paris, United States
-Kevin Minnick, United States
-Matthew Scragg, United States
-Maxime Corbeau, United Kingdom
-[MediaGroup1 LLC](http://www.mediagroup1.com), United States
-My Site My Way, United States
-Patrick Chapman, United States
-Ross Duggan, Ireland
-[Rostislav Siryk](http://flash-ripper.com/), Ukraine
-[Sam Shefrin](http://www.handandwristinstitute.com/), United States
-[Scot Hacker](http://berkeley.edu), United States
-[Splunk, Inc.](http://www.splunk.com), United States
-Sriram Gopalan, United States
-Thomas Burns, United States
-Tobias Günther, Germany
-Unified Development, Inc., United States
-W Duncan Mackenzie, United States
-[Wilfred van der Deijl](http://www.redheap.com), Netherlands
-WoQ - Way of Quality UG (mbH), Germany
+* [Wilfred van der Deijl](http://www.redheap.com), Netherlands
+* WoQ - Way of Quality UG (mbH), Germany
 
 #### Fan Club
 
@@ -138,245 +111,245 @@ Special shout out to people who have donated more than once! Thank you!
 
 #### Beer Fund Contributors
 
-Adam Christensen, United States
-Aiman Sawan, Canada
-Ajay Jadhav, United States
-Alberto Ballabio, Italy
-Alexander Gross, Germany
-Alexander Hanke, Germany
-Alexandre Mutel, France
-Alexis Reigel, Switzerland
-Alfonso Martínez de Lizarrondo, Spain
-Ali Sinan Unur, United States
-Allan Jardine, United Kingdom
-Alvaro Mateos, Spain
-Ambar Seksena, India
-Amirali Rajan, United States
-Anders Nawroth, Sweden
-Andrew Johnston, United Kingdom
-Andrew Nurse, United States
-Andrew Tweddle, South Africa
-Antti Hakala, Finland
-Arelowo Alao, United States
-Arieh Bibliowicz, United States
-Artem Kolesnikov, Russia
-Arthur Dumas, United States
-Ashish Kumar, United States
-Bang Dao, Vietnam
-Ben Hyrman, United States
-Bettina Ramm, Germany
-Big Fat Red Dog Consulting, United States
-Bill Cornell, United States
-Björn Brandt, United States
-Blake Miller, United States
-Bob Cravens, United States
-Brad Wilson, United States
-Breck Carter, Canada
-Brent Thomas, United States
-Bret Battey, United Kingdom
-Brian Dunagan, United States
-Brian Schuth, United States
-Brian Waligorski, United States
-Chang Kai-Yu, Taiwan
-Cheng Wei Chien, Taiwan
-Chris Nilsson, Australia
-Christian Rodemeyer, Germany
-Christopher Burrows, United States
-Christopher Fritz, United States
-chunxia wang, Canada
-Colin Thomas-Arnold, United States
-Cornelius Chopin, United States
-CRISTOBAL ANGEL SANCHEZ RAMIREZ, Spain
-Curtis Lassam, Canada
-Daan Wanrooy, Netherlands
-Daniel Kissam, United States
-Daniel Moore, United States
-Daniel O. McKinley, United States
-Daniel Pincas, United States
-Danny Gagne, United States
-Dao Vo Duy, Vietnam
-Dave Thompson, United States
-Dave Wichers, United States
-David Cherry, United Kingdom
-David Harvey, United Kingdom
-David Joaquin Curbelo Betancor, Spain
-David Milford, Canada
-David Sampayo, United States
-Dean Iverson, United States
-Dean Logan, United States
-Donal Lafferty, United Kingdom
-Doseido Software, Italy
-DreamLabs Media, United States
-Dushyanth Maguluru, United States
-Elango Cheran, United States
-Enda Farrell, United Kingdom
-Eoin Woods, United Kingdom
-Ernest Leitch, United States
-Ertan Kurt, Turkey
-ESOB LLC, United States
-eusebio aguilar, United States
-Evelyn Barney, United States
-Eyra Hernandez, United States
-Fabio Tudone, Italy
-Fabio Tudone, Italy
-fearlessflyer design, United States
-FireBox Studios, United States
-Frederick Giles, Canada
-Gary Barbon, Canada
-Golo Roden, Germany
-Gonzague DUCOS, France
-Gregory Bray, United States
-Hamish Graham, New Zealand
-Hans-Eric Grönlund, Sweden
-Harald Mühlhoff, Germany
-Harold Chu, Australia
-Hayden Karel Chambers, Spain
-Herve Renault, France
-Hiroto Sekine, New Zealand
-Hiroto Sekine, New Zealand
-hou-cheng chen, Taiwan
-Ian Brennan, United Kingdom
-Ian Ozsvald, United Kingdom
-ic engineering & research GmbH, Switzerland
-Illia Bobyr, United States
-Illya Kokshenev, Brazil
-Immeria Consulting Services inc., Canada
-Inorm, Netherlands
-Institute for Dynamic Educational Advancement, United States
-IT Integration, United States
-IttyUrl.net, United States
-Jack Fruh, United States
-Jaime Fernandez Del Rio, Spain
-Jakub Suder, Poland
-James McCormack, United Kingdom
-jamison morrow, United States
-Jason Swartz, United States
-Jason Viers, United States
-Javier Novoa Cataño, Mexico
-Jérémy Lagrue, France
-Jesse Palmer, United States
-Jochen Rühl, Germany
-Johan Ronsse, Belgium
-John Drake, United States
-Jon Kern, United States
-Jonathan Nessier, Switzerland
-Joonas Javanainen, Finland
-Joseph Hoetzl, United States
-Juan Ardevol Vives, Spain
-Juan Pablo Román Morales, Spain
-Kaosweaver, United States
-KATO Kyoji,
-Kawai Yasuhiro, Japan
-Kazuhiko Oono, Japan
-Keith Layne, United States
-Ken Anderson, United States
-Kenshi Kamiya, Japan
-Kevin Herrmann, United States
-Kevin Mess, United States
-Keywan Ghadami, Germany
-Klaus Körner, Germany
-lars gersmann, Germany
-Leonardo Silveira, Brazil
-Leonid Dubinsky, United States
-Liam Wagg, United Kingdom
-Luca Passani, United States
-Luis Bousalham Guillen, Spain
-Luis Rocha, Canada
-MadeForNet, Ukraine
-Magnus Lassi, United States
-Manuel Doninger, Germany
-Marcel Müller, Germany
-Marcin Tokarz, Poland
-Marco Bonifazi, Switzerland
-Mark Farina, United States
-Martin Kubicek, Czech Republic
-Mas, Cyprus
-Masato Zembutsu, Japan
-Mathco Software, United States
-Matthäus Chajdas, Germany
-max kiepe, Germany
-Michael Banack, United States
-Michael Berger, Germany
-Michael Bostler, United States
-Michael Botts, United States
-Michael Chen, New Zealand
-Michael Lorer, Germany
-Michael Schnell, Germany
-Michael Welch, United States
-Michał Hanebach, Poland
-Mikiya Okuno, Japan
-Milto Miltiadou, Cyprus
-Min-Young Wu, South Africa
-Miro Nikoletic, Croatia
-Morten Andersen-gott, Norway
-Mr. Midwest Promotions, United States
-MSE-iT, Germany
-Nanyo Nanev, Bulgaria
-Nathan Fox, United States
-Neil Blackburn, United Kingdom
-Neville Stokes, United Kingdom
-Newism Pty. Ltd., Australia
-Nick Boldt, Canada
-NOBUKI TAKAHASHI, Japan
-Oleksandr Matvitskyy, Ireland
-Olie Kiss, Canada
-Ophir Prusak, United States
-Osaka Red Software, United States
-Pascal Bangerter, Switzerland
-Patrick Ernzer, Finland
-Paul Carter, Canada
-Paulina López Gutiérrez, Mexico
-Phil McAuley, Canada
-Philip Proplesch, Germany
-Pierluigi Vernetto, United Kingdom
-PsychoCoder.Net, United States
-Puran Singh, United States
-Randy Knapp, United States
-Renana Yacobi, Israel
-Richard Quinn, Germany
-Ro et al, Canada
-Robert Cram, Netherlands
-Robert Love, United States
-Roman Schurte, Switzerland
-Rosenthal & Rosenthal, United States
-Rubén Velasco Fernández, Spain
-Ryan Brase, United States
-Sara Maamouri, United States
-Sean McMahon, United States
-Sidney de Koning, Netherlands
-Silvio Lobina, Italy
-Simon Eric Noumedem, Italy
-Simon Harper, United Kingdom
-Smirnov Sergey, Russia
-SRISOL NZ Limited, New Zealand
-Stefan Walter, Germany
-Steffen Langnes, Norway
-Stephen P Schaefer, United States
-Stephen Schaefer, United States
-Steven Howe, United States
-Steven Ourada, United States
-Sylvia Neumann, Germany
-Thomas Gicquel, France
-Thomas Sharkey, United Kingdom
-Todd Stumpf, United States
-Tomokazu Tsuruoka, Japan
-Tranzporter Sound, United States
-Vadim Kovalevsky, Latvia
-Vijay Dharap, United States
-Vitalii Symon, Australia
-Vladyslav Kolesov, Ukraine
-Wei Zheng, China
-Wes Biggs, United States
-William Hollings, Canada
-wu chenghan, Taiwan
-Wu Hugh, Taiwan
-XEON3, United States
-Xu Hui Hui, China
-yatil.de Webentwicklung, Germany
-Yongyuth Pinatha, Thailand
-Лапенко Александр, Russia
-三好 正敏, Japan
-佘 若瑋, Taiwan
-川崎 誠, Japan
-徐 善德, China
-杵渕 朋彦, Japan
+* Adam Christensen, United States
+* Aiman Sawan, Canada
+* Ajay Jadhav, United States
+* Alberto Ballabio, Italy
+* Alexander Gross, Germany
+* Alexander Hanke, Germany
+* Alexandre Mutel, France
+* Alexis Reigel, Switzerland
+* Alfonso Martínez de Lizarrondo, Spain
+* Ali Sinan Unur, United States
+* Allan Jardine, United Kingdom
+* Alvaro Mateos, Spain
+* Ambar Seksena, India
+* Amirali Rajan, United States
+* Anders Nawroth, Sweden
+* Andrew Johnston, United Kingdom
+* Andrew Nurse, United States
+* Andrew Tweddle, South Africa
+* Antti Hakala, Finland
+* Arelowo Alao, United States
+* Arieh Bibliowicz, United States
+* Artem Kolesnikov, Russia
+* Arthur Dumas, United States
+* Ashish Kumar, United States
+* Bang Dao, Vietnam
+* Ben Hyrman, United States
+* Bettina Ramm, Germany
+* Big Fat Red Dog Consulting, United States
+* Bill Cornell, United States
+* Björn Brandt, United States
+* Blake Miller, United States
+* Bob Cravens, United States
+* Brad Wilson, United States
+* Breck Carter, Canada
+* Brent Thomas, United States
+* Bret Battey, United Kingdom
+* Brian Dunagan, United States
+* Brian Schuth, United States
+* Brian Waligorski, United States
+* Chang Kai-Yu, Taiwan
+* Cheng Wei Chien, Taiwan
+* Chris Nilsson, Australia
+* Christian Rodemeyer, Germany
+* Christopher Burrows, United States
+* Christopher Fritz, United States
+* chunxia wang, Canada
+* Colin Thomas-Arnold, United States
+* Cornelius Chopin, United States
+* CRISTOBAL ANGEL SANCHEZ RAMIREZ, Spain
+* Curtis Lassam, Canada
+* Daan Wanrooy, Netherlands
+* Daniel Kissam, United States
+* Daniel Moore, United States
+* Daniel O. McKinley, United States
+* Daniel Pincas, United States
+* Danny Gagne, United States
+* Dao Vo Duy, Vietnam
+* Dave Thompson, United States
+* Dave Wichers, United States
+* David Cherry, United Kingdom
+* David Harvey, United Kingdom
+* David Joaquin Curbelo Betancor, Spain
+* David Milford, Canada
+* David Sampayo, United States
+* Dean Iverson, United States
+* Dean Logan, United States
+* Donal Lafferty, United Kingdom
+* Doseido Software, Italy
+* DreamLabs Media, United States
+* Dushyanth Maguluru, United States
+* Elango Cheran, United States
+* Enda Farrell, United Kingdom
+* Eoin Woods, United Kingdom
+* Ernest Leitch, United States
+* Ertan Kurt, Turkey
+* ESOB LLC, United States
+* eusebio aguilar, United States
+* Evelyn Barney, United States
+* Eyra Hernandez, United States
+* Fabio Tudone, Italy
+* Fabio Tudone, Italy
+* fearlessflyer design, United States
+* FireBox Studios, United States
+* Frederick Giles, Canada
+* Gary Barbon, Canada
+* Golo Roden, Germany
+* Gonzague DUCOS, France
+* Gregory Bray, United States
+* Hamish Graham, New Zealand
+* Hans-Eric Grönlund, Sweden
+* Harald Mühlhoff, Germany
+* Harold Chu, Australia
+* Hayden Karel Chambers, Spain
+* Herve Renault, France
+* Hiroto Sekine, New Zealand
+* Hiroto Sekine, New Zealand
+* hou-cheng chen, Taiwan
+* Ian Brennan, United Kingdom
+* Ian Ozsvald, United Kingdom
+* ic engineering & research GmbH, Switzerland
+* Illia Bobyr, United States
+* Illya Kokshenev, Brazil
+* Immeria Consulting Services inc., Canada
+* Inorm, Netherlands
+* Institute for Dynamic Educational Advancement, United States
+* IT Integration, United States
+* IttyUrl.net, United States
+* Jack Fruh, United States
+* Jaime Fernandez Del Rio, Spain
+* Jakub Suder, Poland
+* James McCormack, United Kingdom
+* jamison morrow, United States
+* Jason Swartz, United States
+* Jason Viers, United States
+* Javier Novoa Cataño, Mexico
+* Jérémy Lagrue, France
+* Jesse Palmer, United States
+* Jochen Rühl, Germany
+* Johan Ronsse, Belgium
+* John Drake, United States
+* Jon Kern, United States
+* Jonathan Nessier, Switzerland
+* Joonas Javanainen, Finland
+* Joseph Hoetzl, United States
+* Juan Ardevol Vives, Spain
+* Juan Pablo Román Morales, Spain
+* Kaosweaver, United States
+* KATO Kyoji,
+* Kawai Yasuhiro, Japan
+* Kazuhiko Oono, Japan
+* Keith Layne, United States
+* Ken Anderson, United States
+* Kenshi Kamiya, Japan
+* Kevin Herrmann, United States
+* Kevin Mess, United States
+* Keywan Ghadami, Germany
+* Klaus Körner, Germany
+* lars gersmann, Germany
+* Leonardo Silveira, Brazil
+* Leonid Dubinsky, United States
+* Liam Wagg, United Kingdom
+* Luca Passani, United States
+* Luis Bousalham Guillen, Spain
+* Luis Rocha, Canada
+* MadeForNet, Ukraine
+* Magnus Lassi, United States
+* Manuel Doninger, Germany
+* Marcel Müller, Germany
+* Marcin Tokarz, Poland
+* Marco Bonifazi, Switzerland
+* Mark Farina, United States
+* Martin Kubicek, Czech Republic
+* Mas, Cyprus
+* Masato Zembutsu, Japan
+* Mathco Software, United States
+* Matthäus Chajdas, Germany
+* max kiepe, Germany
+* Michael Banack, United States
+* Michael Berger, Germany
+* Michael Bostler, United States
+* Michael Botts, United States
+* Michael Chen, New Zealand
+* Michael Lorer, Germany
+* Michael Schnell, Germany
+* Michael Welch, United States
+* Michał Hanebach, Poland
+* Mikiya Okuno, Japan
+* Milto Miltiadou, Cyprus
+* Min-Young Wu, South Africa
+* Miro Nikoletic, Croatia
+* Morten Andersen-gott, Norway
+* Mr. Midwest Promotions, United States
+* MSE-iT, Germany
+* Nanyo Nanev, Bulgaria
+* Nathan Fox, United States
+* Neil Blackburn, United Kingdom
+* Neville Stokes, United Kingdom
+* Newism Pty. Ltd., Australia
+* Nick Boldt, Canada
+* NOBUKI TAKAHASHI, Japan
+* Oleksandr Matvitskyy, Ireland
+* Olie Kiss, Canada
+* Ophir Prusak, United States
+* Osaka Red Software, United States
+* Pascal Bangerter, Switzerland
+* Patrick Ernzer, Finland
+* Paul Carter, Canada
+* Paulina López Gutiérrez, Mexico
+* Phil McAuley, Canada
+* Philip Proplesch, Germany
+* Pierluigi Vernetto, United Kingdom
+* PsychoCoder.Net, United States
+* Puran Singh, United States
+* Randy Knapp, United States
+* Renana Yacobi, Israel
+* Richard Quinn, Germany
+* Ro et al, Canada
+* Robert Cram, Netherlands
+* Robert Love, United States
+* Roman Schurte, Switzerland
+* Rosenthal & Rosenthal, United States
+* Rubén Velasco Fernández, Spain
+* Ryan Brase, United States
+* Sara Maamouri, United States
+* Sean McMahon, United States
+* Sidney de Koning, Netherlands
+* Silvio Lobina, Italy
+* Simon Eric Noumedem, Italy
+* Simon Harper, United Kingdom
+* Smirnov Sergey, Russia
+* SRISOL NZ Limited, New Zealand
+* Stefan Walter, Germany
+* Steffen Langnes, Norway
+* Stephen P Schaefer, United States
+* Stephen Schaefer, United States
+* Steven Howe, United States
+* Steven Ourada, United States
+* Sylvia Neumann, Germany
+* Thomas Gicquel, France
+* Thomas Sharkey, United Kingdom
+* Todd Stumpf, United States
+* Tomokazu Tsuruoka, Japan
+* Tranzporter Sound, United States
+* Vadim Kovalevsky, Latvia
+* Vijay Dharap, United States
+* Vitalii Symon, Australia
+* Vladyslav Kolesov, Ukraine
+* Wei Zheng, China
+* Wes Biggs, United States
+* William Hollings, Canada
+* wu chenghan, Taiwan
+* Wu Hugh, Taiwan
+* XEON3, United States
+* Xu Hui Hui, China
+* yatil.de Webentwicklung, Germany
+* Yongyuth Pinatha, Thailand
+* Лапенко Александр, Russia
+* 三好 正敏, Japan
+* 佘 若瑋, Taiwan
+* 川崎 誠, Japan
+* 徐 善德, China
+* 杵渕 朋彦, Japan

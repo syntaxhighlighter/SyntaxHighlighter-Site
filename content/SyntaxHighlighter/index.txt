@@ -6,24 +6,24 @@ filter:
 ---
 #introduction
   %h2 About
-  
+
   :markdown
     __SyntaxHighlighter__ is a fully functional self-contained [code syntax highlighter][1] developed in [JavaScript][2].
-    To get an idea of what SyntaxHighlighter is capable of, have a look at the [demo page](manual/demo). 
+    To get an idea of what SyntaxHighlighter is capable of, have a look at the [demo page](manual/demo).
 
     [1]: http://en.wikipedia.org/wiki/Syntax_highlighting
     [2]: http://en.wikipedia.org/wiki/Javascript
 
-    SyntaxHighlighter is currently used by **[Apache][3]**, **[Aptana][4]**, **[Mozilla][5]**, 
+    SyntaxHighlighter is currently used by **[Apache][3]**, **[Aptana][4]**, **[Mozilla][5]**,
     **[Yahoo][6]**, **[Wordpress][7]**, **[Bug Labs][8]**, **[Freshbooks][9]** and [others][10].
 
-    [3]: http://pivot.apache.org/tutorials/stock-tracker.data-binding.html 
-    [4]: http://jaxer.org/quick_start 
+    [3]: http://pivot.apache.org/tutorials/stock-tracker.data-binding.html
+    [4]: http://jaxer.org/quick_start
     [5]: https://developer.mozilla.org/en/DOM/element.addEventListener
     [6]: http://developer.yahoo.com/yui/examples/animation/attributes.html
-    [7]: http://en.support.wordpress.com/code/posting-source-code/ 
-    [8]: http://buglabs.net/codesearch?query=motion 
-    [9]: http://developers.freshbooks.com/ 
+    [7]: http://en.support.wordpress.com/code/posting-source-code/
+    [8]: http://buglabs.net/codesearch?query=motion
+    [9]: http://developers.freshbooks.com/
     [10]: spotlight.html
 
 #example

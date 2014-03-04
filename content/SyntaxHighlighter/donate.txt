@@ -47,9 +47,17 @@ __Special thanks to [Kaazing](http://www.kaazing.com/) for contributing $250 to 
 </div>
 
 <div class="sponsor" markdown="1">
+Special thanks to [MTprogramming](http://www.mtprogramming.com/) for contributing $150 to the SyntaxHighlighter.
+
+> Since 2009 the mtprogramming team had successfully coded for thousands of metatrader 4 traders automated
+> trading strategies.the team offers their own [mt4 expert advisors](http://www.mtprogramming.com/expertadvisors.html)
+> as well.
+</div>
+
+<div class="sponsor" markdown="1">
 __Special thanks to [ActiveCampaign](http://activecampaign.com/) for contributing $100 to the SyntaxHighlighter.__
 
-> ActiveCampaign develops web based software that has helped 50,000+ companies grow with their marketing, 
+> ActiveCampaign develops web based software that has helped 50,000+ companies grow with their marketing,
 > customer service, and market research solutions. Install on your own server or use their SAAS solutions.
 </div>
 

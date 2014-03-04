@@ -5,11 +5,11 @@ filter:
   - erb
   - maruku
 ---
-__Please [click here to donate via PayPal][paypal] and just like they say on TV -- give generously!__ 
+__Please [click here to donate via PayPal][paypal] and just like they say on TV -- give generously!__
 
 As it always goes with open source, you are welcome to use SyntaxHighlighter free of
-charge, but I hope if you are using and enjoying my work maybe you could buy me a beer (or if you don't 
-drink -- a coffee and bagel will do just fine (but a good kind of bagel, you know... with wonderful stuff 
+charge, but I hope if you are using and enjoying my work maybe you could buy me a beer (or if you don't
+drink -- a coffee and bagel will do just fine (but a good kind of bagel, you know... with wonderful stuff
 inside to make it glorious, like smoked salmon... not just butter).
 
 [paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2930402
@@ -21,28 +21,28 @@ Last updated on August 7th, 2011.
 <div class="sponsor" markdown="1">
 __Special thanks to [Gladstone Matos Gomes](http://www.devmedia.com.br) for contributing $600 to the SyntaxHighlighter.__
 
-> With more than 500 thousand registered users, DevMedia is the largest community in portuguese for 
+> With more than 500 thousand registered users, DevMedia is the largest community in portuguese for
 > software developers; They have  tons of articles, videos and online courses (most of them totally
 > free).
 </div>
 
 <div class="sponsor" markdown="1">
-__Special thanks to [Attlassian](http://www.atlassian.com/), the makers of JIRA and Confluence for contributing 
+__Special thanks to [Attlassian](http://www.atlassian.com/), the makers of JIRA and Confluence for contributing
 $500 to the SyntaxHighlighter.__
 </div>
 
 <div class="sponsor" markdown="1">
 __Special thanks to [Kayako Inc](http://www.kayako.com/) for contributing $500 to the SyntaxHighlighter.__
 
-> Kayako helpdesk software is turn-key and very easy to set up, requiring nothing more than 
+> Kayako helpdesk software is turn-key and very easy to set up, requiring nothing more than
 > an average web server. Be up and running in a matter of minutes using the automatic installer.
 </div>
 
 <div class="sponsor" markdown="1">
 __Special thanks to [Kaazing](http://www.kaazing.com/) for contributing $250 to the SyntaxHighlighter.__
 
-> Kaazing, a pioneer in HTML5 WebSocket technology, develops and provides web infrastructure 
-> software that enables companies to quickly deliver massively scalable, real-time enterprise 
+> Kaazing, a pioneer in HTML5 WebSocket technology, develops and provides web infrastructure
+> software that enables companies to quickly deliver massively scalable, real-time enterprise
 > web applications. In addition, Kaazing offers world-wide [HTML5 training](http://tech.kaazing.com/training/index.html).
 </div>
 

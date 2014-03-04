@@ -42,8 +42,10 @@ filter:
 
 #news
   %h2 News
-  
+
   :markdown
+    * I'm working on bringing SyntaxHighlighter code base up to date, you can see [development branch](https://github.com/alexgorbatchev/syntaxhighlighter/tree/dev) on GitHub <span class="date">March 4, 2014</span>
+    * I work at [Good Eggs](http://goodeggs.com) and we are hiring engineers ;) Man, I don't post very often... <span class="date">November 1, 2013</span>
     * I work at [SAY: Media](http://saymedia.com) and we are hiring engineers! Oh, and the ad on the right is just one of the many awesome things we do! <span class="date">October 5, 2011</span>
     * We aren't dead! Moved source to [GitHub](https://github.com/alexgorbatchev/SyntaxHighlighter) to increase participation. <span class="date">July 26, 2011</span>
     * Major new 3.0.83 release ([changes](changes/3.0.83.html)). <span class="date">July 2, 2010</span>

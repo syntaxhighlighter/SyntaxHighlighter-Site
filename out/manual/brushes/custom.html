@@ -1,0 +1,49 @@
+<p>Developing a custom brush allows you to easily extend SyntaxHighlighter to support the syntax that isn&#39;t bundled by default. This process is rather simple and consists of 4 parts:</p>
+<h3 id="begin">Begin</h3>
+<p>Usually you would start with a new JS file and declare a brush in the SyntaxHighlighter.brushes object.</p>
+<pre class="brush: js">
+SyntaxHighlighter.brushes.Custom = function()
+{
+};
+
+SyntaxHighlighter.brushes.Custom.prototype = new SyntaxHighlighter.Highlighter();
+</pre>
+
+<h3 id="describe-syntax">Describe syntax</h3>
+<p>This is perhaps the most complicated part because you need to work out things like keywords and possibly create regular expressions for the lexicon you want to parse if you can&#39;t find what you need in the <code>regexLib</code> collection. For example:</p>
+<pre class="brush: js">
+SyntaxHighlighter.brushes.Custom = function()
+{
+    var funcs        = 'abs avg case cast';
+    var keywords    = 'absolute action add';
+    var operators    = 'all and any between cross';
+
+    this.regexList = [
+        { regex: /--(.*)$/gm,                                                css: 'comments' },
+        { regex: SyntaxHighlighter.regexLib.multiLineDoubleQuotedString,    css: 'string' },
+        { regex: new RegExp(this.getKeywords(funcs), 'gmi'),                css: 'color2' },
+        { regex: new RegExp(this.getKeywords(operators), 'gmi'),            css: 'color1' },
+        { regex: new RegExp(this.getKeywords(keywords), 'gmi'),                css: 'keyword' }
+        ];
+};
+SyntaxHighlighter.brushes.Custom.prototype = new SyntaxHighlighter.Highlighter();
+</pre>
+
+<h3 id="register-aliases">Register aliases</h3>
+<p>Aliases are the short names that you can use to reference your custom brush.</p>
+<pre class="brush: js; highlight: 6">
+SyntaxHighlighter.brushes.Custom = function()
+{
+...
+};
+SyntaxHighlighter.brushes.Custom.prototype    = new SyntaxHighlighter.Highlighter();
+SyntaxHighlighter.brushes.Custom.aliases    = ['custom', 'ctm', 'ct'];
+</pre>
+
+<h3 id="use-it">Use it</h3>
+<p>All you need to do now is load your brush with <code>&lt;script/&gt;</code> reference and then use it:</p>
+<pre class="brush: xml">
+&lt;pre class="brush: custom">
+...
+&lt;/pre>
+</pre>

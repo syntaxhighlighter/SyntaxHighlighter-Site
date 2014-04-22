@@ -1,0 +1,51 @@
+<p>I&#39;m offering free SyntaxHighlighter hosting to everyone willing. If you don&#39;t have a place to upload
+the files or just want to always have the latest version without the hassle of manual upgrade, this is for you!
+This site itself is using the hosted files as a &quot;proof of concept&quot;.</p>
+<p>While the hosting is offered as a free service, I&#39;m currently receiving approximately 22m requests a
+and 83GB in bandwidth every month which is costing me an additional $40 on Amazon S3. Where am I going
+with this? You guessed it -- please <a href="donate.html">donate</a> to help me pay for this :)</p>
+<h3 id="details">Details</h3>
+<p>While the files themselves are now hosted on Amazon S3 due to the fact that DreamHost&#39;s &quot;unlimited&quot;
+hosting isn&#39;t so &quot;unlimited&quot;, there&#39;s still a good URL to them. Each time there&#39;s a new release, a new
+folder is created under <code>http://alexgorbatchev.com/pub/sh/\[VERSION]</code> and then
+<code>http://alexgorbatchev.com/pub/sh/current/</code> is switched to point to the latest stable version.</p>
+<p>This allows you to link to a specific that you need or to the most current, latest release. Currently,
+there are a number of available versions hosted:</p>
+<div class="file-list" markdown="1">
+<em> <a href="http://alexgorbatchev.com/pub/sh/1.5.1/">http://alexgorbatchev.com/pub/sh/1.5.1/</a>
+</em> <a href="http://alexgorbatchev.com/pub/sh/2.0.278/">http://alexgorbatchev.com/pub/sh/2.0.278/</a>
+<em> <a href="http://alexgorbatchev.com/pub/sh/2.0.287/">http://alexgorbatchev.com/pub/sh/2.0.287/</a>
+</em> <a href="http://alexgorbatchev.com/pub/sh/2.0.296/">http://alexgorbatchev.com/pub/sh/2.0.296/</a>
+<em> <a href="http://alexgorbatchev.com/pub/sh/2.0.320/">http://alexgorbatchev.com/pub/sh/2.0.320/</a>
+</em> <a href="http://alexgorbatchev.com/pub/sh/2.1.364/">http://alexgorbatchev.com/pub/sh/2.1.364/</a>
+<em> <a href="http://alexgorbatchev.com/pub/sh/2.1.364/">http://alexgorbatchev.com/pub/sh/2.1.364/</a>
+</em> <a href="http://alexgorbatchev.com/pub/sh/2.1.382/">http://alexgorbatchev.com/pub/sh/2.1.382/</a>
+* <a href="http://alexgorbatchev.com/pub/sh/current/">http://alexgorbatchev.com/pub/sh/current/</a>
+</div>
+
+<p>The folder structure inside each 2.x and 3.x is equivalent to the download package. For example, in
+<code>current</code> there are the following files:</p>
+<pre markdown="1">
+    <%
+    require 'find'
+
+    path = File.join(Webby.site.content_dir, 'pub', 'sh', 'current')
+
+    Find.find(path) do |name|
+        name.gsub!(path, '')
+        next if name == ''
+        depth = name.split('/').length - 1
+        indent = "  " * depth
+        %><%= "`#{indent}#{name}`<br/>" %><%
+    end
+    %>
+</pre>
+
+<h3 id="so-what-do-you-need-to-do-">So what do you need to do?</h3>
+<p>Simple! Just create <code>&lt;script /&gt;</code> and <code>&lt;link /&gt;</code> tags on your pages and point them to the proper files,
+like so:</p>
+<pre class="brush: xml">
+    &lt;link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    &lt;script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript">&lt;/script>
+    &lt;script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript">&lt;/script>
+</pre>

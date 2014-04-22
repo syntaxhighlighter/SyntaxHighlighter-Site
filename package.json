@@ -16,6 +16,7 @@
     "docpad": "~6.64.2",
     "docpad-plugin-jade": "~2.6.2",
     "docpad-plugin-marked": "~2.2.1",
-    "docpad-plugin-partials": "~2.9.0"
+    "docpad-plugin-partials": "~2.9.0",
+    "marked": "^0.3.2"
   }
 }

@@ -1,0 +1,26 @@
+<h3 id="syntaxhighlighter-highlighter-prototype-getkeywords-keywords-">SyntaxHighlighter.Highlighter.prototype.getKeywords(keywords)</h3>
+<p><code>keywords</code>
+:    <code>String</code>
+    Takes a space separated list of keywords and returns regular expression string to match those keywords.</p>
+<h4 id="example">Example</h4>
+<pre class="brush: js; highlight: 12">
+SyntaxHighlighter.brushes.JScript = function()
+{
+    var keywords =    'break case catch continue ' +
+                    'default delete do else false  ' +
+                    'for function if in instanceof ' +
+                    'new null return super switch ' +
+                    'this throw true try typeof var while with'
+                    ;
+
+    this.regexList = [
+        ...
+        { regex: new RegExp(this.getKeywords(keywords), 'gm'), css: 'keyword' }
+        ...
+        ];
+    ...
+};
+</pre>
+
+<p>&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/api&quot;) %&gt;
+&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/api_highlighter&quot;) %&gt;</p>

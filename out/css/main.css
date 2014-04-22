@@ -1,0 +1,250 @@
+$blue: #5A86E4;
+$light_blue: #CBE2FF;
+$gray: #ADADAD;
+$light_yellow: #FEFFCB;
+
+@mixin round_corners_custom($top, $right, $bottom, $left) {
+	-moz-border-radius: $top $right $bottom $left;
+	-webkit-border-radius: $top $right $bottom $left;
+}
+
+@mixin round_corners($radius) {
+	@include round_corners_custom($radius, $radius, $radius, $radius);
+}
+
+body {
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	background-color: white;
+	margin: 4em 15em 4em 4em;
+	line-height: 1.35em;
+
+	&.with_sponsor {
+		margin-right: 410px;
+	}
+}
+
+a {
+	color: $blue;
+	text-decoration: none;
+	&:hover { text-decoration: underline; }
+	&.external {
+		background: url(../images/external.png) right 50% no-repeat;
+		padding-right: 12px;
+	}
+}
+
+code, pre, .file-list {
+	font-family: Consolas, Monaco, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+table {
+	@include round_corners(5px);
+	border: 2px solid $gray;
+	padding: .5em;
+	width: 100%;
+
+	td, th {
+		padding: .3em .5em;
+		vertical-align: top;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	tbody > tr:hover {
+		background: $light_blue;
+		@include round_corners(3px);
+	}
+
+	tbody > tr > td:first-child {
+		white-space: nowrap;
+	}
+}
+
+#clear {
+	clear: both;
+}
+
+#title {
+	h1 {
+		font-weight: bold;
+		font-size: 4em;
+		color: $gray;
+		margin: 0;
+		line-height: 100%;
+
+		#whatsnew {
+			display: inline;
+
+			a {
+				font-size: .5em;
+				color: red;
+			}
+		}
+	}
+
+	h2 {
+		font-size: 1.45em;
+	}
+
+	#forkme {
+		display: block;
+		position: fixed;
+		z-index: 5;
+		top: 0;
+		left: 0;
+		border: 0;
+		background: url(/SyntaxHighlighter/images/forkme.png) no-repeat;
+		width: 149px;
+		height: 149px;
+		text-indent: -1000px;
+		overflow: hidden;
+	}
+}
+
+.badge {
+	@include round_corners(3px);
+	font-size: 10px;
+	font-weight: normal;
+	padding: 3px 5px 4px 5px;
+	line-height: 100%;
+	-moz-box-sizing : border-box;
+	-webkit-box-sizing : border-box;
+	box-sizing : border-box;
+}
+
+#content {
+	margin-top: 5em;
+
+	#news {
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				position: relative;
+				display: block;
+				padding-left: 7em;
+				min-height: 22px;
+			}
+		}
+	}
+
+	.date {
+		@extend .badge;
+		background: $light_blue;
+		color: $blue;
+		text-align: right;
+		width: 10em;
+		position: absolute;
+		height: 20px;
+		left: 0;
+		top: 0;
+		padding: 6px 5px 0;
+	}
+
+	.version {
+		@extend .badge;
+		background: $gray;
+		color: white;
+	}
+
+	h3 {
+		margin: 1.5em 0 .5em 0;
+		font-size: 1.45em;
+	}
+
+	h2 > a[name] {
+		color: black;
+		text-decoration: none;
+	}
+
+	.sponsor {
+		@include round_corners(5px);
+		padding: .1em 1em;
+		background: $light_yellow;
+		margin-bottom: 1em;
+	}
+
+	li > p:only-child {
+		margin: 0;
+	}
+}
+
+.float {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 10em;
+	padding: 1em;
+	text-align: right;
+	line-height: 1.1em;
+
+	a {
+		display: block;
+	}
+}
+
+.with_sponsor {
+	.float {
+		right: 190px;
+	}
+}
+
+#sponsor {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	background: #6380EA; /* color specific to dbnet */
+	@include round_corners(3px);
+
+	a {
+		padding: 0;
+		background: none;
+	}
+}
+
+#meta {
+	@extend .float;
+	z-index: 2;
+	font-weight: bold;
+	padding-top: 7em;
+}
+
+#footer {
+	@extend .float;
+	@include round_corners(3px);
+
+	background: $light_blue;
+	padding-top: 14em;
+	z-index: 1;
+
+    #ad { margin-bottom: .5em; }
+}
+
+#blurb {
+	@extend .float;
+	text-align: left;
+	z-index: 2;
+	a { display: inline; }
+    em { font-size: 80%; }
+}
+
+#copyright {
+	color: $gray;
+	font-size: 1.2em;
+	margin-top: 3em;
+}
+
+#theme-example {
+	@include round_corners(5px);
+	padding: 1em 2em;
+	background-color: $gray;
+}

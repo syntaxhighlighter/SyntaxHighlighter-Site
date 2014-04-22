@@ -1,0 +1,288 @@
+<p>
+	SyntaxHighlighter 3.0 has quite a few new tricks up its sleeve. There are a number of new
+	features that are worth mentioning here.
+</p>
+
+<ul>
+	<li><a href="#dynamicloading">Dynamic Brush Loading</a></li>
+	<li><a href="#copytoclipboard">No Flash Copy To Clipboard</a></li>
+	<li><a href="#codeselection">Code Selection</a></li>
+	<li><a href="#blocktitle">Block Title</a></li>
+	<li><a href="#commonjs">CommonJS</a></li>
+	<li><a href="#improvedcss">Improved CSS support</a></li>
+</ul>
+
+<h2><a name="dynamicloading">Dynamic Brush Loading</a></h2>
+<p>
+	SyntaxHighlighter comes with almost 30 brushes out of the box. One of the most requested 
+	feature has been the ability to dynamically load them without having to load them all on
+	the same page.
+</p>
+<p>
+	Version 3 addresses this problem with with the new autoloader script. Setting autoloader
+	up is as simple as adding <code>shAutoloader.js</code> file to your page and telling
+	autoloader where your brushes are. In fact, this site is using the autoloader. Have
+	a look at the example below:
+</p>
+<script type="syntaxhighlighter" class="brush: js; html-script: true">
+&lt;script src="shCore.js" type="text/javascript">&lt;/script>
+&lt;script src="shAutoloader.js" type="text/javascript">&lt;/script>
+
+&lt;script type="text/javascript">
+SyntaxHighlighter.autoloader(
+	'js jscript javascript	/js/shBrushJScript.js',
+	'applescript			/js/shBrushAppleScript.js'
+);
+
+SyntaxHighlighter.all();
+&lt;/script>
+</script>
+<p>
+	Now any code blocks which use <code>js</code>, <code>jscript</code>, 
+	<code>javascript</code> and <code>applescript</code> brushes will
+	trigger dynamic loading of the appropriate JavaScript file. Please have a look at
+	the <a href="manual/api/autoloader.html">manual</a> for more details.
+</p>
+
+<h2><a name="copytoclipboard">No Flash Copy To Clipboard</a></h2>
+<p>
+	Since the first version back in 2004, SyntaxHighlighter has always used Flash to provide
+	copy to clipboard functionality. At first it was Flash 8, then it was Flash 9 and now 10.
+	It's never been a crowd pleaser and a lot of requests over the years demanded Flash to be
+	removed.
+</p>
+<p>
+	Well, it's finally happening -- no more Flash. I think I've came up with user interface
+	to copy code to clipboard which is a lot more intuitive and almost too easy.
+</p>
+<p>
+	If you double click anywhere on the code, the entire code view is replaces with a
+	pre-selected view from which users can copy with a simple Ctrl/Cmd-C. Clicking anywhere
+	else returns the view to the original state.
+</p>
+<p>
+	Give it a try!
+</p>
+<script type="syntaxhighlighter" class="brush: js">
+	toolbar: {
+		/**
+		 * Generates HTML markup for the toolbar.
+		 * @param {Highlighter} highlighter Highlighter instance.
+		 * @return {String} Returns HTML markup.
+		 */
+		getHtml: function(highlighter)
+		{
+			var html = '<div class="toolbar">',
+				items = sh.toolbar.items,
+				list = items.list
+				;
+		
+			function defaultGetHtml(highlighter, name)
+			{
+				return sh.toolbar.getButtonHtml(highlighter, name, sh.config.strings[name]);
+			};
+		
+			for (var i = 0; i < list.length; i++)
+				html += (items[list[i]].getHtml || defaultGetHtml)(highlighter, list[i]);
+		
+			html += '</div>';
+		
+			return html;
+		},
+	...
+</script>
+<p>
+	Wasn't that easy? Keep going!
+</p>
+
+<h2><a name="codeselection">Code Selection</a></h2>
+<p>
+	Another popular request has been ability to select the code without line numbers. This
+	is also now part of the SyntaxHighlighter as it allows you to select the code with your
+	mouse and then copy and paste it without straight into your code without any additional
+	effort.
+</p>
+
+<h2><a name="blocktitle">Block Title</a></h2>
+<p>
+	You can now add titles to your code blocks by simply adding a <code>title</code> attribute
+	to your <code>&lt;pre /></code> or <code>&lt;script /></code> SyntaxHighlighter tags.
+</p>
+<p>
+	Like so:
+</p>
+<script type="syntaxhighlighter" class="brush: js">
+	&lt;script type="syntaxhighlighter" class="brush: js" title="This is a title, check it out!">
+		$.ajax({
+			url: path,
+			type: 'GET',
+			dataType: 'text',
+			success: function(code)
+			{
+				var ext = path.match(/\w+$/)[0],
+					name = brushes[ext],
+					brush = new SyntaxHighlighter.brushes[name]()
+					;
+				brush.init({ toolbar: false });
+				$this.append(brush.getHtml(code));
+			}
+		});
+	&lt;/script>
+</script>
+<p>
+	Will render like so:
+</p>
+<script type="syntaxhighlighter" class="brush: js" title="This is a title, check it out!">
+	$.ajax({
+		url: path,
+		type: 'GET',
+		dataType: 'text',
+		success: function(code)
+		{
+			var ext = path.match(/\w+$/)[0],
+				name = brushes[ext],
+				brush = new SyntaxHighlighter.brushes[name]()
+				;
+			brush.init({ toolbar: false });
+			$this.append(brush.getHtml(code));
+		}
+	});
+</script>
+<p>
+	It also works especially well if you want to collapse your examples:
+</p>
+<script type="syntaxhighlighter" class="brush: js; collapse: true" title="This is a title, check it out!">
+	$.ajax({
+		url: path,
+		type: 'GET',
+		dataType: 'text',
+		success: function(code)
+		{
+			var ext = path.match(/\w+$/)[0],
+				name = brushes[ext],
+				brush = new SyntaxHighlighter.brushes[name]()
+				;
+			brush.init({ toolbar: false });
+			$this.append(brush.getHtml(code));
+		}
+	});
+</script>
+
+<h2><a name="commonjs">CommonJS</a></h2>
+<p>
+	<strong>Version 3.0 is fully <a href="http://commonjs.org/">CommonJS</a> compatible.</strong>
+</p>
+<p>
+	A lot of people have tried using SyntaxHighlighter with AJAX and other "non-standard" ways that
+	I have never originally imagined it being used in. With 3.0 release, SyntaxHighlighter can just
+	render HTML code for you completely separately from the DOM, which means that not only it plays
+	well with AJAX, you can use it on the server side with <a href="http://nodejs.org/">node.js</a>, 
+	<a href="http://ringojs.org">RingoJS</a>, <a href="http://www.jaxer.org/">Jaxer</a> or any other 
+	JavaScript platform.
+</p>
+<p>
+	For example, have a look at the <code>node.js</code> file in the demo folder. This file is meant
+	to be executed with node.js and it looks like this:
+</p>
+<script type="syntaxhighlighter" class="brush: js;">
+	require.paths.unshift(__dirname + '/../scripts');
+
+	var sys = require('sys'),
+		shSyntaxHighlighter = require('shCore').SyntaxHighlighter,
+		shJScript = require('shBrushJScript').Brush,
+	
+		code = '\
+			function helloWorld()\
+			{\
+				// this is great!\
+				for(var i = 0; i <= 1; i++)\
+					alert("yay");\
+			}\
+			',
+		brush = new shJScript()
+		;
+
+	brush.init({ toolbar: false });
+	sys.puts(brush.getHtml(code));
+</script>
+<p>
+	Which produces HTML output into the console.
+</p>
+<p>
+	<code>shCore.js</code>, <code>XRegExp.js</code> and all <code>shBrush...js</code> were updated
+	to do proper <a href="http://commonjs.org/">CommonJS</a> export and dependency requirement with just a few lines of code which
+	doesn't affect execution in the browser. Included in the <code>tests</code> folder there is
+	a file called <code>commonjs_tests.js</code> which when ran with node.js will test every bundled
+	brush.
+</p> 
+
+<h2><a name="improvedcss">Improved CSS support</a></h2>
+<p>
+	All CSS source files have been ported to the new <a href="http://sass-lang.com/">SASS 3.0</a>,
+	which allows one to create new themes with ease (providing they have Ruby installed). Of course,
+	if you wish you can still operate with "old school" CSS.
+</p>
+<p>
+	What does this mean? Well, for one, a theme in its source code now looks more like a configuration
+	file rather than a convoluted set of CSS. For example, have a look at Django theme source:
+</p>
+<script type="syntaxhighlighter" class="brush: sass">
+	// Django SyntaxHighlighter theme
+
+	$background:					#0a2b1d !default;
+
+	$line_highlighted_background:	#233729 !default;
+	$line_highlighted_number:		white !default;
+
+	$gutter_text:					#497958 !default;
+	$gutter_border_color:			#41a83e !default;
+
+	$toolbar_collapsed_a:			#96dd3b !default;
+	$toolbar_collapsed_a_hover:		#fff !default;
+	$toolbar_collapsed_background:	#000 !default;
+
+	$toolbar_a:						#fff !default;
+	$toolbar_a_hover:				#ffe862 !default;
+
+	$code_plain:					#f8f8f8 !default;
+	$code_comments:					#336442 !default;
+	$code_string:					#9df39f !default;
+	$code_keyword:					#96dd3b !default;
+	$code_preprocessor:				#91bb9e !default;
+	$code_variable:					#ffaa3e !default;
+	$code_value:					#f7e741 !default;
+	$code_functions:				#ffaa3e !default;
+	$code_constants:				#e0e8ff !default;
+	$code_color1:					#eb939a !default;
+	$code_color2:					#91bb9e !default;
+	$code_color3:					#edef7d !default;
+
+	@import "_theme_template.scss";
+
+	.syntaxhighlighter {
+		.comments { font-style: italic !important; }
+		.keyword { font-weight: bold !important; } 
+	}
+</script>
+<p>
+	Further more, having file imports lets me very easily create files like <code>shCoreDjango.css</code>
+	which merges main CSS and theme declaration into single file to speed up the page loading.
+	This is done through the magic that SASS is, for example <code>shCodeDjango.scss</code> file is 
+	just two lines:
+</p>
+<script type="syntaxhighlighter" class="brush: css">
+	@import "shCore.scss";
+	@import "shThemeDjango.scss";
+</script>
+<p>
+	<a href="http://sass-lang.com/">SASS 3.0</a> together with <a href="http://compass-style.org/">Compass</a>
+	is pure CSS heaven. Even if you don't use SyntaxHighlighter, I strongly encourage you to have
+	a look at these tools. They can turn your CSS development from right side up!
+</p>
+
+<h2>That's all folks!</h2>
+<p>
+	Please, <a href="download/">download</a> the new version and as always, quite a few months 
+	went into the development of this new version. Please support me by <a href="donate.html">donating</a> 
+	- anything helps! I'm also looking for sponsors.
+</p>

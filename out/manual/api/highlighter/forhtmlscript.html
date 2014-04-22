@@ -1,0 +1,16 @@
+<h3 id="syntaxhighlighter-highlighter-prototype-forhtmlscript-args-">SyntaxHighlighter.Highlighter.prototype.forHtmlScript(args)</h3>
+<p>SyntaxHighlighter 2.0 introduced ability to mix any brush with HTML. For example, this allows to display JavaScript or PHP in the context of HTML page. To allow a brush to use html-script functionality, it needs to be prepared by calling <code>this.forHtmlScript(...)</code> from the constructor.</p>
+<p><code>args</code>
+:    <code>Object: { left: /RegExp/, right: /RegExp/ }</code>
+    Where <code>left</code> regular expression matches opening tag indicating beginning of the script code block, and <code>right</code> regular expression matches closing tag. Whatever&#39;s in between the two will be highlighted using the actual brush. Everything outside will be treated as HTML.</p>
+<h4 id="example">Example</h4>
+<pre class="brush: js">
+SyntaxHighlighter.brushes.JScript = function()
+{
+    ...
+    this.forHtmlScript(SyntaxHighlighter.regexLib.scriptScriptTags);
+};
+</pre>
+
+<p>&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/api&quot;) %&gt;
+&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/api_highlighter&quot;) %&gt;</p>

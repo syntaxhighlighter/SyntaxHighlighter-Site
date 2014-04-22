@@ -1,0 +1,14 @@
+<p>&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/effort&quot;) %&gt;</p>
+<ul>
+<li>Major speed improvement thanks to a patch by <a href="http://joseprado.com">Jose Prado</a>. SyntaxHighlighter now can render 4-5k lines in just a second or two (tested on a MacBook Pro 2.4GHz).</li>
+<li>Added <code>stripBrs</code> config option to ignore <code>&lt;br/&gt;</code> tags at lines end.</li>
+<li>Added <code>wrap-lines</code> parameter option to disable line wrapping. <a href="demo/wrap-lines.html">See demo</a>.</li>
+<li>Removed <code>font-size</code> parameter option. SyntaxHighlighter font size is 1em, so any outer font size will be inherited by default.</li>
+<li>Toolbar is now activated on mouse over.</li>
+<li>Added <a href="/SyntaxHighlighter/manual/brushes/actionscript3.html">ActionScript3</a> brush (thanks to <a href="http://iAtoria.com">Peter Atoria</a>).</li>
+<li>Added <a href="/SyntaxHighlighter/manual/brushes/javafx.html">JavaFX</a> brush (thank to <a href="http://patrickwebster.blogspot.com/2009/04/javafx-brush-for-syntaxhighlighter.html">Patrick Webster</a>).</li>
+<li>Added <a href="/SyntaxHighlighter/manual/brushes/powershell.html">PowerShell</a> brush (thanks to B.v.Zanten, Getronics)</li>
+<li>Fixed inconsistent license headers. LGPL 3.0 is the correct license.</li>
+</ul>
+/alexgorbatchev.com/bugs/view.php?id=11"><strike> 0000011</strike></a>] Fixed duplicate &quot;empty&quot; function in PHP.</li>
+</ul>

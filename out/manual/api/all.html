@@ -1,0 +1,21 @@
+<h3 id="syntaxhighlighter-all-">SyntaxHighlighter.all()</h3>
+<p>The main highlight function that needs to be called after all scripts are loaded. The place on the page where it&#39;s called from isn&#39;t important because the actual execution is delayed until window is loaded.</p>
+<p>Here&#39;s a typical example of configuring the very minimal amount required for fully functional JavaScript syntax highlighting.</p>
+<pre class="brush: js; html-script: true; highlight: 6">
+&lt;html>
+    &lt;head>
+        &lt;script type="text/javascript" src="/Scripts/shCore.js">&lt;/script>
+        &lt;script type="text/javascript" src="/Scripts/shBrushJScript.js">&lt;/script>
+        &lt;script type="text/javascript">
+            SyntaxHighlighter.all();
+        &lt;/script>
+    &lt;/head>
+    &lt;body>
+        &lt;pre class="brush: js">
+            alert("hello");
+        &lt;/pre>
+    &lt;/body>
+&lt;/html>
+</pre>
+
+<p>&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/api&quot;) %&gt;</p>

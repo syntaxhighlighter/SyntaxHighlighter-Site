@@ -1,0 +1,30 @@
+<pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeEclipse.css"/></pre>
+
+<h3 id="example">Example</h3>
+<div id="theme-example">
+<pre class="brush: php; highlight: [2, 5]">
+    /<strong><strong><strong><strong><strong><strong><strong><strong><em>*</em></strong></strong></strong></strong></strong></strong></strong></strong>
+     <strong> Multiline block comments
+     <strong><strong><strong><strong><strong><strong><strong><em>**</em></strong></strong></strong></strong></strong></strong></strong></strong>/
+
+    $stringWithUrl = &quot;<a href="http://alexgorbatchev.com">http://alexgorbatchev.com</a>&quot;;
+    $stringWithUrl = &#39;hello world&#39;;
+
+    ob_start(&quot;parseOutputBuffer&quot;);        // Start Code Buffering
+    session_start();
+
+    function parseOutputBuffer($buf) {
+        global $portal_small_code, $portal_gzcompress;
+        global $PHP_SELF, $HTTP_ACCEPT_ENCODING;
+
+        // cleaning out the code.
+        if($portal_small_code &amp;&amp; !$portal_gzcompress) {
+            $buf = str_replace(&quot;    &quot;, &quot;&quot;, $buf);
+            $buf = str_replace(&quot;\n&quot;, &quot;&quot;, $buf);
+            $buf = str_replace(chr(13), &quot;&quot;, $buf);
+        }
+    }
+</pre>
+</div>
+
+<p>&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/themes&quot;) %&gt;</p>

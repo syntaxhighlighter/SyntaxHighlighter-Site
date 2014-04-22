@@ -1,0 +1,2 @@
+<p>&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/effort&quot;) %&gt;</p>
+<p><strong>This is a major release, please see <a href="../whatsnew.html">this page</a> for more info.</strong></p>

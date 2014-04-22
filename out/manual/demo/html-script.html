@@ -1,0 +1,45 @@
+<h3 id="source">Source</h3>
+<pre class="brush: plain">
+&lt;pre class="brush: php; html-script: true">
+    &lt;html>
+    &lt;body>
+        &lt;div style="font-weight: bold">&lt;?= str_replace("\n", "&lt;br/>", $var) ?>&lt;/div>
+
+        &lt;?
+        /***********************************
+         ** Multiline block comments
+         **********************************/
+
+        $stringWithUrl = "http://alexgorbatchev.com";
+        $stringWithUrl = 'http://alexgorbatchev.com';
+
+        ob_start("parseOutputBuffer");        // Start Code Buffering
+        session_start();
+        ?>
+    &lt;/body>
+    &lt;/html>
+&lt;/pre>
+</pre>
+
+<h3 id="result">Result</h3>
+<pre class="brush: php; html-script: true">
+&lt;html>
+&lt;body>
+    &lt;div style="font-weight: bold">&lt;?= str_replace("\n", "&lt;br/>", $var) ?>&lt;/div>
+
+    &lt;?
+    /***********************************
+     ** Multiline block comments
+     **********************************/
+
+    $stringWithUrl = "http://alexgorbatchev.com";
+    $stringWithUrl = 'http://alexgorbatchev.com';
+
+    ob_start("parseOutputBuffer");        // Start Code Buffering
+    session_start();
+    ?>
+&lt;/body>
+&lt;/html>
+</pre>
+
+<p>&lt;%= render(:partial =&gt; &quot;/SyntaxHighlighter/partials/demo&quot;) %&gt;</p>

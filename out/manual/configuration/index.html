@@ -1,0 +1,125 @@
+<p><span class="yellow" markdown="1">If you are looking for instructions on how to set up SyntaxHighlighter,
+please refer to the <a href="../installation.html">installation</a> page.</span></p>
+<p>SyntaxHighlighter can be configured in 3 different ways.</p>
+<h3 id="syntaxhighlighter-config">SyntaxHighlighter.config</h3>
+<p><code>SyntaxHighlighter.config</code> has configuration values that are common to all highlighted elements on the page and
+don&#39;t make much sense within context of a single highlighted element. Below are these values:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bloggerMode</code></td>
+<td><code>false</code></td>
+<td>Blogger integration. If you are hosting on blogger.com, you must turn this on.</td>
+</tr>
+<tr>
+<td><code>strings</code></td>
+<td><code>Object</code></td>
+<td>Allows you to change default messages, <a href="strings.html">see here</a> for more details.</td>
+</tr>
+<tr>
+<td><code>stripBrs</code></td>
+<td><code>false</code></td>
+<td>If your software adds <code>&lt;br /&gt;</code> tags at the end of each line, this option allows you to ignore those.</td>
+</tr>
+<tr>
+<td><code>tagName</code></td>
+<td><code>&quot;pre&quot;</code></td>
+<td>Facilitates using a different tag.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example">Example</h4>
+<pre class="brush: js">
+    SyntaxHighlighter.config.bloggerMode = true;
+    SyntaxHighlighter.all();
+</pre>
+
+<h3 id="syntaxhighlighter-defaults">SyntaxHighlighter.defaults</h3>
+<p><code>SyntaxHighlighter.defaults</code> holds all default values for each highlighted element on the page. These options
+are local to each highlighter element and could be changed individually via parameters described in the next
+section. The list below represent a full list of options that SyntaxHighlighter supports:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>auto-links</code></td>
+<td><code>true</code></td>
+<td>Allows you to turn detection of links in the highlighted element on and off. If the option is turned off, URLs won&#39;t be clickable. <a href="../demo/auto-links.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>class-name</code></td>
+<td><code>&#39;&#39;</code></td>
+<td>Allows you to add a custom class (or multiple classes) to every highlighter element that will be created on the page. <a href="../demo/class-name.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>collapse</code></td>
+<td><code>false</code></td>
+<td>Allows you to force highlighted elements on the page to be collapsed by default. <a href="../demo/collapse.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>first-line</code></td>
+<td><code>1</code></td>
+<td>Allows you to change the first (starting) line number. <a href="../demo/first-line.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>gutter</code></td>
+<td><code>true</code></td>
+<td>Allows you to turn gutter with line numbers on and off. <a href="../demo/gutter.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>highlight</code></td>
+<td><code>null</code></td>
+<td>Allows you to highlight one or more lines to focus user&#39;s attention. When specifying as a parameter, you have to pass an array looking value, like <code>[1, 2, 3]</code> or just an number for a single line. If you are changing <code>SyntaxHighlighter.defaults[&#39;highlight&#39;]</code>, you can pass a number or an array of numbers. <a href="../demo/highlight.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>html-script</code></td>
+<td><code>false</code></td>
+<td>Allows you to highlight a mixture of HTML/XML code and a script which is very common in web development. Setting this value to true requires that you have shBrushXml.js loaded and that the brush you are using supports this feature. <a href="../demo/html-script.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>smart-tabs</code></td>
+<td><code>true</code></td>
+<td>Allows you to turn smart tabs feature on and off. <a href="../demo/smart-tabs.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>tab-size</code></td>
+<td><code>4</code></td>
+<td>Allows you to adjust tab size. <a href="../demo/tab-size.html">Click here</a> for a demo.</td>
+</tr>
+<tr>
+<td><code>toolbar</code></td>
+<td><code>true</code></td>
+<td>Toggles toolbar on/off. <a href="../demo/toolbar.html">Click here</a> for a demo.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example">Example</h4>
+<pre class="brush: js">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['smart-tabs'] = false;
+    ...
+    SyntaxHighlighter.all();
+</pre>
+
+<h3 id="parameters">Parameters</h3>
+<p>Parameters allow you to customize a single highlighted element to your liking. Key/value pairs are specified
+in the format similar to CSS, but instead of the style node attribute, they go together with the brush
+declaration into the class attribute.</p>
+<p>In such fashion, you can change any default value from the <code>SyntaxHighlighter.defaults</code>.</p>
+<h4 id="example">Example</h4>
+<pre class="brush: js">
+    <pre class="brush: js; ruler: true; first-line: 10; highlight: [2, 4, 6]">...</pre>
+</pre>

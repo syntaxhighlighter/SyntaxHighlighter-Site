@@ -1,0 +1,30 @@
+<p>If you have been using SyntaxHighlighter 1.5 for some time now, you already have a lot of content with
+the <code>&lt;pre /&gt;</code> tags configured the <a href="http://code.google.com/p/syntaxhighlighter/wiki/Usage">old 1.5 way</a>.
+In order to maintain backward compatibility and allow you to move forward with the new version 3.x,
+you can use what I call a &quot;transition proxy&quot; provided in the <strong><a href="files/shlegacy.js.html">shLegacy.js</a></strong> file.</p>
+<p><strong><a href="files/shlegacy.js.html">shLegacy.js</a></strong> creates a proxy call compatible with 1.5. A call to
+<code>dp.SyntaxHighlighter.HighlightAll(&#39;code&#39;)</code> is transparently converted to a proper call to
+<code>SyntaxHighlighter.all()</code> together with 1.5 configuration options like <code>class=&quot;html:collapse&quot;</code> to
+3.x compatible on the fly.</p>
+<h3 id="how-to">How to</h3>
+<p>To get both 1.5 and 3.x highlighter elements to work on your site, you have to add <strong><a href="files/shlegacy.js.html">shLegacy.js</a></strong>
+and keep the call to <code>HighlightAll</code>:</p>
+<pre class="highlight: [6,12]; brush: html;">
+&lt;html>
+    &lt;head>
+        &lt;link type="text/css" rel="stylesheet" href="/Styles/shCore.css" />
+        &lt;link type="text/css" rel="stylesheet" href="/Styles/shThemeDefault.css" />
+        &lt;script type="text/javascript" src="/Scripts/shCore.js">&lt;/script>
+        &lt;script type="text/javascript" src="/Scripts/shLegacy.js">&lt;/script>
+        &lt;script type="text/javascript" src="/Scripts/shBrushJScript.js">&lt;/script>
+        &lt;script type="text/javascript" src="/Scripts/shBrushBash.js">&lt;/script>
+        &lt;script type="text/javascript" src="/Scripts/shBrushCpp.js">&lt;/script>
+        &lt;script type="text/javascript">
+            SyntaxHighlighter.all();
+            dp.SyntaxHighlighter.HighlightAll('code');
+        &lt;/script>
+    &lt;/head>
+
+    ...
+</pre>
+

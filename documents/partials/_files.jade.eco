@@ -1,0 +1,21 @@
+---
+encoding: utf-8
+filter:
+  - erb
+  - haml
+---
+
+h3 SyntaxHighlighter Files
+
+p List of key files that make up SyntaxHighlighter.
+
+ul.file-list
+  li
+    span /scripts
+    ul
+      li <a href="./shcore.js.html">shCore.js</a>
+      li <a href="./shlegacy.js.html">shLegacy.js</a>
+  li
+    span /styles
+    ul
+      li <a href="./shcore.css.html">shCore.css</a>

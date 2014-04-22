@@ -1,7 +1,7 @@
 ---
 ---
 #introduction
-  %h2 About
+  h2 About
 
   :markdown
     __SyntaxHighlighter__ is a fully functional self-contained [code syntax highlighter][1] developed in [JavaScript][2].
@@ -23,7 +23,7 @@
     [10]: spotlight.html
 
 #example
-  %h2 Demo
+  h2 Demo
 
   pre(class="brush: javascript")
     // SyntaxHighlighter makes your code snippets beautiful without tiring your servers.
@@ -35,7 +35,7 @@
     }
 
 #news
-  %h2 News
+  h2 News
 
   :markdown
     * I'm working on bringing SyntaxHighlighter code base up to date, you can see [development branch](https://github.com/alexgorbatchev/syntaxhighlighter/tree/dev) on GitHub <span class="date">March 4, 2014</span>

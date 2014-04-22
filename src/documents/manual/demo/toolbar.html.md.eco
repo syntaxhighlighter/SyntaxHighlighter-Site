@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "'toolbar' demo"
 versions: 1.5 2.0
 encoding: utf-8

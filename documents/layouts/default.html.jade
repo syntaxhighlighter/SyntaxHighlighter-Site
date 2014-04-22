@@ -1,0 +1,86 @@
+---
+extension: html
+filter:
+  - erb
+  - haml
+---
+!!!
+
+- home = "/SyntaxHighlighter"
+- partials = "#{home}/partials"
+- sh = "/pub/sh/current"
+
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    title= "SyntaxHighlighter#{sh_title(page ' - ')}"
+    script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js')
+    meta(charset='UTF-8')
+    != partial('partials/tracking')
+
+  body.no_sponsor
+    #title
+      h1
+        a(href="#{home}") SyntaxHighlighter
+        span#version= sh_version
+      a#forkme(href="https://github.com/alexgorbatchev/SyntaxHighlighter") Fork Me On GitHub
+
+      #whatsnew
+        a(href="#{home}/whatsnew.html"} whats new?
+
+      #blurb
+        em SyntaxHighlighter is an open source Java Script client side code syntax highlighter.
+
+      #meta
+        a(href="#{home}/donate.html") donate
+        a(href="#{home}/download") download
+        a(href="#{home}/manual/installation.html") installation
+        a(href="#{home}/manual/api/autoloader.html") autoloader
+        a(href="#{home}/manual/configuration") configuration
+        a(href="http://twitter.com/syntaxhighlight") syntaxhighlight
+
+      h2= page.title
+
+    #content
+      = content
+
+    #clear
+
+    #copyright
+      SyntaxHighlighter was originally created in 2004 and is still maintained by Alex Gorbatchev.
+      Copyright 2004-2011 Alex Gorbatchev.
+
+    #footer
+      #ad
+       jascript
+          google_ad_client = "ca-pub-2888483682038752";
+          /* SyntaxHighlighter2 */
+          google_ad_slot = "1794546701";
+          google_ad_width = 160;
+          google_ad_height = 600;
+        script(type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js")
+
+      a(href="#{home}/about.html") about
+      a(href="#{home}/manual/brushes/") syntaxes
+      a(href="#{home}/manual/themes/") themes
+      a(href="#{home}/integration.html") integration
+      a(href="#{home}/hosting.html") hosting
+      a(href="#{home}/manual/older_versions.html") legacy
+      a(href="#{home}/manual/api") apis
+      a(href="https://github.com/alexgorbatchev/SyntaxHighlighter/issues") issues
+      a(href="https://github.com/alexgorbatchev/SyntaxHighlighter") source
+      a(href="https://github.com/alexgorbatchev/SyntaxHighlighter-Site") site
+      a(href="#{home}/contact.html"} contact
+
+  link(type='text/css' rel='stylesheet' href="#{home}/css/main.css")
+  link(type='text/css' rel='stylesheet' href="#{sh_pub}/styles/shCore.css")
+  link(type='text/css' rel='stylesheet' href="#{sh_pub}/styles/#{page._meta_data['theme'] || 'shThemeDefault'}.css")
+  script(type='text/javascript' src="#{sh_pub}/scripts/shCore.js")
+  script(type='text/javascript' src="#{sh_pub}/scripts/shAutoloader.js")
+  script(type='text/javascript' src="#{sh_pub}/scripts/shBrushXml.js")
+  script(type='text/javascript' src="#{sh_pub}/scripts/shBrushJScript.js")
+  script(type='text/javascript' src="#{sh_pub}/scripts/shBrushCss.js")
+
+  script(type='text/javascript' src="#{home}/scripts/main.js")
+
+= render(partial="/SyntaxHighlighter/partials/services")
+

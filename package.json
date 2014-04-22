@@ -6,13 +6,16 @@
     "name": "Alex Gorbatchev",
     "email": "alex.gorbatchev@gmail.com"
   },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "git://github.com/syntaxhighlighter/SyntaxHighlighter-Site.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/syntaxhighlighter/SyntaxHighlighter-Site.git"
   },
-  "license" : "MIT",
-  "keywords" : [],
+  "license": "MIT",
+  "keywords": [],
   "dependencies": {
+    "docpad": "~6.64.2",
+    "docpad-plugin-jade": "~2.6.2",
+    "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-partials": "~2.9.0"
   }
 }

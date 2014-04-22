@@ -11,6 +11,6 @@ somebody will need
 it :)
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

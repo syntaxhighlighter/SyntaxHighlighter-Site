@@ -24,7 +24,7 @@ encoding: utf-8
 	'http://alexgorbatchev.com'
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
+<%- @partial("demo") %>
 
 <style>
 .class_name_demo { border: 2px solid #000; }

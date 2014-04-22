@@ -4,4 +4,4 @@ title: Files
 encoding: utf-8
 ---
 
-<%= render(:partial => "/SyntaxHighlighter/partials/files") %>
+<%- @partial("files") %>

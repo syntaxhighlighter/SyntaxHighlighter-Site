@@ -20,5 +20,5 @@ encoding: utf-8
 	and this is eleventh!
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
+<%- @partial("demo") %>
 

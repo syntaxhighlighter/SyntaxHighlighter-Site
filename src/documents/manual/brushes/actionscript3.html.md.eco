@@ -320,4 +320,4 @@ package com.adobe.air.crypto
 }
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>

@@ -44,6 +44,6 @@ frame.pack()
 frame.show()
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

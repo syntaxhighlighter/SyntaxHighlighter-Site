@@ -48,6 +48,6 @@ __DATA__
 &lt;/html>
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

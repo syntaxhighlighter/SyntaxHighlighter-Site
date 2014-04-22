@@ -20,6 +20,6 @@ encoding: utf-8
 	This is collapsed code.
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
+<%- @partial("demo") %>
 
 

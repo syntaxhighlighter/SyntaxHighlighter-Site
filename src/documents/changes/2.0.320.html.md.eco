@@ -3,7 +3,7 @@ layout: default
 title: Changes in 2.0.320
 encoding: utf-8
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/effort") %>
+<%- @partial("effort") %>
 
 * Major speed improvement thanks to a patch by [Jose Prado](http://joseprado.com). SyntaxHighlighter now can render 4-5k lines in just a second or two (tested on a MacBook Pro 2.4GHz).
 * Added `stripBrs` config option to ignore `<br/>` tags at lines end.

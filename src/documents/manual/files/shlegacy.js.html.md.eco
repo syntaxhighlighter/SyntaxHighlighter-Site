@@ -9,8 +9,8 @@ back and correct already existing instances of 1.5 highlighted elements. For mor
 refer to the [upgrade guide](../upgrading.html).
 
 <div class="autoinclude" markdown="1">
-	<% path = sh_pub_script('shLegacy.js') %>
+	<% path = @sh_pub_script('shLegacy.js') %>
 	[<%= path %>](<%= path %>)
 </div>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/files") %>
+<%- @partial("files") %>

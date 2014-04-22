@@ -3,7 +3,7 @@ layout: default
 title: Changes in 2.0.296
 encoding: utf-8
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/effort") %>
+<%- @partial("effort") %>
 
 * Added "current" to published folder which always points to latest version.
 * Added rollover to the copy to clipboard button.

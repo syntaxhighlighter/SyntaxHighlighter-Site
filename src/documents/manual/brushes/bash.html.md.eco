@@ -30,6 +30,6 @@ else
 fi
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

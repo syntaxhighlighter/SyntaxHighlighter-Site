@@ -175,6 +175,6 @@ finalization
 end.
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

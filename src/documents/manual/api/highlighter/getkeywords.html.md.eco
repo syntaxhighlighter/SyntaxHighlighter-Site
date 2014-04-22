@@ -30,5 +30,5 @@ SyntaxHighlighter.brushes.JScript = function()
 };
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %>
-<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %>
+<%- @partial("api") %>
+<%- @partial("api_highlighter") %>

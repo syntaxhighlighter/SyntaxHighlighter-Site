@@ -6,7 +6,7 @@ encoding: utf-8
 
 SyntaxHighlighter uses separate syntax files called __brushes__ to define its highlighting functionality.
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 ### Don't see yours?
 

@@ -34,4 +34,4 @@ theme: shThemeRDark
 </pre>
 </div>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/themes") %>
+<%- @partial("themes") %>

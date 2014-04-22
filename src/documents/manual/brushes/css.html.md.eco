@@ -180,6 +180,6 @@ encoding: utf-8
 }
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

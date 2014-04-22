@@ -3,4 +3,4 @@ layout: default
 title: API
 encoding: utf-8
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %>
+<%- @partial("api_highlighter") %>

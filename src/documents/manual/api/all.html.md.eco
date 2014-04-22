@@ -26,4 +26,4 @@ Here's a typical example of configuring the very minimal amount required for ful
 &lt;/html>
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %>
+<%- @partial("api") %>

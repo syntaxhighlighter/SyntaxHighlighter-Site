@@ -3,7 +3,7 @@ layout: default
 title: No-CSS fallback
 encoding: utf-8
 ---
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
+<%- @partial("demo") %>
 
 When something goes wrong and CSS becomes unavailable, SyntaxHighlighter's output will remain
 legible. Here's what it would look like:

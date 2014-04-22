@@ -30,6 +30,6 @@ encoding: utf-8
 	1	2	3
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
+<%- @partial("demo") %>
 
 

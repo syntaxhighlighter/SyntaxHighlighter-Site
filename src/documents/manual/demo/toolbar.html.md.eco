@@ -32,5 +32,5 @@ Note: The toolbar in 3.0 has been downsized to the top right corner with minimal
 	'http://alexgorbatchev.com'
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
+<%- @partial("demo") %>
 

@@ -35,5 +35,5 @@ theme: shThemeDefault
 </pre>
 </div>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/themes") %>
+<%- @partial("themes") %>
 

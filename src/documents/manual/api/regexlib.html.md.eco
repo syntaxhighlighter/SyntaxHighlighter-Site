@@ -40,4 +40,4 @@ This object has a number of preconfigured commonly used regular expressions.
 `scriptScriptTags`
 :	Matches: `<script ...>... </script>`
 
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %>
+<%- @partial("api") %>

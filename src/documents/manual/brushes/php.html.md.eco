@@ -96,6 +96,6 @@ function wfSyntaxHighlighterExtensionRender($input, $argv, $parser)
 }
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

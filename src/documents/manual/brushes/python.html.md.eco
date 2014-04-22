@@ -125,6 +125,6 @@ if __name__ == '__main__':
     p.parse(sys.argv[1])
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

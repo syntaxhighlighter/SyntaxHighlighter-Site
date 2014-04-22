@@ -60,6 +60,6 @@ function updateScale(we: MouseEvent) : Float {
 }
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

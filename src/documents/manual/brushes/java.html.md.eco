@@ -22,6 +22,6 @@ public class HelloWorld extends ActionSupport {
 }
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
+<%- @partial("brushes") %>
 
 

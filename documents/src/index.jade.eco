@@ -1,8 +1,4 @@
 ---
-title:
-encoding: utf-8
-filter:
-  - haml
 ---
 #introduction
   %h2 About
@@ -29,16 +25,14 @@ filter:
 #example
   %h2 Demo
 
-  :preserve
-    <pre class="brush: javascript">
-        // SyntaxHighlighter makes your code snippets beautiful without tiring your servers.
-        // http://alexgorbatchev.com
-        var setArray = function(elems) {
-            this.length = 0;
-            push.apply(this, elems);
-            return this;
-        }
-    </pre>
+  pre(class="brush: javascript")
+    // SyntaxHighlighter makes your code snippets beautiful without tiring your servers.
+    // http://alexgorbatchev.com
+    var setArray = function(elems) {
+        this.length = 0;
+        push.apply(this, elems);
+        return this;
+    }
 
 #news
   %h2 News

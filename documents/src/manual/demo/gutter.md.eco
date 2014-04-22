@@ -2,9 +2,6 @@
 title: "'gutter' demo"
 versions: 1.5 2.0 3.0
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### Source
 
@@ -13,13 +10,13 @@ filter:
 	/** http://alexgorbatchev.com */
 	'http://alexgorbatchev.com'
 &lt;/pre>
-</pre> 
+</pre>
 
 ### Result
 
 <pre class="brush: php; gutter: false;">
 	/** http://alexgorbatchev.com */
 	'http://alexgorbatchev.com'
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>

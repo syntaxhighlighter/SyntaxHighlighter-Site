@@ -1,14 +1,11 @@
 ---
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### CSS Themes
 
-SyntaxHighlighter 2.0 introduced custom CSS themes. This means that by switching out just one CSS file you 
-can completely change the look and feel of the highlighted syntax. A small number of popular color themes 
-are included with SyntaxHighlighter and you can easily make your own. 
+SyntaxHighlighter 2.0 introduced custom CSS themes. This means that by switching out just one CSS file you
+can completely change the look and feel of the highlighted syntax. A small number of popular color themes
+are included with SyntaxHighlighter and you can easily make your own.
 
 <% path = "/SyntaxHighlighter/manual/themes" %>
 

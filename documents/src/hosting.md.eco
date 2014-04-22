@@ -1,9 +1,6 @@
 ---
 title: Hosting
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 I'm offering free SyntaxHighlighter hosting to everyone willing. If you don't have a place to upload
@@ -11,7 +8,7 @@ the files or just want to always have the latest version without the hassle of m
 This site itself is using the hosted files as a "proof of concept".
 
 While the hosting is offered as a free service, I'm currently receiving approximately 22m requests a
-and 83GB in bandwidth every month which is costing me an additional $40 on Amazon S3. Where am I going 
+and 83GB in bandwidth every month which is costing me an additional $40 on Amazon S3. Where am I going
 with this? You guessed it -- please [donate](donate.html) to help me pay for this :)
 
 ### Details

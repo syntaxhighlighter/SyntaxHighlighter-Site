@@ -1,15 +1,12 @@
 ---
 title: API
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### SyntaxHighlighter.Highlighter.prototype.getKeywords(keywords)
 
 `keywords`
 :	`String`
-	Takes a space separated list of keywords and returns regular expression string to match those keywords. 
+	Takes a space separated list of keywords and returns regular expression string to match those keywords.
 
 #### Example
 
@@ -32,5 +29,5 @@ SyntaxHighlighter.brushes.JScript = function()
 };
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
-<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/api") %>
+<%= render(:partial => "/SyntaxHighlighter/partials/api_highlighter") %>

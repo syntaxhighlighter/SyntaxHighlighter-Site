@@ -1,9 +1,6 @@
 ---
 title: CSS Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: css">
@@ -73,8 +70,8 @@ filter:
 
 .syntaxhighlighter .line .number
 {
-	float: left; 
-	width: 45px; 
+	float: left;
+	width: 45px;
 	padding-right: 5px;
 	text-align: right;
 	display: block;
@@ -88,7 +85,7 @@ filter:
 
 .syntaxhighlighter .line .content
 {
-	margin-left: 50px; 
+	margin-left: 50px;
 	padding-left: 4px;
 	display: block;
 }
@@ -108,7 +105,7 @@ filter:
 /* Disable border and margin on the lines when no gutter option is set */
 .syntaxhighlighter.nogutter .line .content
 {
-	margin-left: 0; 
+	margin-left: 0;
 	border-left: none;
 }
 
@@ -180,8 +177,8 @@ filter:
 	text-decoration: underline;
 	margin-right: 10px;
 }
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

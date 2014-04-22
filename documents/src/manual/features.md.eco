@@ -1,9 +1,6 @@
 ---
 title: SyntaxHighlighter Features
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 * [Blogger integration](demo/blogger.html)

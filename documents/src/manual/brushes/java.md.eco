@@ -1,9 +1,6 @@
 ---
 title: Java Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: java">
@@ -18,12 +15,12 @@ public class HelloWorld extends ActionSupport {
 		this.name = name;
 	}
 	public String execute() {
-		name = "Hello, " + name + "!"; 
+		name = "Hello, " + name + "!";
 		return SUCCESS;
 	}
 }
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

@@ -1,9 +1,6 @@
 ---
 title: Brushes / Ruby
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: rails">

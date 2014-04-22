@@ -2,9 +2,6 @@
 title: "'highlight' demo"
 versions: 1.5 2.0 3.0
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### Source
 
@@ -20,7 +17,7 @@ filter:
 2
 3
 &lt;/pre>
-</pre> 
+</pre>
 
 ### Result
 
@@ -28,14 +25,14 @@ filter:
 1
 2
 3
-</pre> 
+</pre>
 
 <pre class="brush: plain; highlight: [1, 3]">
 1 x = y;
 2 mysql_query($query);
 3X++
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
 
- 
+

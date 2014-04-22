@@ -1,8 +1,5 @@
 ---
 encoding: utf-8
-filter:
-  - erb
-  - haml
 ---
 
 h3 SyntaxHighlighter Files

@@ -1,9 +1,6 @@
 ---
 title: Groovy Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: groovy">
@@ -44,8 +41,8 @@ frame.addWindowListener listener
 }
 frame.pack()
 frame.show()
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

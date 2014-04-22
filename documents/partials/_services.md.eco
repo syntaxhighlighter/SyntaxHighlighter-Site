@@ -1,7 +1,5 @@
 ---
 encoding: utf-8
-filter:
-  - erb
 ---
 <!--
 <script type="text/javascript">
@@ -9,12 +7,12 @@ filter:
   document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
 </script>
 <script type="text/javascript">
-UserVoice.Tab.show({ 
+UserVoice.Tab.show({
   key: 'SyntaxHighlighter',
-  host: 'SyntaxHighlighter.uservoice.com', 
-  forum: 'general', 
+  host: 'SyntaxHighlighter.uservoice.com',
+  forum: 'general',
   alignment: 'left',
-  background_color:'#5A86E4', 
+  background_color:'#5A86E4',
   text_color: 'white',
   hover_color: '#CBE2FF',
   lang: 'en'

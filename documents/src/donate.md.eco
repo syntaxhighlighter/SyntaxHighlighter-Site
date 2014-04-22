@@ -1,9 +1,6 @@
 ---
 title: Please donate to keep development active!
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 __Please [click here to donate via PayPal][paypal] and just like they say on TV -- give generously!__
 

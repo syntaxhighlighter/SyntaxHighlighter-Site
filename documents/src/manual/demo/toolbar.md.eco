@@ -2,9 +2,6 @@
 title: "'toolbar' demo"
 versions: 1.5 2.0
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 Note: The toolbar in 3.0 has been downsized to the top right corner with minimal functionality.
 
@@ -20,7 +17,7 @@ Note: The toolbar in 3.0 has been downsized to the top right corner with minimal
 	/** http://alexgorbatchev.com */
 	'http://alexgorbatchev.com'
 &lt;/pre>
-</pre> 
+</pre>
 
 ### Result
 
@@ -32,7 +29,7 @@ Note: The toolbar in 3.0 has been downsized to the top right corner with minimal
 <pre class="brush: php; toolbar: false;">
 	/** http://alexgorbatchev.com */
 	'http://alexgorbatchev.com'
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
 

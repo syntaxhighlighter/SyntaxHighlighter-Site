@@ -1,12 +1,9 @@
 ---
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### SyntaxHighlighter.Highlighter
 
-This is the main class that performs all the highlighting work and it's the base class for [developing custom brushes](/SyntaxHighlighter/manual/brushes/custom.html). Each brush extends this class and adds its own custom lexicon and rules. Here are the properties and methods of interest: 
+This is the main class that performs all the highlighting work and it's the base class for [developing custom brushes](/SyntaxHighlighter/manual/brushes/custom.html). Each brush extends this class and adds its own custom lexicon and rules. Here are the properties and methods of interest:
 
 <div class="api" markdown="1">
 	Name	| Type	| Description

@@ -1,9 +1,6 @@
 ---
 title: C++ Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: cpp">
@@ -58,11 +55,11 @@ public:
 };
 
 /****************************************************************************/
-void parseStory (XmlNode&amp; node) 
+void parseStory (XmlNode&amp; node)
 {
-	for (XmlNode cur=node.firstChild() ; cur ; cur=cur.nextSibling()) 
+	for (XmlNode cur=node.firstChild() ; cur ; cur=cur.nextSibling())
 	{
-	    if (cur.isName("keyword")) 
+	    if (cur.isName("keyword"))
 		{
 			std::string key = cur.getString();
 			std::cout &lt;&lt; "keyword: " &lt;&lt; key &lt;&lt; std::endl;
@@ -70,31 +67,31 @@ void parseStory (XmlNode&amp; node)
 	}
 }
 
-void parseDocument(const char *filename) 
+void parseDocument(const char *filename)
 {
 	XmlDocument doc(filename);
-	
-	if (!doc) 
+
+	if (!doc)
 	{
 		std::cerr &lt;&lt; "Document not parsed successfully." &lt;&lt; std::endl;
 		return;
 	}
-	
+
 	XmlNode root(doc);
-	if (!root) 
+	if (!root)
 	{
 		std::cerr &lt;&lt; "Empty document." &lt;&lt; std::endl;
 		return;
 	}
-	
-	if (root.isName("mesh")) 
+
+	if (root.isName("mesh"))
 	{
 		MeshParameters defaults;
 		OgreMeshReader mesh(std::cerr, defaults);
 		mesh.parseMesh(root);
 		mesh.write(std::cout);
 	}
-	else if (root.isName("skeleton")) 
+	else if (root.isName("skeleton"))
 	{
 		OgreSkeletonReader skel(std::cerr);
 		skel.parse(root);
@@ -106,9 +103,9 @@ void parseDocument(const char *filename)
 	}
 }
 
-int main(int argc, char **argv) 
+int main(int argc, char **argv)
 {
-	if (argc &lt;= 1) 
+	if (argc &lt;= 1)
 	{
 		std::cerr &lt;&lt; "Usage: " &lt;&lt; argv[0] &lt;&lt; " file.xml" &lt;&lt; std::endl;
 		return -1;
@@ -119,8 +116,8 @@ int main(int argc, char **argv)
 
 	return 0;
 }
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

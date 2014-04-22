@@ -1,13 +1,10 @@
 ---
 title: Emacs theme
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 theme: shThemeEmacs
 ---
 
-<pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeEmacs.css"/></pre> 
+<pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeEmacs.css"/></pre>
 
 ### Example
 <div id="theme-example">
@@ -18,10 +15,10 @@ theme: shThemeEmacs
 
 	$stringWithUrl	= "http://alexgorbatchev.com";
 	$string			= 'hello world!';
-	
+
 	ob_start("parseOutputBuffer");		// Start Code Buffering
 	session_start();
-	
+
 	function parseOutputBuffer($buf) {
 		global $portal_small_code, $portal_gzcompress;
 		global $PHP_SELF, $HTTP_ACCEPT_ENCODING;
@@ -33,7 +30,7 @@ theme: shThemeEmacs
 			$buf = str_replace(chr(13), "", $buf);
 		}
 	}
-</pre> 
-</div> 
- 
-<%= render(:partial => "/SyntaxHighlighter/partials/themes") %> 
+</pre>
+</div>
+
+<%= render(:partial => "/SyntaxHighlighter/partials/themes") %>

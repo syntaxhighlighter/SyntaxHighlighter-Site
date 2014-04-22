@@ -1,12 +1,9 @@
 ---
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### SyntaxHighlighter API
 
-SyntaxHighlighter is the top level object and contains a number of functionality and predefined variables. 
+SyntaxHighlighter is the top level object and contains a number of functionality and predefined variables.
 
 <div class="api" markdown="1">
 	Name	| Type	| Description

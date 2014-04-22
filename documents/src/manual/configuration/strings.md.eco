@@ -1,13 +1,10 @@
 ---
 title: strings configuration
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
-This configuration option allows you to localize your highlighted elements or just change the displayed 
-strings. The following options are available: 
+This configuration option allows you to localize your highlighted elements or just change the displayed
+strings. The following options are available:
 
 `expandSource`
 :	`"+ expand source"`
@@ -42,6 +39,6 @@ print <span class="version only">2.x</span>
 &lt;script type="text/javascript">
 	SyntaxHighlighter.config.strings.viewSource = "view my source!!!!";
 &lt;/script>
-</pre> 
+</pre>
 
 

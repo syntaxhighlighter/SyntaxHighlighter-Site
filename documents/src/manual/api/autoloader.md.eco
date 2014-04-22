@@ -1,12 +1,9 @@
 ---
 title: Dynamic Brush Loading
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
-SyntaxHighlighter comes with almost 30 brushes out of the box. One of the most requested 
+SyntaxHighlighter comes with almost 30 brushes out of the box. One of the most requested
 feature has been the ability to dynamically load them without having to load them all on
 the same page.
 
@@ -29,7 +26,7 @@ SyntaxHighlighter.all();
 &lt;/script>
 </script>
 
-Now any code blocks which use <code>js</code>, <code>jscript</code>, 
+Now any code blocks which use <code>js</code>, <code>jscript</code>,
 <code>javascript</code> and <code>applescript</code> brushes will
 trigger dynamic loading of the appropriate JavaScript file.
 
@@ -37,12 +34,12 @@ trigger dynamic loading of the appropriate JavaScript file.
 
 `SyntaxHighlighter.autoloader(brushes)`
 
-`brushes` 
+`brushes`
 :	`Array: [ 'alias1 alias2 /full/path/to/brush.js', ... ]`
 	Array of space separated strings where all values but the last one are brush aliases
 	and the last value is a full path the JavaScript file.
 
-`brushes` 
+`brushes`
 :	`Array: [ [ 'alias1', 'alias2', '/full/path/to/brush.js' ], ... ]`
 	Array of strings where all values but the last one are brush aliases
 	and the last value is a full path the JavaScript file.
@@ -57,10 +54,10 @@ function path()
 	var args = arguments,
 		result = []
 		;
-		
+
 	for(var i = 0; i &lt; args.length; i++)
 		result.push(args[i].replace('@', '/pub/sh/current/scripts/'));
-		
+
 	return result
 };
 

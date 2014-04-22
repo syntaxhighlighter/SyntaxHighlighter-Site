@@ -1,11 +1,8 @@
 ---
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
-Brush name	| Brush aliases	| File name 
+Brush name	| Brush aliases	| File name
 ------------|---------------|----------
 [ActionScript3](/SyntaxHighlighter/manual/brushes/actionscript3.html)	| as3, actionscript3				| shBrushAS3.js
 [Bash/shell](/SyntaxHighlighter/manual/brushes/bash.html)				| bash, shell						| shBrushBash.js

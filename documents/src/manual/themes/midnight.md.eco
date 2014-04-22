@@ -1,13 +1,10 @@
 ---
 title: Midnight theme
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 theme: shThemeMidnight
 ---
 
-<pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeMidnight.css"/></pre> 
+<pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeMidnight.css"/></pre>
 
 ### Example
 
@@ -19,10 +16,10 @@ theme: shThemeMidnight
 
 	$stringWithUrl = "http://alexgorbatchev.com";
 	$stringWithUrl = 'hello world';
-	
+
 	ob_start("parseOutputBuffer");		// Start Code Buffering
 	session_start();
-	
+
 	function parseOutputBuffer($buf) {
 		global $portal_small_code, $portal_gzcompress;
 		global $PHP_SELF, $HTTP_ACCEPT_ENCODING;
@@ -34,7 +31,7 @@ theme: shThemeMidnight
 			$buf = str_replace(chr(13), "", $buf);
 		}
 	}
-</pre> 
-</div> 
- 
-<%= render(:partial => "/SyntaxHighlighter/partials/themes") %> 
+</pre>
+</div>
+
+<%= render(:partial => "/SyntaxHighlighter/partials/themes") %>

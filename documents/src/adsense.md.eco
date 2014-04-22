@@ -1,7 +1,5 @@
 ---
 layout: nil
-filter:
-  - erb
 ---
 <style>
 body {

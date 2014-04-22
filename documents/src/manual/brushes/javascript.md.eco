@@ -1,9 +1,6 @@
 ---
 title: JavaScript Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: js">
@@ -16,10 +13,10 @@ Copyright 2001 Scott Andrew LePera
 scott@scottandrew.com
 http://www.scottandrew.com/xml-rpc
 
-License: 
-You are granted the right to use and/or redistribute this 
-code only if this license and the copyright notice are included 
-and you accept that no warranty of any kind is made or implied 
+License:
+You are granted the right to use and/or redistribute this
+code only if this license and the copyright notice are included
+and you accept that no warranty of any kind is made or implied
 by the author.
 
 */
@@ -43,39 +40,39 @@ XMLRPCMessage.prototype.addParameter = function(data){
 XMLRPCMessage.prototype.xml = function(){
 
   var method = this.method;
-  
+
   // assemble the XML message header
   var xml = "";
-  
+
   xml += "&lt;?xml version=\"1.0\"?>\n";
   xml += "&lt;methodCall>\n";
   xml += "&lt;methodName>" + method+ "&lt;/methodName>\n";
   xml += "&lt;params>\n";
-  
+
   // do individual parameters
   for (var i = 0; i &lt; this.params.length; i++){
     var data = this.params[i];
     xml += "&lt;param>\n";
 
     xml += "&lt;value>" + XMLRPCMessage.getParamXML(XMLRPCMessage.dataTypeOf(data),data) + "&lt;/value>\n";
-    
+
     xml += "&lt;/param>\n";
   }
-  
+
   xml += "&lt;/params>\n";
   xml += "&lt;/methodCall>";
-  
+
   return xml; // for now
 }
 
 XMLRPCMessage.dataTypeOf = function (o){
   // identifies the data type
-  
+
   if (o == null)
   {
   	return 'null';
   }
-  
+
   var type = typeof(o);
   type = type.toLowerCase();
   switch(type){
@@ -100,7 +97,7 @@ XMLRPCMessage.doValueXML = function(type,data){
 	  	type = 'boolean';
 		data = 0;
 		break;
-		
+
 	case 'string':
 		data = data.split('&amp;').join('&amp;');
 		data = data.split('&lt;').join('&lt;');
@@ -177,15 +174,15 @@ function dateToISO8601(date){
 
   var converted = year+month+day+"T"+time;
   return converted;
-} 
-  
+}
+
 function leadingZero(n){
   // pads a single number with a leading zero. Heh.
   if (n.length==1) n = "0" + n;
   return n;
 }
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

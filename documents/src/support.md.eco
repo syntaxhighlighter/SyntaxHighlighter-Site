@@ -1,12 +1,9 @@
 ---
 title: Support
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
-SyntaxHighlighter users receive can find support on the [support forums](http://alexgorbatchev.com/forums). 
+SyntaxHighlighter users receive can find support on the [support forums](http://alexgorbatchev.com/forums).
 If you are experiencing technical difficulties integrating SyntaxHighlighter, have CSS issues, other questions
 or concerns, please search in the [support forums](http://alexgorbatchev.com/forums) and if you don't find
 an answer, leave a message and it will be answered as soon as possible.

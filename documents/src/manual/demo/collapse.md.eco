@@ -2,9 +2,6 @@
 title: "'collapse' demo"
 versions: 1.5 2.0 3.0
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### Source
 
@@ -13,15 +10,15 @@ filter:
 		hello there!
 		This is collapsed code.
 	&lt;/pre>
-</pre> 
+</pre>
 
 ### Result
 
 <pre class="brush: plain; collapse: true">
 	Hello there!
 	This is collapsed code.
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
 
- 
+

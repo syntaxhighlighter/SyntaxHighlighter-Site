@@ -1,24 +1,21 @@
 ---
 title: API
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### SyntaxHighlighter.all()
 
-The main highlight function that needs to be called after all scripts are loaded. The place on the page where it's called from isn't important because the actual execution is delayed until window is loaded. 
+The main highlight function that needs to be called after all scripts are loaded. The place on the page where it's called from isn't important because the actual execution is delayed until window is loaded.
 
-Here's a typical example of configuring the very minimal amount required for fully functional JavaScript syntax highlighting. 
+Here's a typical example of configuring the very minimal amount required for fully functional JavaScript syntax highlighting.
 
 <pre class="brush: js; html-script: true; highlight: 6">
 &lt;html>
 	&lt;head>
-		&lt;script type="text/javascript" src="/Scripts/shCore.js">&lt;/script> 
-		&lt;script type="text/javascript" src="/Scripts/shBrushJScript.js">&lt;/script> 
+		&lt;script type="text/javascript" src="/Scripts/shCore.js">&lt;/script>
+		&lt;script type="text/javascript" src="/Scripts/shBrushJScript.js">&lt;/script>
 		&lt;script type="text/javascript">
 			SyntaxHighlighter.all();
-		&lt;/script> 
+		&lt;/script>
 	&lt;/head>
 	&lt;body>
 		&lt;pre class="brush: js">
@@ -28,4 +25,4 @@ Here's a typical example of configuring the very minimal amount required for ful
 &lt;/html>
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/api") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/api") %>

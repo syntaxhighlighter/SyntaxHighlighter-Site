@@ -1,9 +1,6 @@
 ---
 title: PowerShell Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: ps">
@@ -15,8 +12,8 @@ filter:
 	$db = $readStream.ReadToEnd()
 	$readStream.Close()
 	$response.Close()
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

@@ -1,9 +1,6 @@
 ---
 title: C# Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: csharp">
@@ -21,7 +18,7 @@ namespace SharpVectors.Dom.Css
 	{
 		#region Static members
 		private static Regex regex = new Regeх(@"^@font-face");
-		
+
 		/// &lt;summary>
 		/// Parses a string containging CSS and creates a CssFontFaceRule instance if found as the first content
 		/// &lt;/summary>
@@ -57,7 +54,7 @@ namespace SharpVectors.Dom.Css
 		internal CssFontFaceRule(Match match, object parent, bool readOnly, string[] replacedStrings, CssStyleSheetType origin) : base(parent, true, replacedStrings, origin)
 		{
 			// always read-only
-			
+
 		}
 		#endregion
 
@@ -89,8 +86,8 @@ namespace SharpVectors.Dom.Css
 		#endregion
 	}
 }
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

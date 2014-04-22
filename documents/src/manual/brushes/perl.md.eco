@@ -1,9 +1,6 @@
 ---
 title: Perl Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: pl">
@@ -29,9 +26,9 @@ $sock->bind('127.0.0.1', '8080');
 $sock->listen(10);
 
 # Create 5 childs
-pm_manage(n_processes => 5); 
+pm_manage(n_processes => 5);
 
-while ( my $socket = $sock->accept(10) ) { 
+while ( my $socket = $sock->accept(10) ) {
     pm_pre_dispatch();
     $socket->write($headers);
     $socket->write($content);
@@ -52,4 +49,4 @@ __DATA__
 
 <%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

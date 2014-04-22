@@ -2,9 +2,6 @@
 title: "'html-script' demo"
 versions: 2.0 3.0
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### Source
 
@@ -13,22 +10,22 @@ filter:
 	&lt;html>
 	&lt;body>
 		&lt;div style="font-weight: bold">&lt;?= str_replace("\n", "&lt;br/>", $var) ?>&lt;/div>
-		
+
 		&lt;?
 		/***********************************
 		 ** Multiline block comments
 		 **********************************/
-		
+
 		$stringWithUrl = "http://alexgorbatchev.com";
 		$stringWithUrl = 'http://alexgorbatchev.com';
-			
+
 		ob_start("parseOutputBuffer");		// Start Code Buffering
 		session_start();
 		?>
 	&lt;/body>
 	&lt;/html>
 &lt;/pre>
-</pre> 
+</pre>
 
 ### Result
 
@@ -36,22 +33,22 @@ filter:
 &lt;html>
 &lt;body>
 	&lt;div style="font-weight: bold">&lt;?= str_replace("\n", "&lt;br/>", $var) ?>&lt;/div>
-	
+
 	&lt;?
 	/***********************************
 	 ** Multiline block comments
 	 **********************************/
-	
+
 	$stringWithUrl = "http://alexgorbatchev.com";
 	$stringWithUrl = 'http://alexgorbatchev.com';
-		
+
 	ob_start("parseOutputBuffer");		// Start Code Buffering
 	session_start();
 	?>
 &lt;/body>
 &lt;/html>
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
 
- 
+

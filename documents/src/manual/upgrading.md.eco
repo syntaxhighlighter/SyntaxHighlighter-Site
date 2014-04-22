@@ -1,43 +1,40 @@
 ---
 title: Upgrading from 1.5 to 3.x
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
-If you have been using SyntaxHighlighter 1.5 for some time now, you already have a lot of content with 
-the `<pre />` tags configured the [old 1.5 way](http://code.google.com/p/syntaxhighlighter/wiki/Usage). 
-In order to maintain backward compatibility and allow you to move forward with the new version 3.x, 
-you can use what I call a "transition proxy" provided in the __[shLegacy.js][file]__ file. 
+If you have been using SyntaxHighlighter 1.5 for some time now, you already have a lot of content with
+the `<pre />` tags configured the [old 1.5 way](http://code.google.com/p/syntaxhighlighter/wiki/Usage).
+In order to maintain backward compatibility and allow you to move forward with the new version 3.x,
+you can use what I call a "transition proxy" provided in the __[shLegacy.js][file]__ file.
 
-__[shLegacy.js][file]__ creates a proxy call compatible with 1.5. A call to 
-`dp.SyntaxHighlighter.HighlightAll('code')` is transparently converted to a proper call to 
-`SyntaxHighlighter.all()` together with 1.5 configuration options like `class="html:collapse"` to 
+__[shLegacy.js][file]__ creates a proxy call compatible with 1.5. A call to
+`dp.SyntaxHighlighter.HighlightAll('code')` is transparently converted to a proper call to
+`SyntaxHighlighter.all()` together with 1.5 configuration options like `class="html:collapse"` to
 3.x compatible on the fly.
 
 ### How to
 
-To get both 1.5 and 3.x highlighter elements to work on your site, you have to add __[shLegacy.js][file]__ 
-and keep the call to `HighlightAll`: 
+To get both 1.5 and 3.x highlighter elements to work on your site, you have to add __[shLegacy.js][file]__
+and keep the call to `HighlightAll`:
 
 <pre class="highlight: [6,12]; brush: html;">
 &lt;html>
 	&lt;head>
-		&lt;link type="text/css" rel="stylesheet" href="/Styles/shCore.css" /> 
-		&lt;link type="text/css" rel="stylesheet" href="/Styles/shThemeDefault.css" /> 
-		&lt;script type="text/javascript" src="/Scripts/shCore.js">&lt;/script> 
-		&lt;script type="text/javascript" src="/Scripts/shLegacy.js">&lt;/script> 
-		&lt;script type="text/javascript" src="/Scripts/shBrushJScript.js">&lt;/script> 
+		&lt;link type="text/css" rel="stylesheet" href="/Styles/shCore.css" />
+		&lt;link type="text/css" rel="stylesheet" href="/Styles/shThemeDefault.css" />
+		&lt;script type="text/javascript" src="/Scripts/shCore.js">&lt;/script>
+		&lt;script type="text/javascript" src="/Scripts/shLegacy.js">&lt;/script>
+		&lt;script type="text/javascript" src="/Scripts/shBrushJScript.js">&lt;/script>
 		&lt;script type="text/javascript" src="/Scripts/shBrushBash.js">&lt;/script>
 		&lt;script type="text/javascript" src="/Scripts/shBrushCpp.js">&lt;/script>
 		&lt;script type="text/javascript">
 			SyntaxHighlighter.all();
 			dp.SyntaxHighlighter.HighlightAll('code');
-		&lt;/script> 
+		&lt;/script>
 	&lt;/head>
 
 	...
-</pre> 
+</pre>
 
 [file]: files/shlegacy.js.html

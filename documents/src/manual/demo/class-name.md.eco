@@ -2,9 +2,6 @@
 title: "'class-name' demo"
 versions: 2.0 3.0
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### Source
 
@@ -17,16 +14,16 @@ filter:
 		/** http://alexgorbatchev.com */
 		'http://alexgorbatchev.com'
 	&lt;/pre>
-</pre> 
+</pre>
 
 ### Result
 
 <pre class="brush: php; class-name: 'class_name_demo'">
 	/** http://alexgorbatchev.com */
 	'http://alexgorbatchev.com'
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
 
 <style>
 .class_name_demo { border: 2px solid #000; }

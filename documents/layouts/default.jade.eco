@@ -1,8 +1,5 @@
 ---
 extension: html
-filter:
-  - erb
-  - haml
 ---
 !!!
 

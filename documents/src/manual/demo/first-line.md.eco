@@ -2,9 +2,6 @@
 title: "'first-line' demo"
 versions: 1.5 2.0 3.0
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 ### Source
 
@@ -13,14 +10,14 @@ filter:
 	this is now tenth line,
 	and this is eleventh!
 &lt;/pre>
-</pre> 
+</pre>
 
 ### Result
 
 <pre class="brush: plain; first-line: 10">
 	this is now tenth line,
 	and this is eleventh!
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/demo") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/demo") %>
 

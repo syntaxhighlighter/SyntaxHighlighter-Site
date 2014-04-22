@@ -1,9 +1,6 @@
 ---
 title: Delphi Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: delphi">
@@ -130,7 +127,7 @@ begin
   {$IFDEF DebugXML}
   Debugger.LogFmtMsg('Release: %s',[XMLSaveToString(sxXMLDoc.XMLDoc)]);
   {$ENDIF DebugXML}
-  if sxSharedMemory.IsWriting then 
+  if sxSharedMemory.IsWriting then
     sxXMLDoc.SaveToStream(sxSharedMemory.AsStream);
   if sxSharedMemory.Acquired then
     sxSharedMemory.ReleaseMemory;
@@ -175,8 +172,8 @@ finalization
   NxEndDebug;
 {$ENDIF DebugXML}
 end.
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

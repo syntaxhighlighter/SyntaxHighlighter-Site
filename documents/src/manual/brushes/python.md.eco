@@ -1,9 +1,6 @@
 ---
 title: Python Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: python">
@@ -56,12 +53,12 @@ class docHandler:
         """Handle an event for ignorable whitespace in element content.
         The data are contained in the substring of ch
         starting at position start and of length length."""
-        
+
         pass
 
     def processingInstruction(self, target, data):
         """Handle a processing instruction event."""
-         
+
         pass
 
     def setDocumentLocator(self, locator):
@@ -113,7 +110,7 @@ class dtdHandler:
                 from org.ecoaccess.dtd.Funspec import translation_table
             else:
                 translation_table = {}
-           
+
         docHandler.translation_table = translation_table
 
 # --- Main prog
@@ -125,8 +122,8 @@ if __name__ == '__main__':
     p.setDocumentHandler(docHandler())
     p.setDTDHandler(dtdHandler())
     p.parse(sys.argv[1])
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

@@ -1,18 +1,15 @@
 ---
 title: Plain Text
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: plain">
-This is just plain 
-text brush... Maybe 
+This is just plain
+text brush... Maybe
 somebody will need
 it :)
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

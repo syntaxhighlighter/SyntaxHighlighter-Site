@@ -1,9 +1,6 @@
 ---
 title: JavaFX Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: jfx">
@@ -62,6 +59,6 @@ function updateScale(we: MouseEvent) : Float {
 }
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

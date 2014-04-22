@@ -1,12 +1,9 @@
 ---
 title: Feature Demo
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 The two blocks below, 'source' and 'result' are generated dynamically by SyntaxHighlighter from regular
-`<pre />` HTML tags. If you want to see a specific syntax in action, check out the [bundled syntaxes page](../brushes/). 
+`<pre />` HTML tags. If you want to see a specific syntax in action, check out the [bundled syntaxes page](../brushes/).
 
 ### Source
 
@@ -28,10 +25,10 @@ The two blocks below, 'source' and 'result' are generated dynamically by SyntaxH
 
 	$stringWithUrl = "http://alexgorbatchev.com";
 	$stringWithOutUrl = 'hello world';
-	
+
 	ob_start("parseOutputBuffer");		// Start Code Buffering
 	session_start();
-	
+
 	function parseOutputBuffer($buf) {
 		global $portal_small_code, $portal_gzcompress;
 		global $PHP_SELF, $HTTP_ACCEPT_ENCODING;
@@ -72,10 +69,10 @@ The two blocks below, 'source' and 'result' are generated dynamically by SyntaxH
 
 	$stringWithUrl = "http://alexgorbatchev.com";
 	$stringWithOutUrl = 'hello world';
-	
+
 	ob_start("parseOutputBuffer");		// Start Code Buffering
 	session_start();
-	
+
 	function parseOutputBuffer($buf) {
 		global $portal_small_code, $portal_gzcompress;
 		global $PHP_SELF, $HTTP_ACCEPT_ENCODING;

@@ -1,13 +1,10 @@
 ---
 title: Django theme
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 theme: shThemeDjango
 ---
 
-<pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeDjango.css"/></pre> 
+<pre>&lt;link type="text/css" rel="Stylesheet" href="/styles/shThemeDjango.css"/></pre>
 
 ### Example
 <div id="theme-example">
@@ -18,10 +15,10 @@ theme: shThemeDjango
 
 	$stringWithUrl = "http://alexgorbatchev.com";
 	$stringWithUrl = 'http://alexgorbatchev.com';
-	
+
 	ob_start("parseOutputBuffer");		// Start Code Buffering
 	session_start();
-	
+
 	function parseOutputBuffer(\$buf) {
 		global $portal_small_code, $portal_gzcompress;
 		global $PHP_SELF, $HTTP_ACCEPT_ENCODING;
@@ -33,8 +30,8 @@ theme: shThemeDjango
 			$buf = str_replace(chr(13), "", $buf);
 		}
 	}
-</pre> 
-</div> 
- 
-<%= render(:partial => "/SyntaxHighlighter/partials/themes") %> 
+</pre>
+</div>
+
+<%= render(:partial => "/SyntaxHighlighter/partials/themes") %>
 

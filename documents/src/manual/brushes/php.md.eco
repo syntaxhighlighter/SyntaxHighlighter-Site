@@ -1,9 +1,6 @@
 ---
 title: PHP Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: php">
@@ -55,15 +52,15 @@ $dir = dirname(__FILE__) . '/';
 
 function wfSyntaxHighlighterExtension()
 {
-	global $wgOut, $wgScriptPath, $wgParser, 
-		$wgSyntaxHighlighterBrushes, $wgSyntaxHighlighterScriptPath, 
+	global $wgOut, $wgScriptPath, $wgParser,
+		$wgSyntaxHighlighterBrushes, $wgSyntaxHighlighterScriptPath,
 		$wgSyntaxHighlighterStylesPath, $wgSyntaxHighlighterTheme;
-	
+
 	// Make shCore.js the very first script to be included (before all the brushes)
 	array_unshift($wgSyntaxHighlighterBrushes, 'shCore.js');
-	
+
 	$home = $wgSyntaxHighlighterScriptPath;
-	
+
 	// Add all scripts to the header
 	foreach ($wgSyntaxHighlighterBrushes as $script)
 		$wgOut->addScript("&lt;script type=\"text/javascript\" src=\"{$wgSyntaxHighlighterScriptPath}/$script\">&lt;/script>\n");
@@ -79,25 +76,25 @@ function wfSyntaxHighlighterExtension()
 			"SyntaxHighlighter.highlight();".
 		"&lt;/script>\n"
 		);
-	
+
 	// Finally, set up a MediaWiki hook to the &lt;sh /> tag
-	$wgParser->setHook("sh", "wfSyntaxHighlighterExtensionRender"); 
-	
+	$wgParser->setHook("sh", "wfSyntaxHighlighterExtensionRender");
+
 	return true;
 }
 
 function wfSyntaxHighlighterExtensionRender($input, $argv, $parser)
 {
 	$args = "";
-	
+
 	while (list($key, $val) = each($argv))
 		$args .= "$key: $val;";
-	
+
 	$input = htmlspecialchars($input);
 	return "&lt;pre class=\"$args\">\n$input\n&lt;/pre>";
 }
 </pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

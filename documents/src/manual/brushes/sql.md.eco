@@ -1,9 +1,6 @@
 ---
 title: SQL Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: sql">
@@ -39,8 +36,8 @@ comment on table cr_xml_docs is '
   duration of a transaction, until they can be inserted into
   the content repository.
 ';
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

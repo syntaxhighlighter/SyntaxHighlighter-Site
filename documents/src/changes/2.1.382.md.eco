@@ -1,9 +1,6 @@
 ---
 title: Changes in 2.1.382
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 <%= render(:partial => "/SyntaxHighlighter/partials/effort") %>
 

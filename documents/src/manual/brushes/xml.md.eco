@@ -1,13 +1,10 @@
 ---
 title: XML Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: xml">
-&lt;?xml version="1.0" encoding="utf-8" ?> 
+&lt;?xml version="1.0" encoding="utf-8" ?>
 
 &lt;!-- comments -->
 &lt;rootNode>
@@ -16,7 +13,7 @@ filter:
 		&lt;childNode />
 		&lt;childNode />
 		&lt;childNode />
-		&lt;childNode 
+		&lt;childNode
 			attr1="value"
 			attr2="10"
 			attr3="hello"
@@ -29,7 +26,7 @@ filter:
 				&lt;!-- comments inside cdata -->
 				&lt;b alert='false'>tags inside cdata&lt;/b>
 			]]>
-			
+
 			value = "plain string outside"
 			hello = world
 		&lt;/namespace:childNode>
@@ -39,8 +36,8 @@ filter:
 &lt;!--
   -- Multiline comments &lt;b>tag&lt;/b>
   -->
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

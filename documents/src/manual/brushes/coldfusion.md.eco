@@ -1,9 +1,6 @@
 ---
 title: ColdFusion Example
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
 
 <pre class="brush: cf">
@@ -33,8 +30,8 @@ filter:
 &lt;/table>
 &lt;/body>
 &lt;/html>
-</pre> 
+</pre>
 
-<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %> 
+<%= render(:partial => "/SyntaxHighlighter/partials/brushes") %>
 
- 
+

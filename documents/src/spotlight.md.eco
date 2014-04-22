@@ -1,29 +1,26 @@
 ---
 title: Spotlight
 encoding: utf-8
-filter:
-  - erb
-  - maruku
 ---
-Here is the list of known sites that use SyntaxHighlighter. Feel free to add your own link, but please, link to a page where SyntaxHighlighter is used (any other links will be promptly removed). 
+Here is the list of known sites that use SyntaxHighlighter. Feel free to add your own link, but please, link to a page where SyntaxHighlighter is used (any other links will be promptly removed).
 
 ### Big fish
 
-* [Apache Pivot](http://pivot.apache.org/tutorials/stock-tracker.data-binding.html) 
-* [Aptana Jaxer](http://jaxer.org/quick_start) 
-* [Ars Technica](http://arstechnica.com/open-source/guides/2009/07/how-to-build-a-desktop-wysiwyg-editor-with-webkit-and-html-5.ars) 
-* [ASP.NET](http://forums.asp.net/t/1439187.aspx) 
-* [Bug Labs](http://buglabs.net/codesearch?query=motion) 
-* [DotNetSlackers](http://dotnetslackers.com/articles/designpatterns/IntroductionToStructureMap.aspx) 
-* [DZone](http://dotnet.dzone.com/news/playing-accordion-with-css-and) 
-* [Freshbooks](http://developers.freshbooks.com/) 
-* [IronRuby](http://www.ironruby.net/Documentation/Hosting_Ruby_in_.NET) 
-* [Mozilla Developer Center](https://developer.mozilla.org/en/New_in_JavaScript_1.7) 
-* [Scott Hanselman](http://www.hanselman.com/) 
-* [SitePoint](http://www.sitepoint.com/blogs/2009/03/10/server-side-javascript-will-be-as-common-as-php/) 
-* [Smashing Magazine](http://www.smashingmagazine.com/2009/02/20/ask-sm-css-smooth-page-scrolling-divs-of-equal-height-dealing-with-ie-6/) 
+* [Apache Pivot](http://pivot.apache.org/tutorials/stock-tracker.data-binding.html)
+* [Aptana Jaxer](http://jaxer.org/quick_start)
+* [Ars Technica](http://arstechnica.com/open-source/guides/2009/07/how-to-build-a-desktop-wysiwyg-editor-with-webkit-and-html-5.ars)
+* [ASP.NET](http://forums.asp.net/t/1439187.aspx)
+* [Bug Labs](http://buglabs.net/codesearch?query=motion)
+* [DotNetSlackers](http://dotnetslackers.com/articles/designpatterns/IntroductionToStructureMap.aspx)
+* [DZone](http://dotnet.dzone.com/news/playing-accordion-with-css-and)
+* [Freshbooks](http://developers.freshbooks.com/)
+* [IronRuby](http://www.ironruby.net/Documentation/Hosting_Ruby_in_.NET)
+* [Mozilla Developer Center](https://developer.mozilla.org/en/New_in_JavaScript_1.7)
+* [Scott Hanselman](http://www.hanselman.com/)
+* [SitePoint](http://www.sitepoint.com/blogs/2009/03/10/server-side-javascript-will-be-as-common-as-php/)
+* [Smashing Magazine](http://www.smashingmagazine.com/2009/02/20/ask-sm-css-smooth-page-scrolling-divs-of-equal-height-dealing-with-ie-6/)
 * [SpringSource](http://blog.springsource.com/2010/06/08/spring-the-foundation-for-grails/)
-* [WordPress.com](http://en.support.wordpress.com/code/posting-source-code/) 
+* [WordPress.com](http://en.support.wordpress.com/code/posting-source-code/)
 * [Yahoo Developer Network](http://developer.yahoo.com/yui/examples/animation/attributes.html)
 
 ### Small fish
@@ -34,30 +31,30 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 
 #### A
 
-* [Ajile](http://ajile.net/examples/Examples.htm) 
+* [Ajile](http://ajile.net/examples/Examples.htm)
 * [Avila.net.br - Blog com dicas sobre Java, Ubuntu, e tecnologia em geral.](http://www.avila.net.br)
 
 #### B
 
-* [Ben Alman - jQuery BBQ](http://benalman.com/code/projects/jquery-bbq/examples/deparam/) 
-* [Bit Repository - A web development blog for programmers and designers](http://www.bitrepository.com/a-simple-ajax-contact-form-with-php-validation.html) 
+* [Ben Alman - jQuery BBQ](http://benalman.com/code/projects/jquery-bbq/examples/deparam/)
+* [Bit Repository - A web development blog for programmers and designers](http://www.bitrepository.com/a-simple-ajax-contact-form-with-php-validation.html)
 * [Bonsai Information Security](http://www.bonsai-sec.com/blog/index.php/breaking-weak-captcha-in-26-lines-of-code/)
 * [BoxedIce](http://blog.boxedice.com/2010/01/21/automatic-timezone-conversion-in-javascript/)
 
 #### C
 
 * [Cats Who Code](http://www.catswhocode.com/blog/10-useful-code-snippets-to-develop-iphone-friendly-websites)
-* [Clientcide](http://www.clientcide.com/3rd-party-libraries/for-your-consideration-type-methods/) 
-* [Code Dump](http://codedump.appspot.com/) 
+* [Clientcide](http://www.clientcide.com/3rd-party-libraries/for-your-consideration-type-methods/)
+* [Code Dump](http://codedump.appspot.com/)
 * [CodeThinked by Justin Etheredge](http://www.codethinked.com/post/2008/12/29/Making-the-Entity-Framework-Fit-Your-Domain-Part-1.aspx)
 * [Codefight](http://codefight.org/blog/47/56/Adding-new-field-in-category-section-of-magento-ecommerce)
 
 #### D
 
-* [DataTables](http://www.datatables.net/usage) 
-* [David Marko and his BLOG](http://dmarko.tcl-digitrade.com/blogs/dmarko-blog.nsf/dx/09.01.2009134204DMAGXF.htm) 
-* [DBNetGrid](http://www.dbnetgrid.com/dbnetgrid/demos.aspx?section=link) 
-* [Drupal Syntax Highlighter](http://drupal.org/project/syntaxhighlighter) 
+* [DataTables](http://www.datatables.net/usage)
+* [David Marko and his BLOG](http://dmarko.tcl-digitrade.com/blogs/dmarko-blog.nsf/dx/09.01.2009134204DMAGXF.htm)
+* [DBNetGrid](http://www.dbnetgrid.com/dbnetgrid/demos.aspx?section=link)
+* [Drupal Syntax Highlighter](http://drupal.org/project/syntaxhighlighter)
 * [Dashboard Web Application Framework](http://dashboardwebapp.com)
 
 #### E
@@ -70,7 +67,7 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 
 #### G
 
-* [Gaya Design](http://gayadesign.com/post/8/) 
+* [Gaya Design](http://gayadesign.com/post/8/)
 * [Gridshore](http://www.gridshore.nl/2009/01/23/flex-remoting-without-configuring-the-client/)
 
 #### H
@@ -87,23 +84,23 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 
 #### M
 
-* [martinjnvanbeek.net](http://martijnvanbeek.net/weblog/35/manipulating_xml_with_namespace_in_as3.html) 
-* [MatthewRathbone.com](http://matthewrathbone.com/Blog/view/post/20081110/dependency-injection---inversion-of-control-with-vba.aspx) 
-* [metajack.im](http://metajack.im/2009/03/13/jquery-and-strophe-made-for-each-other/) 
-* [MLA Wire](http://mlawire.blogspot.com/2009/07/blogger-syntax-highlighting.html) 
-* [Moxiecode](http://blog.moxiecode.com/2009/03/02/javascript-build-process-using-ant/) 
+* [martinjnvanbeek.net](http://martijnvanbeek.net/weblog/35/manipulating_xml_with_namespace_in_as3.html)
+* [MatthewRathbone.com](http://matthewrathbone.com/Blog/view/post/20081110/dependency-injection---inversion-of-control-with-vba.aspx)
+* [metajack.im](http://metajack.im/2009/03/13/jquery-and-strophe-made-for-each-other/)
+* [MLA Wire](http://mlawire.blogspot.com/2009/07/blogger-syntax-highlighting.html)
+* [Moxiecode](http://blog.moxiecode.com/2009/03/02/javascript-build-process-using-ant/)
 * [MXUnit](http://mxunit.org/doc/index.cfm)
 
 #### N
 
-* [Naked JavaScript](http://www.nakedjavascript.com/) 
-* [NetTuts](http://nettuts.com/tutorials/javascript-ajax/inettuts/) 
+* [Naked JavaScript](http://www.nakedjavascript.com/)
+* [NetTuts](http://nettuts.com/tutorials/javascript-ajax/inettuts/)
 * [noupe](http://www.noupe.com/php/how-to-create-your-own-stats.html)
 
 #### P
 
-* [Phil McAuley](http://www.philmcauley.com/posts/show-source-code-on-your-website-with-syntaxhighlighter/) 
-* [processi](http://jmettraux.wordpress.com/2009/02/13/rufus-tokyo-015-hail-to-the-tyrant/) 
+* [Phil McAuley](http://www.philmcauley.com/posts/show-source-code-on-your-website-with-syntaxhighlighter/)
+* [processi](http://jmettraux.wordpress.com/2009/02/13/rufus-tokyo-015-hail-to-the-tyrant/)
 * [Processing.js](http://processingjs.org/)
 
 #### R
@@ -112,11 +109,11 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 
 #### S
 
-* [Scala Blog](http://scala-blogs.org/2008/09/y-combinator-in-scala.html) 
-* [Simpltry](http://www.simpltry.com/category/prototype-js/) 
-* [Steve Reynolds](http://www.reynoldsftw.com/2009/02/using-jquery-php-ajax-with-the-twitter-api/) 
+* [Scala Blog](http://scala-blogs.org/2008/09/y-combinator-in-scala.html)
+* [Simpltry](http://www.simpltry.com/category/prototype-js/)
+* [Steve Reynolds](http://www.reynoldsftw.com/2009/02/using-jquery-php-ajax-with-the-twitter-api/)
 * [Steven Benner's Blog](http://stevenbenner.com/2010/03/custom-link-click-tracking-using-omniture/)
-* [The Software Grove](http://blog.grovehillsoftware.com/2009/05/visualvm-and-cutting-method-calls-by.html) 
+* [The Software Grove](http://blog.grovehillsoftware.com/2009/05/visualvm-and-cutting-method-calls-by.html)
 * [Sufficiently Small](http://www.smallshire.org.uk/sufficientlysmall/2009/05/22/ironpython-2-0-and-jython-2-5-performance-compared-to-python-2-5/)
 
 #### T
@@ -125,15 +122,15 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 
 #### V
 
-* [ViralPatel.net](http://viralpatel.net/blogs/2008/12/dynamic-combobox-listbox-drop-down-using-javascript.html) 
+* [ViralPatel.net](http://viralpatel.net/blogs/2008/12/dynamic-combobox-listbox-drop-down-using-javascript.html)
 * [VisualC#.it](http://visualcsharp.it/2008/09/11/csharprepl-la-shell-interattiva-per-c/)
 
 #### W
 
-* [Webcou](http://www.webcou.com/api/) 
-* [WebDev.NET](http://webdevdotnet.blogspot.com/2008/11/tech-twitterings-via-jquery-twitter.html) 
-* [WebDevMania](http://webdevmania.com/archive/top_10_css_snippets/) 
-* [The Wojo Group](http://www.thewojogroup.com/2008/12/css-stacked-bar-graphs/) 
+* [Webcou](http://www.webcou.com/api/)
+* [WebDev.NET](http://webdevdotnet.blogspot.com/2008/11/tech-twitterings-via-jquery-twitter.html)
+* [WebDevMania](http://webdevmania.com/archive/top_10_css_snippets/)
+* [The Wojo Group](http://www.thewojogroup.com/2008/12/css-stacked-bar-graphs/)
 * [Wynn Netherland](http://wynnnetherland.com/2009/11/link-linkedin-into-your-next-ruby-application/)
 
 #### X
@@ -142,7 +139,7 @@ Here is the list of known sites that use SyntaxHighlighter. Feel free to add you
 
 #### Y
 
-* [YAJL](http://lloyd.github.com/yajl/) 
+* [YAJL](http://lloyd.github.com/yajl/)
 * [yensdesign](http://yensdesign.com/2008/11/how-to-create-a-stylish-loading-bar-as-gmail-in-javascript/)
 
 #### Z

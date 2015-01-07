@@ -65,7 +65,6 @@ If you wrote or know about 3rd party integration hooks or SyntaxHighlighter exte
 
 ### S
 
-* __Static Syntax Highlighter__: [http://syntaxhighlighter.relic19.net](http://syntaxhighlighter.relic19.net) (A web page that displays the HTML code, based on the 1.5.1 version) 
 * __Screwturn Wiki__: [http://blog.prabir.me/post/Screwturn-Wiki-3-Syntax-Highlighter-2.aspx](http://blog.prabir.me/post/Screwturn-Wiki-3-Syntax-Highlighter-2.aspx) (use wiki style syntax to decorate your code.) 
 * __SMF__ mod: [http://apuntes.delibertad.com/smf/syntaxhighlighter-smf/](http://apuntes.delibertad.com/smf/syntaxhighlighter-smf/) (supports version 1.5.1 SyntaxHighlighter)
 
